@@ -1,6 +1,8 @@
 # Optimized architecture
 
-## Whiteboard design session student guide
+## March 2018 Whiteboard design session student guide
+
+## Contents
 
 -   [Optimized architecture whiteboard design session student guide](#optimized-architecture-whiteboard-design-session-student-guide)
     -   [Abstract and learning objectives](#abstract-and-learning-objectives)

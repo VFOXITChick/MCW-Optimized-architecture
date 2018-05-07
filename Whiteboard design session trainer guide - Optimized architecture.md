@@ -2,6 +2,10 @@
 
 ## Whiteboard design session trainer guide
 
+## March 2018
+
+## Contents
+
 -   [Trainer information](#trainer-information)
     -   [Role of the trainer](#role-of-the-trainer)
         -   [Whiteboard design session flow](#whiteboard-design-session-flow)
@@ -30,8 +34,6 @@
         -   [Phase 2](#phase-2)
     -   [Customer quote (to be read back to the attendees at the end)](#customer-quote-to-be-read-back-to-the-attendees-at-the-end)
         
-## March 2018
-
 ## Trainer information
 
 Thank you for taking time to support the whiteboard design sessions as a

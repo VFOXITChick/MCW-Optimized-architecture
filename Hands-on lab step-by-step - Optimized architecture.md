@@ -4,8 +4,9 @@
 
 ## March 2018
 
--   [Abstract and learning objectives
-    ](#abstract-and-learning-objectives)
+## Contents 
+
+-   [Abstract and learning objectives](#abstract-and-learning-objectives)
 -   [Overview](#overview)
 -   [Requirements](#requirements)
 -   [Solution architecture](#solution-architecture)

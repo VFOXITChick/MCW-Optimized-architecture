@@ -1,8 +1,8 @@
 # Optimized architecture
 
-## Hands-on lab unguided
+## March 2018 Hands-on lab unguided
 
-## March 2018
+## Contents
 
 -   [Overview](#overview)
 -   [Requirements](#requirements)
