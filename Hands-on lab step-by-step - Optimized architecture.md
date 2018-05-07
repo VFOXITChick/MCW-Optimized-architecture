@@ -10,88 +10,53 @@
 -   [Requirements](#requirements)
 -   [Solution architecture](#solution-architecture)
 -   [Before the hands-on lab](#before-the-hands-on-lab)
-    -   [Task 1: Create a virtual machine for your lab environment
-        ](#task-1-create-a-virtual-machine-for-your-lab-environment)
-    -   [Task 2: Disable IE Enhanced
-        Security](#task-2-disable-ie-enhanced-security)
-    -   [Task 3: Download the Sample App Files
-        ](#task-3-download-the-sample-app-files)
-    -   [Task 4: Deploy Sample App and "Existing"
-        environment](#task-4-deploy-sample-app-and-existing-environment)
--   [Exercise 1: Determine Appropriate App Service Tiers and Estimate
-    Cost
-    Savings](#exercise-1-determine-appropriate-app-service-tiers-and-estimate-cost-savings)
+    -   [Task 1: Create a virtual machine for your lab environment](#task-1-create-a-virtual-machine-for-your-lab-environment)
+    -   [Task 2: Disable IE Enhanced Security](#task-2-disable-ie-enhanced-security)
+    -   [Task 3: Download the Sample App Files](#task-3-download-the-sample-app-files)
+    -   [Task 4: Deploy Sample App and "Existing" environment](#task-4-deploy-sample-app-and-existing-environment)
+-   [Exercise 1: Determine Appropriate App Service Tiers and Estimate Cost Savings](#exercise-1-determine-appropriate-app-service-tiers-and-estimate-cost-savings)
     -   [Help references](#help-references)
     -   [Scenario](#scenario)
-    -   [Task 1: Calculate Estimated Hosting Cost of Existing
-        Solution](#task-1-calculate-estimated-hosting-cost-of-existing-solution)
-    -   [Task 2: Calculate Estimated Hosting Cost of VMs with Reserved
-        instances](#task-2-calculate-estimated-hosting-cost-of-vms-with-reserved-instances)
-    -   [Task 3: Estimate Necessary App Service
-        Tiers](#task-3-estimate-necessary-app-service-tiers)
-    -   [Task 4: Calculate Estimated Hosting Cost of Azure App
-        Service](#task-4-calculate-estimated-hosting-cost-of-azure-app-service)
-    -   [Task 5: Calculate Estimated Cost
-        Savings](#task-5-calculate-estimated-cost-savings)
--   [Exercise 2: Integrate Traffic
-    Manager](#exercise-2-integrate-traffic-manager)
+    -   [Task 1: Calculate Estimated Hosting Cost of Existing Solution](#task-1-calculate-estimated-hosting-cost-of-existing-solution)
+    -   [Task 2: Calculate Estimated Hosting Cost of VMs with Reserved instances](#task-2-calculate-estimated-hosting-cost-of-vms-with-reserved-instances)
+    -   [Task 3: Estimate Necessary App Service Tiers](#task-3-estimate-necessary-app-service-tiers)
+    -   [Task 4: Calculate Estimated Hosting Cost of Azure App Service](#task-4-calculate-estimated-hosting-cost-of-azure-app-service)
+    -   [Task 5: Calculate Estimated Cost Savings](#task-5-calculate-estimated-cost-savings)
+-   [Exercise 2: Integrate Traffic Manager](#exercise-2-integrate-traffic-manager)
     -   [Help references](#help-references-1)
     -   [Task 1: Create Traffic Manager](#task-1-create-traffic-manager)
-    -   [Task 2: Point Traffic Manager to External / Internet Load
-        Balancer](#task-2-point-traffic-manager-to-external-internet-load-balancer)
--   [Exercise 3: Setup API Tier in Azure App
-    Service](#exercise-3-setup-api-tier-in-azure-app-service)
+    -   [Task 2: Point Traffic Manager to External / Internet Load Balancer](#task-2-point-traffic-manager-to-external-internet-load-balancer)
+-   [Exercise 3: Setup API Tier in Azure App Service](#exercise-3-setup-api-tier-in-azure-app-service)
     -   [Help references](#help-references-2)
-    -   [Step 1: Create App Service for Web API
-        Tier](#step-1-create-app-service-for-web-api-tier)
+    -   [Step 1: Create App Service for Web API Tier](#step-1-create-app-service-for-web-api-tier)
     -   [Step 2: Setup App Settings](#step-2-setup-app-settings)
-    -   [Step 3: Deploy API to App
-        Service](#step-3-deploy-api-to-app-service)
--   [Exercise 4: Migrate Web App Tier to App
-    Service](#exercise-4-migrate-web-app-tier-to-app-service)
+    -   [Step 3: Deploy API to App Service](#step-3-deploy-api-to-app-service)
+-   [Exercise 4: Migrate Web App Tier to App Service](#exercise-4-migrate-web-app-tier-to-app-service)
     -   [Help references](#help-references-3)
-    -   [Step 1: Create App Service for Web App
-        Tier](#step-1-create-app-service-for-web-app-tier)
+    -   [Step 1: Create App Service for Web App Tier](#step-1-create-app-service-for-web-app-tier)
     -   [Step 2: Setup App Settings](#step-2-setup-app-settings-1)
     -   [Step 3: Deploy App to Web App](#step-3-deploy-app-to-web-app)
-    -   [Step 4: Add Web App to Traffic
-        Manager](#step-4-add-web-app-to-traffic-manager)
-    -   [Step 5: Take down Web App and API
-        VMs](#step-5-take-down-web-app-and-api-vms)
--   [Exercise 5: Migrate Background Tier to App
-    Service](#exercise-5-migrate-background-tier-to-app-service)
+    -   [Step 4: Add Web App to Traffic Manager](#step-4-add-web-app-to-traffic-manager)
+    -   [Step 5: Take down Web App and API VMs](#step-5-take-down-web-app-and-api-vms)
+-   [Exercise 5: Migrate Background Tier to App Service](#exercise-5-migrate-background-tier-to-app-service)
     -   [Help references](#help-references-4)
-    -   [Step 1: Create App Service for Background
-        Tier](#step-1-create-app-service-for-background-tier)
+    -   [Step 1: Create App Service for Background Tier](#step-1-create-app-service-for-background-tier)
     -   [Step 2: Setup App Settings](#step-2-setup-app-settings-2)
-    -   [Step 3: Deploy App to App
-        Service](#step-3-deploy-app-to-app-service)
-    -   [Step 4: Take down Background Tier
-        VM](#step-4-take-down-background-tier-vm)
--   [Exercise 6: Setup SQL Database
-    Geo-Replication](#exercise-6-setup-sql-database-geo-replication)
+    -   [Step 3: Deploy App to App Service](#step-3-deploy-app-to-app-service)
+    -   [Step 4: Take down Background Tier VM](#step-4-take-down-background-tier-vm)
+-   [Exercise 6: Setup SQL Database Geo-Replication](#exercise-6-setup-sql-database-geo-replication)
     -   [Help references](#help-references-5)
-    -   [Step 1: Setup SQL Database
-        Geo-Replication](#step-1-setup-sql-database-geo-replication)
--   [Exercise 7: Take down old architecture /
-    resources](#exercise-7-take-down-old-architecture-resources)
-    -   [Step 1: Remove Old VM-based
-        tiers](#step-1-remove-old-vm-based-tiers)
--   [Exercise 8: Setup European Web App Tier
-    Instance](#exercise-8-setup-european-web-app-tier-instance)
+    -   [Step 1: Setup SQL Database Geo-Replication](#step-1-setup-sql-database-geo-replication)
+-   [Exercise 7: Take down old architecture resources](#exercise-7-take-down-old-architecture-resources)
+    -   [Step 1: Remove Old VM-based tiers](#step-1-remove-old-vm-based-tiers)
+-   [Exercise 8: Setup European Web App Tier Instance](#exercise-8-setup-european-web-app-tier-instance)
     -   [Help references](#help-references-6)
-    -   [Step 1: Create European App
-        Service](#step-1-create-european-app-service)
+    -   [Step 1: Create European App Service](#step-1-create-european-app-service)
     -   [Step 2: Set App Settings](#step-2-set-app-settings)
-    -   [Step 3: Deploy Web App to European
-        Region](#step-3-deploy-web-app-to-european-region)
-    -   [Step 4: Add European Region to Traffic
-        Manager](#step-4-add-european-region-to-traffic-manager)
-    -   [\
-        ](#section)
+    -   [Step 3: Deploy Web App to European Region](#step-3-deploy-web-app-to-european-region)
+    -   [Step 4: Add European Region to Traffic Manager](#step-4-add-european-region-to-traffic-manager)
 -   [After the hands-on lab ](#after-the-hands-on-lab)
     -   [Task 1: Delete Resources](#task-1-delete-resources)
--   [](#section-1)
 
 ## Abstract and learning objectives 
 
