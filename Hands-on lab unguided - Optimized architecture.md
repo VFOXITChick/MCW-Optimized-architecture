@@ -104,7 +104,7 @@ overall solutions.
 ## Solution architecture
 
 ![Using Traffic
-Manager](Hands-onlabunguided-Optimizedarchitectureimages/media/image2.png "Solution architecture")
+Manager](images/Hands-onlabunguided-Optimizedarchitectureimages/media/image2.png "Solution architecture")
 
 ## Before the hands-on lab
 
@@ -130,7 +130,7 @@ the exercises.
     > ![In the Everything blade, Visual Studio Community 2017 is typed in
     > the Search field. Under Name, Visual Studio Community on Windows
     > Server 2016 is
-    > circled.](Hands-onlabunguided-Optimizedarchitectureimages/media/image3.png "Everything blade")
+    > circled.](images/Hands-onlabunguided-Optimizedarchitectureimages/media/image3.png "Everything blade")
 
 4.  In the Marketplace solution blade, click **Create**.
 
@@ -160,7 +160,7 @@ the exercises.
     machine to complete provisioning.
 
     ![Screenshot of the Deploying Visual Studio Community 2017
-    icon.](Hands-onlabunguided-Optimizedarchitectureimages/media/image4.png "Deploying Visual Studio Community 2017 icon")
+    icon.](images/Hands-onlabunguided-Optimizedarchitectureimages/media/image4.png "Deploying Visual Studio Community 2017 icon")
 
 #### Task 2: Disable IE Enhanced Security
 
@@ -169,24 +169,24 @@ the exercises.
 1.  On the new VM, you just created click the **Server Manager** icon.
 
     ![Screenshot of the Server Manager
-    icon.](Hands-onlabunguided-Optimizedarchitectureimages/media/image5.png "Server Manager icon")
+    icon.](images/Hands-onlabunguided-Optimizedarchitectureimages/media/image5.png "Server Manager icon")
 
 2.  Click **Local Server**.
 
     ![Local Server is selected from the Server Manager icon drop-down
-    menu.](Hands-onlabunguided-Optimizedarchitectureimages/media/image6.png "Server Manager icon drop-down menu")
+    menu.](images/Hands-onlabunguided-Optimizedarchitectureimages/media/image6.png "Server Manager icon drop-down menu")
 
 3.  On the right side of the pane, click **On** by IE Enhanced Security
     Configuration.
 
     ![IE Enhanced Security Configuration is set to
-    On.](Hands-onlabunguided-Optimizedarchitectureimages/media/image7.png "IE Enhanced Security Configuration")
+    On.](images/Hands-onlabunguided-Optimizedarchitectureimages/media/image7.png "IE Enhanced Security Configuration")
 
 4.  Change to **Off** for Administrators and click **OK**.
 
     ![In the Internet Explorer Enhanced Security Configuration Dialog
     box, Administrators is set to
-    Off.](Hands-onlabunguided-Optimizedarchitectureimages/media/image8.png "Internet Explorer Enhanced Security Configuration Dialog box")
+    Off.](images/Hands-onlabunguided-Optimizedarchitectureimages/media/image8.png "Internet Explorer Enhanced Security Configuration Dialog box")
 
 #### Task 3: Download the Sample App Files 
 
@@ -216,7 +216,7 @@ the exercises.
 
     ![In Solution Explorer, Contoso.Financial.ARMTemplate is selected.
     From its right-click menu, Deploy / New is
-    selected.](Hands-onlabunguided-Optimizedarchitectureimages/media/image9.png "Solution Explorer")
+    selected.](images/Hands-onlabunguided-Optimizedarchitectureimages/media/image9.png "Solution Explorer")
 
 3.  If your Microsoft or Organization account for your Azure
     Subscription has not been added to Visual Studio yet, click on **Add
@@ -225,14 +225,14 @@ the exercises.
     
     ![Add an account is selected in the Deploy to Resource Group
     dialog
-    box.](Hands-onlabunguided-Optimizedarchitectureimages/media/image10.png "Deploy to Resource Group dialog box")
+    box.](images/Hands-onlabunguided-Optimizedarchitectureimages/media/image10.png "Deploy to Resource Group dialog box")
 
 4.  Click on the **Resource group** dropdown, followed by selecting
     **\<Create New...\>.**
 
     ![In the Deploy to Resource Group dialog box, Create New is selected
     from the Resource group drop-down
-    menu.](Hands-onlabunguided-Optimizedarchitectureimages/media/image11.png "Deploy to Resource Group dialog box")
+    menu.](images/Hands-onlabunguided-Optimizedarchitectureimages/media/image11.png "Deploy to Resource Group dialog box")
 
 5.  On the **Create Resource Group** dialog, enter the following values:
 
@@ -242,7 +242,7 @@ the exercises.
        
         ![Fields in the Create Resource Group dialog box are set to the
         previously defined
-        settings.](Hands-onlabunguided-Optimizedarchitectureimages/media/image12.png "Create Resource Group dialog box")
+        settings.](images/Hands-onlabunguided-Optimizedarchitectureimages/media/image12.png "Create Resource Group dialog box")
 
 6.  Click the **Create** button.
 
@@ -251,13 +251,13 @@ the exercises.
     Group.
 
     ![In the Deploy to Resource Group dialog box, the Deploy button is
-    selected.](Hands-onlabunguided-Optimizedarchitectureimages/media/image13.png "Deploy to Resource Group dialog box")
+    selected.](images/Hands-onlabunguided-Optimizedarchitectureimages/media/image13.png "Deploy to Resource Group dialog box")
 
 8.  Deployment status of the ARM Template will be displayed in the
     **Output** window within Visual Studio.
 
     ![Deployment status displays in the Visual Studio Output
-    Window.](Hands-onlabunguided-Optimizedarchitectureimages/media/image14.png "Visual Studio Output Window")
+    Window.](images/Hands-onlabunguided-Optimizedarchitectureimages/media/image14.png "Visual Studio Output Window")
 
 9.  Once the deployment has completed successfully, the **IP Address**
     and **FQDN** of the External / Internet Load Balancer for the Web
@@ -265,7 +265,7 @@ the exercises.
 
     ![The IP Address for the Esternal / Internal Load Balancer are
     circled in the Output
-    Window.](Hands-onlabunguided-Optimizedarchitectureimages/media/image15.png "Output Window")
+    Window.](images/Hands-onlabunguided-Optimizedarchitectureimages/media/image15.png "Output Window")
 
     > The **Username** and **Password** for the VMs and SQL Database created
     by the ARM Template are:
@@ -276,7 +276,7 @@ the exercises.
     using the **Internet Load Balancer IP Address**.\
     \
     ![The Contoso Financial Login webpage
-    displays.](Hands-onlabunguided-Optimizedarchitectureimages/media/image16.png "Contoso Financial Login webpage")
+    displays.](images/Hands-onlabunguided-Optimizedarchitectureimages/media/image16.png "Contoso Financial Login webpage")
 
 11. To login to the Web App Tier of the Contoso Financial sample
     application, simply enter **any email address and password**,
@@ -287,7 +287,7 @@ the exercises.
     \
     ![The Contoso Financial Account Overview webpage displays with
     Transaction details in an account transaction
-    ledger.](Hands-onlabunguided-Optimizedarchitectureimages/media/image17.png "Contoso Financial Account Overview webpage")
+    ledger.](images/Hands-onlabunguided-Optimizedarchitectureimages/media/image17.png "Contoso Financial Account Overview webpage")
 
     > Leaving the browser open to the Account Overview page will automatically
     load new transactions as they are generated by the background process,
@@ -327,7 +327,7 @@ pass through an internal load balancer to a third availability set (Web
 API). A SQL Database shares bi-directional access with the Web API
 availability set. All three availability sets are subnets of a VNet,
 which is in the Azure North Central US
-Region.](Hands-onlabunguided-Optimizedarchitectureimages/media/image18.png "Current scenario diagram")
+Region.](images/Hands-onlabunguided-Optimizedarchitectureimages/media/image18.png "Current scenario diagram")
 
 You have also been provided with the following metrics showing the
 average CPU / RAM utilization of the Virtual Machines hosting the
@@ -344,7 +344,7 @@ Tier, which has CPU of 58 percent and RAM of 34 percent, or CPU of 56
 percent or RAM of 31 percent. The third row is Back-end processing tier,
 which is CPU of 49 percent, and RAM of 25 percent. The bottom row,
 Database Server SQL Database: Preium P4, has no CPU or RAM
-information.](Hands-onlabunguided-Optimizedarchitectureimages/media/image19.png "Standard D3 pricing tier")
+information.](images/Hands-onlabunguided-Optimizedarchitectureimages/media/image19.png "Standard D3 pricing tier")
 
 Additionally, the Azure SQL Database is hosted using the Premium P4
 pricing tier.
@@ -513,7 +513,7 @@ Europe.
 -   The API tier has been deployed and is accessible.
 
 ![The Transaction API webpage
-displays.](Hands-onlabunguided-Optimizedarchitectureimages/media/image20.png "Transaction API webpage")
+displays.](images/Hands-onlabunguided-Optimizedarchitectureimages/media/image20.png "Transaction API webpage")
 
 ## Exercise 4: Migrate Web App Tier to App Service
 
@@ -580,7 +580,7 @@ displays.](Hands-onlabunguided-Optimizedarchitectureimages/media/image20.png "Tr
     Manager.
 
 ![The Contoso Financial login webpage
-displays.](Hands-onlabunguided-Optimizedarchitectureimages/media/image21.png "Contoso Financial login webpage")
+displays.](images/Hands-onlabunguided-Optimizedarchitectureimages/media/image21.png "Contoso Financial login webpage")
 
 #### Task 5: Take down Web App and API VMs
 

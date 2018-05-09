@@ -110,7 +110,7 @@ overall solutions.
 ## Solution architecture
 
 ![Using traffic
-manager](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image2.png "Solution architecture")
+manager](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image2.png "Solution architecture")
 
 
 
@@ -140,7 +140,7 @@ the exercises.
     ![In the Everything blade, Visual Studio Community 2017 is typed in
     the Search field. Under Name, Visual Studio Community on Windows
     Server 2016 is
-    circled.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image3.png "Everything blade")
+    circled.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image3.png "Everything blade")
 
 4.  In the Marketplace solution blade, click **Create**.
 
@@ -169,7 +169,7 @@ the exercises.
     machine to complete provisioning.
 
     ![Screenshot of the Deploying Visual Studio Community 2017
-    icon.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image4.png "Deploying Visual Studio Community 2017 icon")
+    icon.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image4.png "Deploying Visual Studio Community 2017 icon")
 
 #### Task 2: Disable IE Enhanced Security
 
@@ -178,24 +178,24 @@ Note: Sometimes this image has IE ESC disabled. Sometimes it does not.
 1.  On the new VM, you just created, click the **Server Manager** icon.
 
     ![Screenshot of the Server Manager
-    icon.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image5.png "Server Manager icon")
+    icon.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image5.png "Server Manager icon")
 
 2.  Click **Local Server**.
 
     ![Local Server is selected from the Server Manager icon drop-down
-    menu.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image6.png "Server Manager icon drop-down menu")
+    menu.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image6.png "Server Manager icon drop-down menu")
 
 3.  On the right side of the pane, click **On** by IE Enhanced Security
     Configuration.
 
     ![IE Enhanced Security Configuration is set to
-    On.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image7.png "IE Enhanced Security Configuration")
+    On.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image7.png "IE Enhanced Security Configuration")
 
 4.  Change to **Off** for Administrators, and click **OK**.
 
     ![In the Internet Explorer Enhanced Security Configuration Dialog
     box, Administrators is set to
-    Off.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image8.png "Internet Explorer Enhanced Security Configuration Dialog box")
+    Off.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image8.png "Internet Explorer Enhanced Security Configuration Dialog box")
 
 #### Task 3: Download the Sample App Files 
 
@@ -225,7 +225,7 @@ Note: Sometimes this image has IE ESC disabled. Sometimes it does not.
     **\
     ![In Solution Explorer, Contoso.Financial.ARMTemplate is selected.
     From its right-click menu, Deploy / New is
-    selected.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image9.png "Solution Explorer")
+    selected.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image9.png "Solution Explorer")
 
 3.  If your Microsoft or Organization account for your Azure
     Subscription has not been added to Visual Studio yet, click on **Add
@@ -234,14 +234,14 @@ Note: Sometimes this image has IE ESC disabled. Sometimes it does not.
     
     ![Add an account is selected in the Deploy to Resource Group
     dialog
-    box.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image10.png "Deploy to Resource Group dialog box")
+    box.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image10.png "Deploy to Resource Group dialog box")
 
 4.  Click on the **Resource group** dropdown, followed by selecting
     **\<Create New...\>**.
 
     ![In the Deploy to Resource Group dialog box, Create New is selected
     from the Resource group drop-down
-    menu.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image11.png "Deploy to Resource Group dialog box")
+    menu.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image11.png "Deploy to Resource Group dialog box")
 
 5.  On the **Create Resource Group** dialog, enter the following values:
 
@@ -253,7 +253,7 @@ Note: Sometimes this image has IE ESC disabled. Sometimes it does not.
 
         ![Fields in the Create Resource Group dialog box are set to the
         previously defined
-        settings.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image12.png "Create Resource Group dialog box")
+        settings.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image12.png "Create Resource Group dialog box")
 
 6.  Click the **Create** button.
 
@@ -262,13 +262,13 @@ Note: Sometimes this image has IE ESC disabled. Sometimes it does not.
     Group.
 
     ![In the Deploy to Resource Group dialog box, the Deploy button is
-    selected.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image13.png "Deploy to Resource Group dialog box")
+    selected.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image13.png "Deploy to Resource Group dialog box")
 
 8.  Deployment status of the ARM Template will be displayed in the
     **Output** window within Visual Studio.
 
     ![Deployment status displays in the Visual Studio Output
-    Window.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image14.png "Visual Studio Output Window")
+    Window.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image14.png "Visual Studio Output Window")
 
 9.  Once the deployment has completed successfully, the **IP Address**
     and **FQDN** of the External / Internet Load Balancer for the Web
@@ -276,7 +276,7 @@ Note: Sometimes this image has IE ESC disabled. Sometimes it does not.
 
     ![The IP Address for the External / Internal Load Balancer are
     circled in the Output
-    Window.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image15.png "Output Window")
+    Window.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image15.png "Output Window")
 
 > The **Username** and **Password** for the VMs and SQL Database created
 by the ARM Template are:
@@ -287,7 +287,7 @@ by the ARM Template are:
     using the **Internet Load Balancer IP Address**.\
     \
     ![The Contoso Financial Login webpage
-    displays.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image16.png "Contoso Financial Login webpage")
+    displays.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image16.png "Contoso Financial Login webpage")
 
 11.  To login to the Web App Tier of the Contoso Financial sample
     application, simply enter **any email address and password**
@@ -300,7 +300,7 @@ by the ARM Template are:
     \
     ![The Contoso Financial Account Overview webpage displays with
     Transaction details in an account transaction
-    ledger.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image17.png "Contoso Financial Account Overview webpage")
+    ledger.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image17.png "Contoso Financial Account Overview webpage")
 
 > Leaving the browser open to the Account Overview page will automatically
 load new transactions as they are generated by the background process,
@@ -340,7 +340,7 @@ pass through an internal load balancer to a third availability set (Web
 API). A SQL Database shares bi-directional access with the Web API
 availability set. All three availability sets are subnets of a VNet,
 which is in the Azure North Central US
-Region.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image18.png "Current scenario diagram")
+Region.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image18.png "Current scenario diagram")
 
 You have also been provided with the following metrics showing the
 average CPU / RAM utilization of the Virtual Machines hosting the
@@ -357,7 +357,7 @@ Tier, which has CPU of 58 percent and RAM of 34 percent, or CPU of 56
 percent or RAM of 31 percent. The third row is Back-end processing tier,
 which is CPU of 49 percent, and RAM of 25 percent. The bottom row,
 Database Server SQL Database: Premium P4, has no CPU or RAM
-information.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image19.png "Standard D3 pricing tier")
+information.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image19.png "Standard D3 pricing tier")
 
 Additionally, the Azure SQL Database is hosted using the Premium P4
 pricing tier.
@@ -378,19 +378,19 @@ the exercises in this lab.
     \
     ![On the Azure Pricing Calculator webpage, Compute and Virtual
     Machines are
-    selected.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image20.png "Azure Pricing Calculator webpage")
+    selected.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image20.png "Azure Pricing Calculator webpage")
     
 
 3.  Click on **Databases**, followed by **SQL Database**.\
     \
     ![On the Azure Pricing Calculator webpage, Databases and SQL
     Database are
-    selected.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image21.png "Azure Pricing Calculator webpage")
+    selected.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image21.png "Azure Pricing Calculator webpage")
 
 4.  Scroll down to the **Your Estimate** section of the page.
     
     ![The Your Estimate section
-    displays.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image22.png "Your Estimate section")
+    displays.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image22.png "Your Estimate section")
 
 5.  On the **SQL Database**, set the following values:
 
@@ -400,13 +400,13 @@ the exercises in this lab.
 
     ![In the SQL Database section, North Central US is selected for the
     region, and Premium is selected for the
-    Tier.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image23.png "SQL Databases section")
+    Tier.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image23.png "SQL Databases section")
 
 6.  Set the **Performance Level** to **P4**.
     
     ![The Performance Level field is set to P4: 500 DTUs, 500 GB
     included storage per DB,
-    \$2.5000/hour](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image24.png "Performance Level Field")
+    \$2.5000/hour](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image24.png "Performance Level Field")
 
 7.  On **Virtual Machines**, set the following values:
 
@@ -416,13 +416,13 @@ the exercises in this lab.
 
     ![Under Virtual Machines, Region is set to North Central US\< and Tier
     is
-    Standard.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image25.png "Virtual Machines section")
+    Standard.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image25.png "Virtual Machines section")
 
 8.  Change the **Instance Size** to **D3**.
     
     ![The Instance field is set to D3: 4 vCPU(s), 14 GB RAM, 200 GB
     Temporary storage,
-    \$0.560/hour.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image26.png "Instance field")
+    \$0.560/hour.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image26.png "Instance field")
 
 9.  Change the **Billing Option** to **Pay as you go**, and change the
     **Virtual Machines Count** to **5**. The count now includes the 2x
@@ -431,7 +431,7 @@ the exercises in this lab.
     ![Under Billing Option, Pay as you go is selected. The number of
     virtual machines is set to 5, multiplied by 732 hours, for a total
     of
-    \$2,049.60.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image27.png "Billing Option section")
+    \$2,049.60.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image27.png "Billing Option section")
 
 10. Click the **Collapse all** button, and Record the **Estimated
     monthly cost**. This is the total estimated cost of the existing
@@ -440,7 +440,7 @@ the exercises in this lab.
     ![On the Your Estimate page, the estimate of $3,879.60 in US
     Dollars is circled, as is the collapse all button (two arrows in a
     circle pointing in toward each
-    other).](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image28.png "Your Estimate page")
+    other).](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image28.png "Your Estimate page")
 
 #### Task 2: Calculate Estimated Hosting Cost of VMs with Reserved instances
 
@@ -450,18 +450,18 @@ the exercises in this lab.
     
     ![On the Azure Pricing Calculator webpage, Compute, and Virtual
     Machines are
-    selected.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image20.png "Azure Pricing Calculator webpage")
+    selected.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image20.png "Azure Pricing Calculator webpage")
 
 3.  Click on **Databases**, followed by **SQL Database**.
     
     ![On the Azure Pricing Calculator webpage, Databases, and SQL
     Database are
-    selected.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image21.png "Azure Pricing Calculator webpage")
+    selected.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image21.png "Azure Pricing Calculator webpage")
 
 4.  Scroll down to the **Your Estimate** section of the page.
     
     ![On the Azure Pricing Calculator webpage, the Your Estimate section
-    displays.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image22.png "Azure Pricing Calculator webpage")
+    displays.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image22.png "Azure Pricing Calculator webpage")
 
 5.  On the **SQL Database**, set the following values:
 
@@ -471,13 +471,13 @@ the exercises in this lab.
 
     ![In the SQL Database section, Region is set to North Central US, and
     Tier is
-    Premium.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image23.png "SQL Database section")
+    Premium.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image23.png "SQL Database section")
 
 6.  Set the **Performance Level** to **P4**.
     
     ![The Performance Level field is set to P4: 500 DTUs, 500 GB
     included storage per DB,
-    \$2.5000/hour.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image24.png "Performance Level field")
+    \$2.5000/hour.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image24.png "Performance Level field")
 
 7.  On **Virtual Machines**, set the following values:
 
@@ -487,13 +487,13 @@ the exercises in this lab.
 
     ![In the SQL Database section, Region is set to North Central US, and
     Tier is
-    Standard.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image25.png "Virtual Machines section")
+    Standard.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image25.png "Virtual Machines section")
 
 8.  Change the **Instance Size** to **D3**.
     
     ![The Instance field is set to D3: 4 vCPU(s), 14 GB RAM, 200 GB
     Temporary storage,
-    \$0.560/hour.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image26.png "Instance field")
+    \$0.560/hour.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image26.png "Instance field")
 
 9.  Change the **Billing Option** to **3-year reserved**, and change the
     **Virtual Machines Count** to **5**, so the count includes the 2x
@@ -501,7 +501,7 @@ the exercises in this lab.
 
     ![In the Billing Option section, the 3 year reserved option is
     selected. Virtual machines is set to 5, and the total amount is
-    \$1,054.83.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image29.png "Billing Option section")
+    \$1,054.83.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image29.png "Billing Option section")
 
 10. Click the **Collapse all** button, and Record the **Estimated
     monthly cost**. This is the total estimated cost of the existing
@@ -510,7 +510,7 @@ the exercises in this lab.
     ![On the Your Estimate page, the collapse all button is selected.
     Below that, the the SQL Database cost is \$1,830.00, the Virtual
     Machines are \$1,054.83, and the estimated monthly cost is
-    \$2,884.83.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image30.png "Your Estimate page")
+    \$2,884.83.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image30.png "Your Estimate page")
 
 #### Task 3: Estimate Necessary App Service Tiers
 
@@ -524,7 +524,7 @@ the exercises in this lab.
     
     ![The Explore all VM options section of the Windows Virtual Machines
     Pricing webpage
-    displays.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image31.png "Windows Virtual Machines Pricing webpage")
+    displays.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image31.png "Windows Virtual Machines Pricing webpage")
 
 3.  Set the **OS/Software** drop down to **Windows OS**, and the
     **Region** to **North Central US**.
@@ -532,19 +532,19 @@ the exercises in this lab.
     ![In the Explore all VM options section, OS/Software is set to
     Windows OS, Region is North Central US, and Pricing will be
     displayed by
-    hour.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image32.png "Explore all VM options section")
+    hour.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image32.png "Explore all VM options section")
 
 4.  Click on **General purpose**.\
     \
     ![At the bottom of the Explore all VM options section, the General
     purpose category is
-    selected.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image33.png "Explore all VM options section")
+    selected.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image33.png "Explore all VM options section")
 
 5.  Scroll down below the VM Instance Size listings, and click on the
     **Check the Previous Generation page...** link.
 
     ![Screenshot of the Check the Previous Generation page for ...
-    link](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image34.png "Check the Previous Generation page link")
+    link](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image34.png "Check the Previous Generation page link")
 
 6.  Scroll down to the **D1-4 v1** section and make note of the VM
     Instance specs, specifically the **CPU Cores** and **RAM** for the
@@ -552,7 +552,7 @@ the exercises in this lab.
 
     ![In the D1-4 - v1 section, The D3 instance is circled, with the
     following values: vCPU, 4; RAM, 14.00GiB; Temporary Storage,
-    200GiB.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image35.png "D1-4 - v1 section")
+    200GiB.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image35.png "D1-4 - v1 section")
 
 ##### Subtask 2: Calculate Web App Tier VM Utilization
 
@@ -565,7 +565,7 @@ the exercises in this lab.
 
     ![The Front-end Web App Tier percentages for VM Size Standard D3, CPU
     is 36 percent and RAM 46 percent, or CPU 38 percent and RAM 44
-    percent.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image36.png "Front-end Web App Tier percentages")
+    percent.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image36.png "Front-end Web App Tier percentages")
 
 1.  Calculate the amount of **CPU Cores** the **Average CPU
     Utilization** represents:
@@ -595,7 +595,7 @@ the exercises in this lab.
 
     ![The Back-end Web App Tier percentages for VM Size Standard D3, CPU
     is 58 percent and RAM 34 percent, or CPU 56 percent and RAM 31
-    percent.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image37.png "Back-end Web App Tier percentages")
+    percent.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image37.png "Back-end Web App Tier percentages")
 
 2.  Calculate the amount of **CPU Cores** the **Average CPU Utilization** represents:
 
@@ -620,7 +620,7 @@ the exercises in this lab.
     
     ![The Back-end Processing Tier percentages for VM Size Standard D3,
     CPU is 49 percent and RAM 25
-    percent.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image38.png)
+    percent.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image38.png)
 
 2.  Calculate the amount of **CPU Cores** the **Average CPU Utilization** represents:
 
@@ -643,7 +643,7 @@ the exercises in this lab.
     
     ![On the the App Service Pricing page, Region is set to North
     Central US, and Currency is US Dollar
-    (\$).](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image39.png "App Service Pricing page ")
+    (\$).](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image39.png "App Service Pricing page ")
 
 3.  Scroll down to the **Standard Service Plan** section.
 
@@ -653,7 +653,7 @@ the exercises in this lab.
     storage, and costs \$0.10/hour. Instance S2 has 2 cores, 3.50 GB
     RAM, 50 GB storage, and costs \$0.20/hour. Instance S3 has 4 cores,
     7 gb RAM, 50 GB storage, and costs
-    \$0.40/hour.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image40.png "Standard Service Plan section")
+    \$0.40/hour.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image40.png "Standard Service Plan section")
 
 4.  Map the **CPU / RAM** **Utilization** of the **Web App Tier**
     **(1.48 CPU Cores / 6.3 GB RAM)** to the closest **Standard Service
@@ -687,7 +687,7 @@ the exercises in this lab.
 
     ![On the Azure Pricing Calculator webpage, Featured and App
     Service are both
-    selected.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image41.png "Azure Pricing Calculator webpage")
+    selected.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image41.png "Azure Pricing Calculator webpage")
     
 
 3.  If the **SQL Database** is not in the calculator from the previous
@@ -698,12 +698,12 @@ the exercises in this lab.
     Region, East US; Type, Single Database; Tier, Premium; Performance
     Level, P4: 500 DTUs, 500 GB included storage per DB, \$2.5000/hour.
     1 Database multiplied by 732 hours equals \$1,830.00.
-    ](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image42.png "SQL Database section")
+    ](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image42.png "SQL Database section")
 
 4.  On **App Service**, change the **Region** to **North Central US**.
     
     ![In the App Service section, Region is set to North Central
-    US.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image43.png "App Service section")
+    US.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image43.png "App Service section")
 
 5.  Change the **Tier** to **Standard** and the **Instance Size** to
     **S3** to reflect the App Service Plan tier identified as the
@@ -712,7 +712,7 @@ the exercises in this lab.
     
     ![In the App Service Section, Region is North Central US, Tier is
     Standard, and Instance is S3: 4 vCPU(s), 7 GB RAM, 50 GB Storage,
-    \$0.400.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image44.png "App Service Section")
+    \$0.400.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image44.png "App Service Section")
 
 6.  Change the **Instances** count to **5** to reflect the same number
     of instances of the existing VM architecture (2x Web App Tier, 2x
@@ -720,7 +720,7 @@ the exercises in this lab.
     
     ![At the bottom of the App Service Section, 5 instances multiplied
     by 732 hours equals
-    \$1,464.00.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image45.png "App Service section")
+    \$1,464.00.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image45.png "App Service section")
 
     > The **Instance Count** should remain **5** since the application will
     still need the same amount of resources to host; it is just the Azure
@@ -735,7 +735,7 @@ the exercises in this lab.
     ![On the Your Estimate page, the the App Service cost is \$1,464.00,
     the SQL Database cost is \$1,830.00, and the estimated monthly cost
     is \$3,294.00.
-    ](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image46.png "Your Estimate page")
+    ](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image46.png "Your Estimate page")
 
 #### Task 5: Calculate Estimated Cost Savings
 
@@ -807,17 +807,17 @@ Europe.
 
     ![In the Azure Portal, New is selected in the left menu. Under New,
     traffic manager is typed in the search box.
-    ](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image47.png "Azure Portal")
+    ](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image47.png "Azure Portal")
 
 2.  Click on **Traffic Manager profile** in the list.
 
     ![In the Everything blade, under Results, Traffic Manager profile is
-    selected.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image48.png "Everything blade")
+    selected.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image48.png "Everything blade")
 
 3.  Click **Create**.
 
     ![In the Traffic Manager profile window, the Create button is
-    circled.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image49.png "Traffic Manager profile window")
+    circled.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image49.png "Traffic Manager profile window")
 
 4.  On the **Create Traffic Manager profile** blade, enter the following
     values:
@@ -832,7 +832,7 @@ Europe.
       
         ![Fields in the Create Traffic Manager profile blade are set to
         the previously defined
-        settings.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image50.png "Create Traffic Manager profile blade")
+        settings.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image50.png "Create Traffic Manager profile blade")
 
 5.  Click **Create**.
 
@@ -845,18 +845,18 @@ Europe.
     selected. In the Resource groups blade, under Subscriptions,
     Optimized TFRG is selected. In the Optimized TFRG blade, Overview is
     selected, and under Name, contosowebapp is
-    selected.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image51.png "Azure Portal")
+    selected.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image51.png "Azure Portal")
 
 2.  On the **Traffic Manager** blade, click on **Endpoints** under
     Settings.
 
     ![Screenshot of the Endpoints
-    option.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image52.png "Endpoints option")
+    option.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image52.png "Endpoints option")
 
 3.  On the **Endpoints** blade, click on the **Add** button.
     
     ![In the contosowebapp- Endpoints blade, the Add button is
-    selected.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image53.png "contosowebapp- Endpoints blade")
+    selected.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image53.png "contosowebapp- Endpoints blade")
 
 4.  On the **Add endpoint** blade, enter the following values:
 
@@ -868,7 +868,7 @@ Europe.
        
         ![On the Add endpoint blade, fields are set to the previously
         defined
-        settings.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image54.png "Add endpoint blade")**\
+        settings.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image54.png "Add endpoint blade")**\
         
 
 5.  Click on **Choose a public IP address**, and select the
@@ -878,7 +878,7 @@ Europe.
     ![In the Add endpoint blade, Target resource, which is selected to
     WebAPPLBIP, is selected. In the Resource blade, WebAPPLBIP
     (ContosoExistingRG) is
-    selected.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image55.png "Add endpoint and Resource blades")
+    selected.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image55.png "Add endpoint and Resource blades")
 
 6.  Set **Regional grouping** to **All (World)** so this endpoint will
     load balanced against all traffic going to Traffic Manager for now.\
@@ -886,7 +886,7 @@ Europe.
     All (World). The remaining fields are set to the following settings:
     Type, Azure endpoint; Name, External Load Balancer; Target resource
     type, Public IP address; Target resource,
-    WebAPPLBIP.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image56.png "Add endpoint blade")
+    WebAPPLBIP.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image56.png "Add endpoint blade")
 
 7.  Click **OK**.
 
@@ -897,13 +897,13 @@ Europe.
     ![In the left pane of the contosowebapp blade, Overview is selected.
     In the right pane, under Essentials, DNS name
     contosowebapp.trafficmanager.net is
-    selected.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image57.png "contosowebapp blade")
+    selected.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image57.png "contosowebapp blade")
 
 9.  The sample application loading will indicate the **Traffic Manager**
     was configured correctly.
     
     ![The Contoso Financial login webpage
-    displays.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image58.png "Contoso Financial login webpage")
+    displays.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image58.png "Contoso Financial login webpage")
 
 ## Exercise 3: Setup API Tier in Azure App Service
 
@@ -928,12 +928,12 @@ without requiring any code changes to the application.
 
     ![In the left menu of the Azure Portal, New is selected. In the New
     pane, the search field is set to API
-    App.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image59.png "Azure Portal")
+    App.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image59.png "Azure Portal")
 
 2.  Click on **API App** in the search results, and click **Create**.
 
     ![In the Search Results, API app is
-    selected.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image60.png "Search Results")
+    selected.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image60.png "Search Results")
 
 3.  On the **API App** blade, enter the following values:
 
@@ -944,7 +944,7 @@ without requiring any code changes to the application.
     -   App Insights: **Off**
        
         ![Fields in the API App blade are set to the previously defined
-        settings.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image61.png "API App blade")
+        settings.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image61.png "API App blade")
 
 4.  Click on **App Service plan/Location**, followed by **Create New**,
     and fill in the following values:
@@ -959,7 +959,7 @@ without requiring any code changes to the application.
         , In the App Service plan blade, Create New is selected. In the
         New App Service Plan blade, fields are set to the previously
         defined
-        settings.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image62.png "API App, App Service plan, and New App Service Plan blades")
+        settings.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image62.png "API App, App Service plan, and New App Service Plan blades")
 
 5.  Click **OK**.
 
@@ -976,21 +976,21 @@ without requiring any code changes to the application.
     ContosoExistingRG is selected. In the ContosoExistingRG blade,
     Overview is selected, and under Essentials, the SQL database
     contosofinancialdb is
-    selected.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image63.png "Azure Portal")
+    selected.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image63.png "Azure Portal")
 
 2.  On the **SQL database** blade, click on **Show database connection    strings**.
   
     ![In the left pane of the SQL database blade, Overview is
     selected. In the right pane, under Essentials, the Connection
     strings link Show database connection strings is
-    selected.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image64.png "SQL database blade")
+    selected.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image64.png "SQL database blade")
 
 3.  On the **Database connection strings** blade, copy the **ADO.NET
     (SQL authentication)** connection string to use later.
     
     ![In the Database connection strings blade, the ADO.NET (SQL
     authentication) connection string is
-    selected.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image65.png "Database connection strings blade")
+    selected.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image65.png "Database connection strings blade")
 
 4.  Click on **Resource groups**, click on the **OptimizedAPIRG**
     resource group, and then, click on the previously created **API    App**.
@@ -999,13 +999,13 @@ without requiring any code changes to the application.
     Resource groups blade, under Subscriptions, OptimizedAPIRG is
     selected. In the OptimizedAPIRG blade, Overview is selected, and in
     the Essentials section, the contosofinancialapi App Service is
-    selected.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image66.png "Azure Portal")
+    selected.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image66.png "Azure Portal")
 
 5.  On the **App Service** blade, click on **Application settings**.
     
     ![In the App Service blade, under Settings, Application settings
     is
-    selected.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image67.png "App Service blade")
+    selected.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image67.png "App Service blade")
 
 6.  Scroll down to the **Connection strings** section, and add a **new**
     connection string with the following values:
@@ -1019,7 +1019,7 @@ without requiring any code changes to the application.
 
     ![In the Application settings blade, fields in the Connection strings
     are set to the previously defined
-    settings.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image68.png "Application settings blade")
+    settings.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image68.png "Application settings blade")
 
 7.  Replace the value **{your\_username}** with **demouser** in the
     connection string.
@@ -1040,35 +1040,35 @@ without requiring any code changes to the application.
 
     ![In Solution Explorer, under API, Contoso.Financial.Api is
     selected, and from it\'s right-click menu, Publish is
-    selected.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image69.png "Solution Explorer")
+    selected.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image69.png "Solution Explorer")
 
 3.  On the **Publish** window, click on **Microsoft Azure App Service**,
     check the **Select Existing** option, and click **Publish**.
 
     ![In the Publish window, Microsoft Azure App Service, Select
     Existing, and Publish are
-    selected.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image70.png "Publish window")
+    selected.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image70.png "Publish window")
 
 4.  In the top-right corner of the **App Service** dialog, make sure
     your account is selected. If it is not, click on the button, and add
     it.
 
     ![Screenshot of the Microsoft account
-    button.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image71.png "Microsoft account button")
+    button.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image71.png "Microsoft account button")
 
 5.  Expand the **OptimizedAPIRG** resource group, select the **App
     Service Web App**, and click **OK**.
     
     ![In the App Service window, the OptimizedAPIRG folder is expanded,
     and Contosofinancial.api is
-    selected.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image72.png "App Service window")
+    selected.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image72.png "App Service window")
 
 6.  Once the deployment has completed, Visual Studio will automatically
     open a new browser window navigating to the **App Service** app.
     This window can be closed.
     
     ![The Transaction API webpage
-    displays.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image74.png "Transaction API webpage")
+    displays.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image74.png "Transaction API webpage")
 
 
 
@@ -1097,7 +1097,7 @@ Service Web App without requiring any code changes to the application.
     ![In the Azure Portal left menu, New is selected. In the New pane,
     under Azure Marketplace, Web + Mobile is selected. Under Featured,
     the Web App Quickstart tutorial link is
-    selected.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image75.png "Azure Portal")
+    selected.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image75.png "Azure Portal")
 
 2.  On the **Web App** blade, enter the following values:
 
@@ -1109,7 +1109,7 @@ Service Web App without requiring any code changes to the application.
        
       ![Fields in the Web App blade are set to the previously
         defined
-        settings.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image76.png "Web App blade")
+        settings.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image76.png "Web App blade")
         
 
 3.  Click on **App Service plan/Location**, then **Create New**, and
@@ -1125,7 +1125,7 @@ Service Web App without requiring any code changes to the application.
     ![In the Web App blade, App Service plan/Location is selected. In the
     App Service plan blade, Create New is selected, and fields are set to
     the previously defined
-    settings.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image77.png "Web App, and App Service plan blades")
+    settings.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image77.png "Web App, and App Service plan blades")
 
 4.  Click **OK**.
 
@@ -1140,13 +1140,13 @@ Service Web App without requiring any code changes to the application.
     Resource groups blade, OptimizedWebAppRG is selected. In the
     OptimizedWebAppRG blade, Overview is selected, and under Essentials,
     the contosofinancialwebapp app service is
-    selected.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image78.png "Azure Portal")
+    selected.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image78.png "Azure Portal")
 
 2.  On the **Web App** blade, click on **Application settings**
 
     ![In the App Service blade, under Settings, Application settings
     is
-    selected.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image79.png "App Service blade")
+    selected.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image79.png "App Service blade")
 
 3.  Scroll down to the **App settings** section, and create a **new**
     app setting with the following values:
@@ -1158,7 +1158,7 @@ Service Web App without requiring any code changes to the application.
 
     ![In the App Service blade, under App settings are set to
     transactionAPIUrl, and
-    http://contosofinancialapi\...](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image80.png "App Service blade")
+    http://contosofinancialapi\...](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image80.png "App Service blade")
 
 5.  Click **Save**.
 
@@ -1173,28 +1173,28 @@ Service Web App without requiring any code changes to the application.
 
     ![In Solution Explorer, Web is expanded, Contoso.Financial.Website
     is selected, and Publish is selected from its right-click
-    menu.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image81.png "Solution Explorer")
+    menu.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image81.png "Solution Explorer")
 
 3.  On the **Publish** window, click on **Microsoft Azure App Service**,
     check the **Select Existing** option, and click **Publish**.
 
     ![In the Publish window, Microsoft Azure App Service, Select
     Existing, and Publish are all
-    selected.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image70.png "Publish window")
+    selected.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image70.png "Publish window")
 
 4.  In the top-right corner of the **App Service** dialog, make sure
     your account is selected. If it is not, click on the button, and add
     it.
 
     ![Screenshot of the Microsoft account
-    button.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image71.png "Microsoft account button")
+    button.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image71.png "Microsoft account button")
 
 5.  Expand the **OptimizedWebAppRG** resource group, select the **Web
     App**, and click **OK**.
 
     ![In the App Service window, OptimizedWebAppRG is expanded, and
     contosofinancialwebapp is
-    selected.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image82.png "App Service window")
+    selected.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image82.png "App Service window")
 
 6.  Once the deployment has completed, Visual Studio will automatically
     open a new browser window navigating to the **Web App**.
@@ -1209,17 +1209,17 @@ Service Web App without requiring any code changes to the application.
     In the Resource groups blade, under Subscriptions, OptimizedTFRG is
     selected. In the OptimizedTFRG blade, Overview is selected, and
     under Essentials, the contosowebapp Traffic Manager is
-    selected.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image83.png "Azure Portal")
+    selected.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image83.png "Azure Portal")
 
 2.  On the **Traffic Manager profile** blade, click on **Endpoints**.
     
     ![Screenshot of the Endpoints
-    option.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image84.png "Endpoints option")
+    option.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image84.png "Endpoints option")
 
 3.  Click **Add**.
 
     ![In the contosowebapp - Endpoints blade, the Add button is
-    selected.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image85.png "contosowebapp - Endpoints blade")
+    selected.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image85.png "contosowebapp - Endpoints blade")
 
 4.  On the **Add endpoint** blade, enter the following values:
 
@@ -1230,25 +1230,25 @@ Service Web App without requiring any code changes to the application.
     -   Target resource type: **App Service**
 
     ![Fields in the Add endpoint blade are set to the previously defined
-    settings.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image86.png "Add endpoint blade")
+    settings.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image86.png "Add endpoint blade")
 
 
 5.  Click on **Choose an app service**.
 
     ![Screenshot of the Choose an app service
-    option.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image87.png "Choose an app service option")
+    option.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image87.png "Choose an app service option")
 
 5.  Click on the previously created **Web App**.
 
     ![In the Resource blade, contosofinancialwebapp is
-    selected.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image88.png "Resource blade")
+    selected.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image88.png "Resource blade")
 
 7.  Set **Regional grouping** to **North America / Central America /
     Caribbean**.
 
     ![Under contosofinancialwebapp, Regional grouping is set to North
     America / Central America /
-    Caribbean.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image89.png "contosofinancialwebapp section")
+    Caribbean.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image89.png "contosofinancialwebapp section")
 
     > If you are geographically located outside of the "North America /
     Central America / Caribbean" region specified, then choose the next
@@ -1261,51 +1261,51 @@ Service Web App without requiring any code changes to the application.
 9.  Click on the **External Load Balancer** Endpoint.
 
     ![Under Name, External Load Balancer is
-    selected.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image90.png "External Load Balancer option")
+    selected.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image90.png "External Load Balancer option")
 
 10. Select the **Disabled Status**, and click **Save**.
 
     ![In the External Load Balancer blade, Status is set to Disabled,
     and Save is
-    selected.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image91.png "External Load Balancer blade")
+    selected.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image91.png "External Load Balancer blade")
 
 11. On the **Traffic Manager**, click on **Overview**.
 
     ![In the contosowebapp blade, Overview is
-    selected.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image92.png "contosowebapp blade")
+    selected.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image92.png "contosowebapp blade")
 
 12. Click on the **DNS name** to open it in a new browser window.
 
     ![In the contosowebapp blade, under Essentials, the DNS name
     contosowebapp.trafficmanager.net link is
-    selected.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image93.png "contosowebapp blade")
+    selected.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image93.png "contosowebapp blade")
 
 13. Verify the site still loads as expected.
 
     ![The Contoso Financial login webpage
-    displays.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image94.png "Contoso Financial login webpage")
+    displays.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image94.png "Contoso Financial login webpage")
 
 14. Click on **Endpoints**.
 
     ![Under Settings, Endpoints is
-    selected.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image95.png "Settings section")
+    selected.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image95.png "Settings section")
 
 15. Click on the **External Load Balancer** endpoint.
 
     ![Under Name, the External Load Balancer option is
-    selected.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image90.png "External Load Balancer option")
+    selected.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image90.png "External Load Balancer option")
 
 16. Click **Delete**.
 
     ![The Delete button is selected in the External Load Balancer
-    blade.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image96.png "External Load Balancer blade")
+    blade.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image96.png "External Load Balancer blade")
 
 17. On the **Delete Traffic Manager endpoint** prompt, click **Yes**.
 
     ![In the External Load Balancer blade, a message displays confirming
     that you want to delete the traffic manager endpoint, and the Yes
     button is
-    selected.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image97.png "External Load Balancer blade")
+    selected.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image97.png "External Load Balancer blade")
 
     > Following this step, the Web App Tier's Load Balancer and VMs will no
     longer receive requests through the Traffic Manager.
@@ -1321,13 +1321,13 @@ Service Web App without requiring any code changes to the application.
 
     ![In the left pane of the WebAPI1 blade, Overview is selected. In
     the right pane, on the top menu, the Stop button is
-    selected.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image98.png "WebAPI1 blade")
+    selected.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image98.png "WebAPI1 blade")
 
 4.  On the **Stop this virtual machine** prompt, click **Yes**.
 
     ![In the Stop this virtual machine prompt, a confirmation message
     displays asking if you want to stop WebAPI1, and the Yes button is
-    selected.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image99.png "Stop this virtual machine prompt")
+    selected.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image99.png "Stop this virtual machine prompt")
 
 5.  Repeat the last three steps for the **WebApp2, WebAPI1,** and
     **WebAPI2** virtual machines.
@@ -1343,7 +1343,7 @@ Service Web App without requiring any code changes to the application.
     \
     ![The Account Overview webpage displays with an available balance
     and a list of account
-    transactions.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image100.png "Account Overview webpage")
+    transactions.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image100.png "Account Overview webpage")
 
 8.  After validating the app, close the browser window.
 
@@ -1372,7 +1372,7 @@ to the application.
     ![New is selected in the left menu of the Azure Portal. In the New
     pane, under Azure Marketplace, Web + Mobile is selected, and under
     Featured, the Web App Quickstart tutorial link is
-    selected.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image75.png "Azure Portal")
+    selected.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image75.png "Azure Portal")
 
 2.  On the **Web App** blade, enter the following values:
 
@@ -1383,7 +1383,7 @@ to the application.
     -   App Insights: **Off**
 
         ![The Web App blade fields are set to the previously defined
-        settings.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image101.png "Web App blade")
+        settings.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image101.png "Web App blade")
 
 3.  Click on **App Service plan/Location**, select **Create New**, and
     fill in the following values:
@@ -1397,7 +1397,7 @@ to the application.
         ![In the Web App blade, App Service plan OptimizedBackgroundPlan
         is selected. In the App Service plan blade, Create New is
         selected, and fields are set to the previously defined
-        settings.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image102.png "Web App and App Service plan blades")
+        settings.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image102.png "Web App and App Service plan blades")
 
 4.  Click **OK**.
 
@@ -1412,13 +1412,13 @@ to the application.
     In the Resource groups blade, OptimizedBackgroundRG is selected. In
     the OptimizedBackgroundRG blade, Overview is selected, and in the
     Essentials section, the contosofinancialbackground App Service is
-    selected.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image103.png "Azure Portal")
+    selected.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image103.png "Azure Portal")
 
 2.  On the **Web app** blade, click on **Application settings**.
     
     ![In the contosofinancialbackground blade, under Settings,
     Application settings is
-    selected.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image104.png "contosofinancialbackground blade")
+    selected.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image104.png "contosofinancialbackground blade")
 
 3.  Scroll down to the **Connection strings** section, and add a **new**
     connection string with the following values:
@@ -1432,7 +1432,7 @@ to the application.
 
     ![In the contosofinancialbackground - Application settings blade,
     Connection strings values are set to the previously defined
-    settings.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image105.png "contosofinancialbackground - Application settings blade")
+    settings.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image105.png "contosofinancialbackground - Application settings blade")
 
 4.  Replace the value **{your\_username}** with **demouser** in the
     connection string.
@@ -1454,7 +1454,7 @@ to the application.
     ![In Solution Explorer, the Background folder is expanded, and
     Contoso.Financial.Background is selected. From its right-click menu,
     Publish as Azure WebJob is
-    selected.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image106.png "Solution Explorer")
+    selected.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image106.png "Solution Explorer")
 
 3.  On the **Add Azure WebJob** dialog, enter the following values:
 
@@ -1464,7 +1464,7 @@ to the application.
        
         ![In the Add Azure WebJob window, fields are set to the
         previously defined
-        settings.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image107.png "Add Azure WebJob window")
+        settings.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image107.png "Add Azure WebJob window")
 
 4.  Click **OK**.
 
@@ -1472,26 +1472,26 @@ to the application.
 .  
     ![In the Publish window, under Select a publish target, Microsoft
     Azure App Service is
-    selected.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image108.png "Publish window")
+    selected.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image108.png "Publish window")
 
 6.  In the top-right corner of the **App Service** dialog, make sure
     your account is selected. If it is not, click on the button, and add
     it.
 
     ![Screenshot of the Microsoft account
-    button.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image71.png "Microsoft account button")
+    button.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image71.png "Microsoft account button")
 
 7.  Expand the **OptimizedBackgroundRG** resource group, and select the
     **App Service Web App**, followed by clicking **OK**.
     
     ![In the App Service window, the OptimizedBackgroundRG folder is
     expanded, and contosofinancialbackground is
-    selected.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image109.png "App Service window")
+    selected.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image109.png "App Service window")
 
 8.  Click **Publish**.
 
     ![In the Publish window, the Publish button is
-    selected.]>(Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image110.png "Publish window")
+    selected.]>(images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image110.png "Publish window")
 
     > If the WebJob deployment fails due to a code signing error message,
     simply open up the **Project Properties** for the
@@ -1504,7 +1504,7 @@ to the application.
     expanded, and Properties is selected. In the ContosoFinancialBackground
     Properties pane, Signing is selected, and the checkbox is cleared for
     Sign the ClickOnce
-    manifests.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image111.png "Solution Explorer")
+    manifests.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image111.png "Solution Explorer")
 
 9.  Navigate to the **contosofinancialbackground** Web App in the Azure
     Portal, click on the **WebJobs** pane. Then, click on the
@@ -1513,7 +1513,7 @@ to the application.
     ![In the contosofinancialbackground - WebJobs blade, in the left
     pane, WebJobs is selected. In the right pane, under WebJobs,
     Background1 is
-    selected.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image112.png "contosofinancialbackground - WebJobs blade")
+    selected.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image112.png "contosofinancialbackground - WebJobs blade")
 
 10. Copy the **Web Hook URL, User Name, and Password**. Save these
     properties for setting up the Scheduler next.
@@ -1522,26 +1522,26 @@ to the application.
     Background1; Status, Ready; Type, triggered; Web Hook,
     https://contosofinancialbackground.sc\...; User Name,
     \$contosofinancialbackground; Password
-    (hidden).](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image113.png "Properties blade")
+    (hidden).](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image113.png "Properties blade")
 
 11. From the Azure Portal, click on **+New**, and type "**scheduler**"
     into the search box. Press **Enter**.
 
     ![In the left menu of the Azure Portal, the New button is selected.
     In the New blade, scheduler is typed in the search
-    field.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image114.png "Azure Portal")
+    field.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image114.png "Azure Portal")
 
 12. Select **Scheduler** from the search results, and click **Create**.
 
     ![In the Results section, Scheduler is
-    selected.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image115.png "Results section")
+    selected.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image115.png "Results section")
 
 13. On the **Scheduler Job** blade, enter the following values:
 
     -   Name: **Background-Scheduler**\
         ![In the Scheduler Job blade, under Create, the Name field is
         set to
-        Background-Scheduler.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image116.png "Scheduler Job blade")
+        Background-Scheduler.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image116.png "Scheduler Job blade")
 
 14. Click on **Job Collection**, click on **Create new**, enter the
     following values, and click **OK**.
@@ -1554,12 +1554,12 @@ to the application.
         Background-Scheduler-Job, Pricing tier is S Standard, Resource
         group is Use existing OptimizedBackgroundRG, and Location is
         South Central
-        US.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image117.png "New job collection blade")
+        US.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image117.png "New job collection blade")
 
 15. Click on **Configure Action settings**
 
     ![Screenshot of the Configure Action Settings
-    option.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image118.png "Configure Action Settings option")
+    option.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image118.png "Configure Action Settings option")
 
 16. On the **Action settings** pane, enter the **Web Hook URL** copied
     earlier to the **URL** field, set the **Action** to **Https**, and
@@ -1567,12 +1567,12 @@ to the application.
 
     ![In the Action settings blade, Action is set to Https, Method is
     set to Post, and the URL is the previously copied Web Hook
-    URL.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image119.png "Action settings blade")
+    URL.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image119.png "Action settings blade")
 
 17. Click on **Authentication settings**.
 
     ![Under Optional settings, Authentication settings is
-    selected.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image120.png "Authentication settings option")
+    selected.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image120.png "Authentication settings option")
 
 18. Enter the following values, and click **OK**.
 
@@ -1584,20 +1584,20 @@ to the application.
 
         ![Fields in the Authentication blade are set to the previously
         defined
-        settings.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image121.png "Authentication blade")
+        settings.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image121.png "Authentication blade")
 
 19. Click **OK** then click **OK** again.
 
 20. Click on **Configure Schedule**.
 
     ![Screenshot of the Configure Schedule
-    option.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image122.png "Configure Schedule option")
+    option.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image122.png "Configure Schedule option")
 
 21. Select **Recurring**, and specify Recur every **1 minute** followed
     by clicking **OK**.
 
     ![In the Schedule blade, fields are set to the previously defined
-    settings.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image123.png "Schedule blade")
+    settings.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image123.png "Schedule blade")
 
 22. Click **Ok** and then click **Create**.
 
@@ -1608,7 +1608,7 @@ to the application.
     
     ![In the Monitoring section, a History bar graph displays, with 6
     successes, 0 required retries, and 0
-    failures.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image124.png "Monitoring section")
+    failures.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image124.png "Monitoring section")
 
 24. Open a new browser window or tab navigating to the **URL** for the
     **Traffic Manager** for the application, and verify the transactions
@@ -1616,7 +1616,7 @@ to the application.
     
     ![The Account Overview webpage displays with an available balance
     and a list of account
-    transactions.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image125.png "Account Overview webpage")
+    transactions.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image125.png "Account Overview webpage")
 
 #### Step 4: Take down Background Tier VM
 
@@ -1627,7 +1627,7 @@ to the application.
     ![In the left pane of the Azure Portal, Resource groups is selected.
     In the Resource groups pane, under Subscriptions, ContosoExistingRG
     is
-    selected.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image126.png "Azure Portal")
+    selected.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image126.png "Azure Portal")
 
 2.  Click on the **Background1** virtual machine.
 
@@ -1635,14 +1635,14 @@ to the application.
 
     ![In the left pane of the Background1 blade, Overview is selected.
     In the right pane, the Stop button is
-    selected.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image127.png "Background1 blade")
+    selected.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image127.png "Background1 blade")
 
 4.  On the **Stop this virtual machine** prompt, click **Yes**.
 
     ![In the Stop this virtual machine prompt, a confirmation message
     displays asking if you want to stop Background1, and the Yes button
     is
-    selected.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image128.png "Stop this virtual machine prompt")
+    selected.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image128.png "Stop this virtual machine prompt")
 
 ## Exercise 6: Setup SQL Database Geo-Replication
 
@@ -1671,24 +1671,24 @@ failure.
     Resource groups pane, under Subscriptions, ContosoExistingRG is
     selected. In the ContosoExistingRG blade, both Overview and the
     contosofinancialdb SQL database are selected
-    ](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image129.png "Azure Portal")
+    ](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image129.png "Azure Portal")
 
 2.  On the **SQL database** blade, click on **Geo-Replication**.
     
     ![In the Contosofinancialdb blade, under Settings, Geo-Replication
     is
-    selected.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image130.png "Contosofinancialdb blade")
+    selected.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image130.png "Contosofinancialdb blade")
 
 3.  Click on the **Recommended Target Region** to replicate to.
     
     ![In the Contosofinancialdb - Geo-Replication blade, under Target
     Regions, South Central US is
-    selected.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image131.png "Contosofinancialdb - Geo-Replication blade")
+    selected.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image131.png "Contosofinancialdb - Geo-Replication blade")
 
 4.  On the **Create secondary** blade, click on **Target server**.
   
     ![In the Create Secondary blade, Target server is
-    selected.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image132.png "Create Secondary blade")
+    selected.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image132.png "Create Secondary blade")
 
 5.  On the **New server** blade, enter the following values:
 
@@ -1700,7 +1700,7 @@ failure.
         
         ![Fields in the New server blade are set to the previously
         defined
-        settings.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image133.png "New server blade")
+        settings.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image133.png "New server blade")
 
 6.  Click **Select**.
 
@@ -1711,7 +1711,7 @@ failure.
     ![The Contosofinancialdb - Geo-Replication blade displays, with the
     Primary Server set to North Central US, and the Secondaries set to
     South Central
-    US.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image134.png "Contosofinancialdb - Geo-Replication blade")
+    US.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image134.png "Contosofinancialdb - Geo-Replication blade")
 
 
 ## Exercise 7: Take down old architecture / resources
@@ -1782,7 +1782,7 @@ to delete the Azure IaaS components hosting the VM infrastructure.
         the Resource grups blade, ContosoExistingRG is selected. In the
         ContosoExistingRG blade, Overview is selected, and all names
         under the list of resources are
-        selected.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image135.png "Azure Portal")
+        selected.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image135.png "Azure Portal")
 
     > Be sure not to delete the Azure SQL Database (**contosofinancialdb**)
 and Azure SQL Server. These are still in use!
@@ -1794,7 +1794,7 @@ and Azure SQL Server. These are still in use!
     -   **disk**
        
         ![The two previously listed Storage Accounts
-        display.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image136.png "Storage Accounts")
+        display.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image136.png "Storage Accounts")
 
 4.  Once all of the resources for the VMs that are no longer needed have
     been deleted / removed from the **ContosoExistingRG** resource
@@ -1803,7 +1803,7 @@ and Azure SQL Server. These are still in use!
     \
     ![In the left pane of the ContosoExistingRG blade, Overview is
     selected. In the top menu, the Refresh button is
-    selected.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image137.png "ContosoExistingRG blade")
+    selected.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image137.png "ContosoExistingRG blade")
 
 ## Exercise 8: Setup European Web App Tier Instance
 
@@ -1835,7 +1835,7 @@ Europe region.
     ![New is selected in the Azure Portal left pane. In the New blade,
     under Azure Marketplace, Web + Mobile is selected, and under
     Featured, the Web App quickstart tutorial is
-    selected.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image75.png "Azure Portal")
+    selected.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image75.png "Azure Portal")
 
 2.  On the **Web App** blade, enter the following values:
 
@@ -1847,7 +1847,7 @@ Europe region.
         \
         **![Fields in the Web App blade are set to the previously
         defined
-        settings.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image138.png "Web App blade")**\
+        settings.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image138.png "Web App blade")**\
         **
 
 3.  Click on **App Service plan/Location**, then **Create New**, and
@@ -1861,7 +1861,7 @@ Europe region.
         
         ![Fields in the App Service plan blade are set to the previously
         defined
-        settings.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image139.png "App Service plan blade")
+        settings.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image139.png "App Service plan blade")
 
 4.  Click **OK**.
 
@@ -1876,12 +1876,12 @@ Europe region.
     Resource groups pane, under Subscriptions, OptimizedWebAppEuropeRG
     is selected. In the OptimizedWebAppEuropeRG blade, both Overview and
     the contosofinancialwebappeuro App Service are selected
-    ](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image140.png "Azure Portal")
+    ](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image140.png "Azure Portal")
 
 2.  On the **Web App** blade, click on **Application settings**.**\
     \
     **![In the Web App blade, under Settings, Application settings is
-    selected.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image141.png "Web App blade")**\
+    selected.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image141.png "Web App blade")**\
     **
 
 3.  Scroll down to the **App settings** section, and create a **new**
@@ -1896,7 +1896,7 @@ Europe region.
     > ![In the contosofinancialwebappeuro blade, under Settings, Application
     > settings is selected. Under App settings, fields are set to the
     > previously defined
-    > settings.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image142.png "contosofinancialwebappeuro blade")
+    > settings.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image142.png "contosofinancialwebappeuro blade")
 
 4.  Click **Save**.
 
@@ -1912,19 +1912,19 @@ Europe region.
     ![In Solution Explorer, the Web folder is expanded, and
     Contoso.Financial.Website is selected. From its right-click menu,
     Publish is
-    selected.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image143.png "Solution Explorer")
+    selected.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image143.png "Solution Explorer")
 
 3.  Click the **Create new profile** link.
 
     ![In the Publish window, the Create new profile link is
-    selected.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image144.png "Publish window")
+    selected.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image144.png "Publish window")
 
 4.  On the **Pick a publish target** dialog, click on **Microsoft Azure
     App Service**, and choose **Select Existing**, Then, click **OK**.
 
     ![In the Pick a publish target window, Microsoft Azure App Service,
     Select Existing, and the OK button are all
-    selected.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image145.png "Pick a publish target window")
+    selected.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image145.png "Pick a publish target window")
 
 5.  On the **App Service** dialog, expand the
     **OptimizedWebAppEuropeRG** resource group, select the **Web App**
@@ -1932,20 +1932,20 @@ Europe region.
 
     ![In the App Service dialog box, the OptimizedWebAppEuropeRG folder
     is expanded, and contosofinancialwebappeuro is
-    selected.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image146.png "App Service dialog box")
+    selected.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image146.png "App Service dialog box")
 
 6.  Select the Deployment Profile for the European instance, and click
     **Publish**.
     
     ![In the Publish window, contosofinancialwebappeuro - Web Deploy is
     set as the deployment profile, and the Publish button is
-    selected.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image147.png "Publish window")
+    selected.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image147.png "Publish window")
 
 7.  Once the deployment has completed, Visual Studio will automatically
     open a new browser window navigating to the **Web App**.
     
     ![The Contoso Financial login page
-    displays.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image148.png "Contoso Financial login page")
+    displays.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image148.png "Contoso Financial login page")
 
 #### Step 4: Add European Region to Traffic Manager
 
@@ -1957,17 +1957,17 @@ Europe region.
     Resource groups pane, under Subscriptions, OptimizedTFRG is
     selected. In the OptimizedTFRG blade, both Overview and the
     contosowebapp Traffic Manager are
-    selected.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image83.png "Azure Portal")
+    selected.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image83.png "Azure Portal")
 
 2.  On the **Traffic Manager profile** blade, click on **Endpoints**.
   
     ![Screenshot of the Endpoints
-    option.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image149.png "Endpoints option")
+    option.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image149.png "Endpoints option")
 
 3.  Click **Add**.
     
     ![On the contosowebapp - Endpoints blade menu, the Add button is
-    selected.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image150.png "contosowebapp - Endpoints blade")
+    selected.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image150.png "contosowebapp - Endpoints blade")
 
 4.  On the **Add endpoint** blade, enter the following values:
 
@@ -1978,29 +1978,29 @@ Europe region.
     -   Target resource type: **App Service**
 
     ![Fields in the Add endpoint blade are set to the previously defined
-    settings.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image151.png "Add endpoint blade")
+    settings.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image151.png "Add endpoint blade")
 
 5.  Click on **Choose an app service**.
 
     ![Screenshot of the Choose an app service
-    option.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image87.png "Choose an app service option")
+    option.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image87.png "Choose an app service option")
 
 6.  Click on the **Web App** created in the **North Europe** region.
     
     ![On the Resource blade, contosofinancialwebappeuro is
-    selected.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image152.png "Resource blade")
+    selected.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image152.png "Resource blade")
 
 7.  Set the **Regional grouping** to **Europe**.
 
     ![Under Geo-mapping, Regional grouping is set to
-    Europe.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image153.png "Geo-mapping section")
+    Europe.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image153.png "Geo-mapping section")
 
 8.  Click **OK**.
 
 9.  Click on **Overview**.
     
     ![Overview is selected in the contosowebapp - Endpoints
-    blade.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image154.png "contosowebapp - Endpoints blade")
+    blade.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image154.png "contosowebapp - Endpoints blade")
 
 10. On the **Traffic Manager profile** blade, click on the **DNS name**
     to open a new browser window navigating to the **Traffic Manager**
@@ -2008,7 +2008,7 @@ Europe region.
     
     ![In the Traffic Manager profile blade, Overview, and the DNS name
     contosowebapp.trafficmanager.net link are
-    selected.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image155.png "Traffic Manager profile blade")
+    selected.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image155.png "Traffic Manager profile blade")
 
 11. Login to the Web App and ensure it loads all data as expected to
     test out the App Service hosted Web App and API App tiers are
@@ -2016,7 +2016,7 @@ Europe region.
     
     ![The Contoso Financial Account Overview webpage displays with
     Transaction details in an account transaction
-    ledger.](Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image100.png "Contoso Financial Account Overview webpage")
+    ledger.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image100.png "Contoso Financial Account Overview webpage")
 
 12.  After validating the app, close the browser window.
 

@@ -1,6 +1,8 @@
 # Optimized architecture
 
-## March 2018 Whiteboard design session student guide
+## Whiteboard design session student guide
+
+## March 2018
 
 ## Contents
 
@@ -17,11 +19,6 @@
     -   [Wrap-up](#wrap-up)
     -   [Additional references](#additional-references)
 
-
-
-## March 2018
-
-# Optimized architecture whiteboard design session student guide
 
 ## Abstract and learning objectives 
 
@@ -169,7 +166,7 @@ but we know this setup is less than ideal. Although, we do keep backups
 in the event of a failure."
 
 ![Diagram of the previously described Existing
-architecture.](Whiteboarddesignsessionstudentguide-Optimizedarchitectureimages/media/image2.png "Existing architecture diagram")
+architecture.](images/Whiteboarddesignsessionstudentguide-Optimizedarchitectureimages/media/image2.png "Existing architecture diagram")
 
 **Existing virtual machine utilization**
 
@@ -199,7 +196,7 @@ Tier, which has CPU of 58 percent and RAM of 34 percent, or CPU of 56
 percent or RAM of 31 percent. The third row is Back-end processing tier,
 which is CPU of 49 percent, and RAM of 25 percent. The bottom row,
 Database Server SQL Database: Preium P4, has no CPU or RAM
-information.](Whiteboarddesignsessionstudentguide-Optimizedarchitectureimages/media/image3.png "Standard D3 pricing tier")
+information.](images/Whiteboarddesignsessionstudentguide-Optimizedarchitectureimages/media/image3.png "Standard D3 pricing tier")
 
 **Database usage analysis**
 
@@ -273,7 +270,7 @@ but I know Azure SQL Databases use that for billing."
 ###### Azure virtual network with VMs and load balancers
 
 ![Azure infrastructure showing front end subnet and back end
-subnet.](Whiteboarddesignsessionstudentguide-Optimizedarchitectureimages/media/image4.png "Azure infrastructure")
+subnet.](images/Whiteboarddesignsessionstudentguide-Optimizedarchitectureimages/media/image4.png "Azure infrastructure")
 
 ###### 3-tier Azure Web App architecture with message queue
 
@@ -286,7 +283,7 @@ Instances and Autoscale. This points to Azure SQL Databases, and also
 shares a bi-directional arrow with Message Queue (Storage Queue or
 Service Bus Queue.) The Message Queue points to Web Job Instances with
 AutoScale, which completes the circle by pointing back to Web API
-Instances.](Whiteboarddesignsessionstudentguide-Optimizedarchitectureimages/media/image5.png "3-tier Azure Web App architecture with message queue")
+Instances.](images/Whiteboarddesignsessionstudentguide-Optimizedarchitectureimages/media/image5.png "3-tier Azure Web App architecture with message queue")
 
 ## Step 2: Design a proof of concept solution
 

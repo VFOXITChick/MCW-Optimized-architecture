@@ -310,7 +310,7 @@ but we know this setup is less than ideal. Although, we do keep backups
 in the event of a failure."
 
 ![Diagram of the previously described Existing
-architecture.](Whiteboarddesignsessiontrainerguide-Optimizedarchitectureimages/media/image2.png "Existing architecture diagram")
+architecture.](images/Whiteboarddesignsessiontrainerguide-Optimizedarchitectureimages/media/image2.png "Existing architecture diagram")
 
 **Existing virtual machine utilization**
 
@@ -340,7 +340,7 @@ Tier, which has CPU of 58 percent and RAM of 34 percent, or CPU of 56
 percent or RAM of 31 percent. The third row is Back-end processing tier,
 which is CPU of 49 percent, and RAM of 25 percent. The bottom row,
 Database Server SQL Database: Preium P4, has no CPU or RAM
-information.](Whiteboarddesignsessiontrainerguide-Optimizedarchitectureimages/media/image3.png "Standard D3 pricing tier")
+information.](images/Whiteboarddesignsessiontrainerguide-Optimizedarchitectureimages/media/image3.png "Standard D3 pricing tier")
 
 **Database usage analysis**
 
@@ -414,7 +414,7 @@ but I know Azure SQL Databases use that for billing."
 ###### Azure virtual network with VMs and load balancers
 
 ![Azure infrastructure showing front end subnet and back end
-subnet.](Whiteboarddesignsessiontrainerguide-Optimizedarchitectureimages/media/image4.png "Azure infrastructure")
+subnet.](images/Whiteboarddesignsessiontrainerguide-Optimizedarchitectureimages/media/image4.png "Azure infrastructure")
 
 ###### 3-tier Azure Web App architecture with message queue
 
@@ -427,7 +427,7 @@ Instances and Autoscale. This points to Azure SQL Databases, and also
 shares a bi-directional arrow with Message Queue (Storage Queue or
 Service Bus Queue.) The Message Queue points to Web Job Instances with
 AutoScale, which completes the circle by pointing back to Web API
-Instances.](Whiteboarddesignsessiontrainerguide-Optimizedarchitectureimages/media/image5.png "3-tier Azure Web App architecture with message queue")
+Instances.](images/Whiteboarddesignsessiontrainerguide-Optimizedarchitectureimages/media/image5.png "3-tier Azure Web App architecture with message queue")
 
 ## Step 2: Design a proof of concept solution
 
@@ -710,7 +710,7 @@ modifications:
 -   Configure SQL Database Active Geo-Replication for added resiliency
 
 ![Diagram of the previously described Preferred solution Phase
-1.](Whiteboarddesignsessiontrainerguide-Optimizedarchitectureimages/media/image6.png "Preferred solution Phase 1 diagram")
+1.](images/Whiteboarddesignsessiontrainerguide-Optimizedarchitectureimages/media/image6.png "Preferred solution Phase 1 diagram")
 
 **Phase 2 design**
 
@@ -733,7 +733,7 @@ services as much as possible to further reduce overall spending.
     External Load Balancer
 
 ![Diagram of the previously described Preferred solution Phase
-2.](Whiteboarddesignsessiontrainerguide-Optimizedarchitectureimages/media/image7.png "Phase 2 preferred solution diagram")
+2.](images/Whiteboarddesignsessiontrainerguide-Optimizedarchitectureimages/media/image7.png "Phase 2 preferred solution diagram")
 
 **Total cost savings**
 
@@ -814,7 +814,7 @@ Phase 1 design is \$47,064.
 
 ![Screenshot of the Application Tier pricing, with the total annual
 savings, as previously
-described.](Whiteboarddesignsessiontrainerguide-Optimizedarchitectureimages/media/image8.png "Pricing by Application Tier")
+described.](images/Whiteboarddesignsessiontrainerguide-Optimizedarchitectureimages/media/image8.png "Pricing by Application Tier")
 
 Below are the prices for the different VM and SQL Database instance
 tiers:
@@ -919,7 +919,7 @@ existing architecture to the Phase 2 design is \$39,840.
 
 ![Screenshot of the Application Tier pricing, with the total annual
 savings, as previously
-described.](Whiteboarddesignsessiontrainerguide-Optimizedarchitectureimages/media/image9.png "Pricing by Application Tier")
+described.](images/Whiteboarddesignsessiontrainerguide-Optimizedarchitectureimages/media/image9.png "Pricing by Application Tier")
 
 Below are the prices for the different VM and SQL database instance
 tiers:

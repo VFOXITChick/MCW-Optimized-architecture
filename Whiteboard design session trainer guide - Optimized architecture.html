@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>MCW: Optimized Architecture – includes</title>
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      div.line-block{white-space: pre-line;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://opsgilitylabs.blob.core.windows.net/lablayout/labstyles.css"></link>
+</head>
+<body>
+<h1 id="optimized-architecture">Optimized architecture</h1>
+<h2 id="whiteboard-design-session-trainer-guide">Whiteboard design session trainer guide</h2>
+<h2 id="march-2018">March 2018</h2>
+<h2 id="contents">Contents</h2>
+<ul>
+<li><a href="#trainer-information">Trainer information</a>
+<ul>
+<li><a href="#role-of-the-trainer">Role of the trainer</a>
+<ul>
+<li><a href="#whiteboard-design-session-flow">Whiteboard design session flow</a></li>
+<li><a href="#before-the-whiteboard-design-session-how-to-prepare">Before the whiteboard design session: How to prepare</a></li>
+<li><a href="#during-the-whiteboard-design-session-tips-for-an-effective-whiteboard-design-session">During the whiteboard design session: Tips for an effective whiteboard design session</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#optimized-architecture-whiteboard-design-session-student-guide">Optimized architecture whiteboard design session student guide</a>
+<ul>
+<li><a href="#abstract-and-learning-objectives">Abstract and learning objectives</a></li>
+<li><a href="#step-1-review-the-customer-case-study">Step 1: Review the customer case study</a>
+<ul>
+<li><a href="#facilitatorsubject-matter-expert-sme-presentation-of-customer-case-study">Facilitator/subject matter expert (SME) presentation of customer case study</a></li>
+<li><a href="#customer-situation">Customer situation</a></li>
+<li><a href="#customer-needs">Customer needs</a></li>
+<li><a href="#customer-objections">Customer objections</a></li>
+<li><a href="#infographic-for-common-scenarios">Infographic for common scenarios</a></li>
+</ul></li>
+<li><a href="#step-2-design-a-proof-of-concept-solution">Step 2: Design a proof of concept solution</a></li>
+<li><a href="#step-3-present-the-solution">Step 3: Present the solution</a></li>
+<li><a href="#wrap-up">Wrap-up</a></li>
+<li><a href="#additional-references">Additional references</a></li>
+</ul></li>
+<li><a href="#optimized-architecture-whiteboard-design-session-trainer-guide">Optimized architecture whiteboard design session trainer guide</a>
+<ul>
+<li><a href="#step-1-review-the-customer-case-study-1">Step 1: Review the customer case study</a></li>
+<li><a href="#step-2-design-a-proof-of-concept-solution-1">Step 2: Design a proof of concept solution</a></li>
+<li><a href="#step-3-present-the-solution-1">Step 3: Present the solution</a></li>
+<li><a href="#wrap-up-1">Wrap-up</a></li>
+<li><a href="#preferred-target-audience">Preferred target audience</a></li>
+<li><a href="#preferred-solution">Preferred solution</a>
+<ul>
+<li><a href="#phase-1">Phase 1</a></li>
+<li><a href="#phase-2">Phase 2</a></li>
+</ul></li>
+<li><a href="#customer-quote-to-be-read-back-to-the-attendees-at-the-end">Customer quote (to be read back to the attendees at the end)</a></li>
+</ul></li>
+</ul>
+<h2 id="trainer-information">Trainer information</h2>
+<p>Thank you for taking time to support the whiteboard design sessions as a trainer!</p>
+<h2 id="role-of-the-trainer">Role of the trainer</h2>
+<p>An amazing trainer:</p>
+<ul>
+<li><p>Creates a safe environment in which learning can take place.</p></li>
+<li><p>Stimulates the participant’s thinking.</p></li>
+<li><p>Involves the participant in the learning process.</p></li>
+<li><p>Manages the learning process (on time, on topic, and adjusting to benefit participants).</p></li>
+<li><p>Ensures individual participant accountability.</p></li>
+<li><p>Ties it all together for the participant.</p></li>
+<li><p>Provides insight and experience to the learning process.</p></li>
+<li><p>Effectively leads the whiteboard design session discussion.</p></li>
+<li><p>Monitors quality and appropriateness of participant deliverables.</p></li>
+<li><p>Effectively leads the feedback process.<a href="#section"></a>{#_Toc492640576 .anchor}</p></li>
+</ul>
+<h4 id="whiteboard-design-session-flow">Whiteboard design session flow</h4>
+<p>Each whiteboard design session uses the following flow:</p>
+<p><strong>Step 1: Review the customer case study (15 minutes)</strong></p>
+<p>Outcome: Analyze your customer’s needs</p>
+<ul>
+<li><p>Customer’s background, situation, needs and technical requirements</p></li>
+<li><p>Current customer infrastructure and architecture</p></li>
+<li><p>Potential issues, objectives and blockers</p></li>
+</ul>
+<p><strong>Step 2: Design a proof of concept solution (60 minutes)</strong></p>
+<p>Outcome: Prepare to present a solution for your target customer audience</p>
+<ul>
+<li><p>Determine your target customer audience</p></li>
+<li><p>Determine customer’s business needs to address your solution</p></li>
+<li><p>Design and diagram your solution</p></li>
+<li><p>Prepare to present your solution</p></li>
+</ul>
+<p><strong>Step 3: Present the solution (30 minutes)</strong></p>
+<p>Outcome: Present solution to your customer</p>
+<ul>
+<li><p>Present solution</p></li>
+<li><p>Respond to customer objections</p></li>
+<li><p>Receive feedback</p></li>
+</ul>
+<p><strong>Wrap-up (15 minutes)</strong></p>
+<ul>
+<li>Review preferred solution</li>
+</ul>
+<h4 id="before-the-whiteboard-design-session-how-to-prepare">Before the whiteboard design session: How to prepare</h4>
+<p>Before conducting your first whiteboard design session:</p>
+<ul>
+<li><p>Read the Student guide (including the case study) and Trainer guide</p></li>
+<li><p>Become familiar with all key points and activities.</p></li>
+<li><p>Plan the point you want to stress, which questions you want to drive, transitions, and be ready to answer questions.</p></li>
+<li><p>Prior to the whiteboard design session, discuss the case study to pick up more ideas.</p></li>
+<li><p>Make notes for later.</p></li>
+</ul>
+<h4 id="during-the-whiteboard-design-session-tips-for-an-effective-whiteboard-design-session">During the whiteboard design session: Tips for an effective whiteboard design session</h4>
+<p><strong>Refer to the Trainer guide</strong> to stay on track and observe the timings.</p>
+<p><strong>Do not expect to memorize every detail</strong> of the whiteboard design session.</p>
+<p>When participants are doing activities, you can <strong>look ahead to refresh your memory</strong>.</p>
+<ul>
+<li><p><strong>Adjust activity and whiteboard design session pace</strong> as needed to allow time for presenting, feedback, and sharing.</p></li>
+<li><p><strong>Add examples, points, and stories</strong> from your own experience. Think about stories you can share that help you make your points clearly and effectively.</p></li>
+<li><p><strong>Consider creating a “parking lot”</strong> to record issues or questions raised that are outside the scope of the whiteboard design session or can be answered later. Decide how you will address these issues, so you can acknowledge them without being derailed by them.</p></li>
+</ul>
+<p><em><strong>Have fun</strong>! Encourage participants to have fun and share!</em></p>
+<p><strong>Involve your participants.</strong> Talk and share your knowledge but always involve your participants, even while you are the one speaking.</p>
+<p><strong>Ask questions</strong> and get them to share to fully involve your group in the learning process.</p>
+<p><strong>Ask first</strong>, whenever possible. Before launching into a topic, learn your audience’s opinions about it and experiences with it. Asking first enables you to assess their level of knowledge and experience, and leaves them more open to what you are presenting.</p>
+<p><strong>Wait for responses</strong>. If you ask a question such as, “What is your experience with (fill in the blank)?” then wait. Do not be afraid of a little silence. If you leap into the silence, your participants will feel you are not serious about involving them and will become passive. Give participants a chance to think, and if no one answers, patiently ask again. You will usually get a response.</p>
+<h1 id="optimized-architecture-whiteboard-design-session-student-guide">Optimized architecture whiteboard design session student guide</h1>
+<h2 id="abstract-and-learning-objectives">Abstract and learning objectives</h2>
+<p>In this workshop, you will learn how to optimize a lift and shift style IaaS architecture in Azure to improve cost savings. You will also compare IaaS and PaaS hosting options to save cost even further using Azure App Service. Additionally, students will learn to improve resiliency and high availability through multi-region deployment.</p>
+<p>Attendees will learn how to:</p>
+<ul>
+<li><p>Optimize Azure IaaS for cost savings</p></li>
+<li><p>Migrate an Azure IaaS optimized</p></li>
+<li><p>Compare cost between Azure IaaS versus Azure PaaS</p></li>
+<li><p>Setup SQL Database geo-replication</p></li>
+<li><p>Configure multi-region deployment</p></li>
+</ul>
+<h2 id="step-1-review-the-customer-case-study">Step 1: Review the customer case study</h2>
+<p><strong>Outcome</strong></p>
+<p>Analyze your customer’s needs.</p>
+<h4 id="facilitatorsubject-matter-expert-sme-presentation-of-customer-case-study">Facilitator/subject matter expert (SME) presentation of customer case study</h4>
+<p>Time frame: 15 minutes</p>
+<p>Directions: With all participants in the session, the facilitator/SME presents an overview of the customer case study along with technical tips.</p>
+<ol type="1">
+<li><p>Meet your table participants and trainer.</p></li>
+<li><p>Read all the directions for Steps 1–3 in the Student guide.</p></li>
+<li><p>As a table team, review the following customer case study.</p></li>
+</ol>
+<h4 id="section"></h4>
+<h4 id="customer-situation">Customer situation</h4>
+<p>Contoso Financial Inc. is one of the fastest growing financial organizations in the United States. With its corporate headquarters in Chicago, IL, the company has grown to over 1,000 employees. Most employees work from one of the regional offices strategically located in all the major United States cities. However, many of the employees work remotely either daily or even after hours.</p>
+<p>Contoso has recently completed a migration to shift most its enterprise data center footprint to the cloud. “The cloud is the future, and as such, it is essential for us to proactively adopt the cloud before our competitors to remain innovative and as competitive as possible,” says Emma Lowton, Chief Technology Officer. “Unfortunately, due to our limited expertise in cloud computing, I have grown concerned that our Azure spending is much higher than it should be.”</p>
+<p>The migration process performed by Contoso used the “Lift and shift” method to move their existing workloads into Microsoft Azure. Their current Azure usage is dependent on the Infrastructure as a Service (IaaS) services in addition to the adoption of Azure Active Directory (AD) and Office 365. So far, they have not used the Platform as a Service (PaaS) services very much except for Azure Storage and Azure Service Bus Queue, which replaced MSMQ.</p>
+<p>Last year, Contoso completed the acquisition of the European based Lucerne Ltd. With the acquisition complete, a deadline was set to begin migrating all Lucerne employees to the Contoso systems within 18 months. The Chief Executive Office, Jay Calvin’s biggest concern with the existing architecture is, “With concerns about spending too much, I am very concerned we will not be able to stay competitive, as we onboard the Lucerne employees over to use Contoso systems.”</p>
+<p>The company has over 120 workloads migrated to running in Microsoft Azure. Only a small number of these are considered mission critical. Ultimately, all the workloads will need to be optimized for reduced Azure spending without compromising system resiliency and reliability. The Contoso’s IT Operations team has identified a single mission critical workload that consists of a 3-tier web application with a SQL Server database. After optimization has been proven with this single application, plans will be laid to perform similar cost optimizations across their entire cloud footprint.</p>
+<p>It has already been identified that the existing Azure architecture has been overprovisioned for the workload. The existing architecture within Azure needs to be modified to match more closely with the workload demand and use some of the cloud features of Azure that allow for greater cost savings. In addition to reducing cost, the architecture also needs to be optimized to be able to handle Contoso’s future growth, even after Lucerne employees have been onboarded.</p>
+<p><strong>Existing architecture</strong></p>
+<p>Percy Bowman is the Director of IT Operations and manages the team responsible for maintaining the enterprise systems. Percy is concerned that “the current architecture is much too difficult to maintain over time with all of the manual operations necessary, especially as the company continues to grow and expand into Europe.” The existing architecture is made up of multiple virtual machines that need to be fully managed and maintained by Contoso today. As the company continues to grow, the system needs to be able to scale more easily, as adding more VMs over time will eventually lead to prohibitive costs. It is the primary reason the Contoso enterprise workloads were migrated into the cloud in the first place.</p>
+<p>The system is broken out into three tiers (Front-end Web App, Back-end Web API, Back-end Processing) and a Microsoft SQL Server database server. The VM count for the different tiers remains the same as when the system was hosted on-premises since they performed a straight “Lift and shift” to move into Azure. The Web App and Web API tiers are made up of three VMs each. Both the Web App and Web API tiers use an Azure Load Balancer to distribute traffic across the redundant VMs. The Back-end Processing tier is made up of two VMs for redundancy, with the additional benefit of meeting the SLA uptime guarantee.</p>
+<p>The Front-end Web App and Back-end Web API tiers are hosted on Windows Server 2012 R2 using Microsoft Internet Information Services (IIS). The server-side application code for the Front-end Web App tier is written in C# using ASP.NET MVC 5. The application code for the Back-end Web API tier is written in C# using ASP.NET Web API and uses Entity Framework to communicate with the SQL Server database.</p>
+<p>The Back-end Processing tier is hosted on Windows Server 2012 R2 with the application code written as a C# Console Application. The Back-end Processing tier receives messages of work to be done from the Back-end Web API tier using an Azure Service Bus Queue.</p>
+<p>The database server is somewhat of a problem area with the current architecture. During the migration, the productionpPilot environment was setup in the Azure West US region. When the final production environment was built out, it was determined the Azure North Central US region would be used to better serve users and be located geographically closer to the corporate headquarters. The database server is running Microsoft SQL Server 2014, and is hosted on a single VM. So far, the overall necessary performance demand has been met, but the database server lacks redundancy. The way it is hosted was only meant to be temporary when going live into full production. However, in the rush to put out other production fires at the time of “Go Live”, the Production Pilot VM for the database server stayed in place. According to Percy Bowman, Directory of IT Operations, “the database server has not failed us yet, but we know this setup is less than ideal. Although, we do keep backups in the event of a failure.”</p>
+<figure>
+<img src="images/Whiteboarddesignsessiontrainerguide-Optimizedarchitectureimages/media/image2.png" title="Existing architecture diagram" alt="Diagram of the previously described Existing architecture." /><figcaption>Diagram of the previously described Existing architecture.</figcaption>
+</figure>
+<p><strong>Existing virtual machine utilization</strong></p>
+<p>The Contoso IT Operations team decided to standardize on the “Standard D3” VM instance size (4 cores, 14GB RAM) for the Front-end and Back-end tiers using Standard storage. The SQL Server database server VM needs more resources so it is configured to use the “Standard GS4” VM instance size (16 cores, 224GB RAM).</p>
+<p>Contoso IT Operations team does use some third-party tools to aggregate server metrics for simplified reporting and monitoring processes. However, the primary method they used to gather the CPU and RAM utilization of the specific workload to target was to sign in to the Azure Portal and access Azure’s VM monitoring within the Virtual Machine blade. They gathered both the “CPU percentage” and “Memory usage” statistics to get average CPU and RAM utilization percentages for the virtual machines.</p>
+<p>The average CPU and RAM usage of the servers during normal business hours (8AM – 5PM, Monday through Friday) and the estimated cost per VM is as follows:</p>
+<figure>
+<img src="images/Whiteboarddesignsessiontrainerguide-Optimizedarchitectureimages/media/image3.png" title="Standard D3 pricing tier" alt="In this Standard D3 pricing tier, the first row is Front-End Web App Tier, which offers CPU of 36 percent and RAM of 46 percent, or CPU of 38 percent or RAM of 44 percent. The second row is the Back-End Web App Tier, which has CPU of 58 percent and RAM of 34 percent, or CPU of 56 percent or RAM of 31 percent. The third row is Back-end processing tier, which is CPU of 49 percent, and RAM of 25 percent. The bottom row, Database Server SQL Database: Preium P4, has no CPU or RAM information." /><figcaption>In this Standard D3 pricing tier, the first row is Front-End Web App Tier, which offers CPU of 36 percent and RAM of 46 percent, or CPU of 38 percent or RAM of 44 percent. The second row is the Back-End Web App Tier, which has CPU of 58 percent and RAM of 34 percent, or CPU of 56 percent or RAM of 31 percent. The third row is Back-end processing tier, which is CPU of 49 percent, and RAM of 25 percent. The bottom row, Database Server SQL Database: Preium P4, has no CPU or RAM information.</figcaption>
+</figure>
+<p><strong>Database usage analysis</strong></p>
+<p>One of the Database Administrators at Contoso, Naina Dhyani, has completed some additional performance profiling to help determine how to optimize the SQL Server VM. Using the production server, Naina captured performance metrics and used the Azure SQL Database DTU Calculator to determine the estimated DTU (data through-put unit) requirements of the SQL Server VM. According to Naina, “It gave me the result that our database requires about 400 DTUs. I am really not sure what a DTU is, but I know Azure SQL Databases use that for billing.”</p>
+<h4 id="customer-needs">Customer needs</h4>
+<ol type="1">
+<li><p>Design a two-phase approach to the process of migrating Azure resources towards the goal of optimized spending.</p></li>
+<li><p>Fix the SQL Server database hosting to be more robust, reliable, and enterprise-grade.</p></li>
+<li><p>Automatic scaling needs to be implemented to reduce the manual process involved.</p></li>
+<li><p>Identify the appropriate method to use for scaling out the different application tiers to meet increases in load.</p></li>
+<li><p>Identify the appropriate VM sizes for each application tier.</p></li>
+<li><p>Validate the appropriate Azure Regions are used for hosting and create a plan to migrate any necessary resources to a different region.</p></li>
+<li><p>Identify the PaaS services to use, and the App Service Plans, and create a migration plan.</p></li>
+<li><p>Identify a strategy to reduce server maintenance as the system is scaled out to meet increased load.</p></li>
+<li><p>The migration steps should not require any changes to application code.</p></li>
+</ol>
+<h4 id="customer-objections">Customer objections</h4>
+<ol type="1">
+<li><p>Reducing the overall spending on Azure is great, but how will we ensure costs remain optimized?</p></li>
+<li><p>If we drastically change the overall architecture, will we be able to migrate it without taking it down for a week?</p></li>
+<li><p>Our operations team is new to the cloud and Microsoft Azure. While we are comfortable using the IaaS services, we are concerned that PaaS services will be difficult to monitor and maintain when mixed with IaaS services in our overall environment.</p></li>
+<li><p>We are concerned that the system performance for the European users will not be as good as it needs to be. In the past, we have had employees work while traveling and the system was slow for them.</p></li>
+<li><p>The VM sizes currently used appear to be more than we need, but how can we determine what the appropriate sizes should be?</p></li>
+<li><p>We have already purchased SQL Server and other product licenses. I am worried the savings from optimizing spending using Azure PaaS services will not be significant to be worth it.</p></li>
+</ol>
+<h4 id="infographic-for-common-scenarios">Infographic for common scenarios</h4>
+<h6 id="azure-virtual-network-with-vms-and-load-balancers">Azure virtual network with VMs and load balancers</h6>
+<figure>
+<img src="images/Whiteboarddesignsessiontrainerguide-Optimizedarchitectureimages/media/image4.png" title="Azure infrastructure" alt="Azure infrastructure showing front end subnet and back end subnet." /><figcaption>Azure infrastructure showing front end subnet and back end subnet.</figcaption>
+</figure>
+<h6 id="tier-azure-web-app-architecture-with-message-queue">3-tier Azure Web App architecture with message queue</h6>
+<figure>
+<img src="images/Whiteboarddesignsessiontrainerguide-Optimizedarchitectureimages/media/image5.png" title="3-tier Azure Web App architecture with message queue" alt="The 3-tier Azure Web App architecture with message queue is split into two sections: Internet (with three user icons), and Azure, with everything else. The users on the internet side go through a Traffic Manager to the Azure App Service, with Web App Instances and Autoscale. This points to the Azure App Service / Back-end Tier, with Web API Instances and Autoscale. This points to Azure SQL Databases, and also shares a bi-directional arrow with Message Queue (Storage Queue or Service Bus Queue.) The Message Queue points to Web Job Instances with AutoScale, which completes the circle by pointing back to Web API Instances." /><figcaption>The 3-tier Azure Web App architecture with message queue is split into two sections: Internet (with three user icons), and Azure, with everything else. The users on the internet side go through a Traffic Manager to the Azure App Service, with Web App Instances and Autoscale. This points to the Azure App Service / Back-end Tier, with Web API Instances and Autoscale. This points to Azure SQL Databases, and also shares a bi-directional arrow with Message Queue (Storage Queue or Service Bus Queue.) The Message Queue points to Web Job Instances with AutoScale, which completes the circle by pointing back to Web API Instances.</figcaption>
+</figure>
+<h2 id="step-2-design-a-proof-of-concept-solution">Step 2: Design a proof of concept solution</h2>
+<p><strong>Outcome</strong></p>
+<p>Design a solution and prepare to present the solution to the target customer audience in a 15-minute chalk-talk format.</p>
+<p>Time frame: 60 minutes</p>
+<p><strong>Business needs</strong></p>
+<p>Directions: With all participants at your table, answer the following questions, and list the answers on a flip chart.</p>
+<ol type="1">
+<li><p>Who should you present this solution to? Who is your target customer audience? Who are the decision makers?</p></li>
+<li><p>What customer business needs do you need to address with your solution?</p></li>
+</ol>
+<p><strong>Design </strong></p>
+<p>Directions: With all participants at your table, respond to the following questions on a flip chart.</p>
+<p><strong>Two-phase solution</strong></p>
+<p><strong>Phase 1</strong></p>
+<p>Design the changes to the existing solution architecture using IaaS (Infrastructure as a Service) services to reduce and optimize the cost of Azure. Included in this phase should be a solution to make the SQL Server more robust. Identify the steps necessary to modify the architecture and what needs to be demonstrated to stakeholders.</p>
+<ul>
+<li><p>Database server</p>
+<ul>
+<li><p>Which Azure SQL Database hosting solution would you recommend?</p></li>
+<li><p>What is the recommended Azure Region to use for the SQL Database?</p></li>
+<li><p>What is the recommended Azure SQL Database pricing tier?</p></li>
+</ul></li>
+<li><p>Cost optimization</p>
+<ul>
+<li><p>What VM scaling solution is recommended?</p></li>
+<li><p>How do you determine the appropriate VM size for each tier?</p></li>
+<li><p>What are the recommended VM size and count to use for each application tier?</p></li>
+<li><p>What is the calculated cost and overall savings gained from this design?</p></li>
+<li><p>How do these optimizations reduce the total cost of server maintenance and operation?</p></li>
+</ul></li>
+<li><p>Migration</p>
+<ul>
+<li>What order or steps would you recommend taking when changing the architecture?</li>
+</ul></li>
+<li><p>Diagram the solution</p></li>
+</ul>
+<p><strong>Phase 2</strong></p>
+<p>Outline the changes necessary to transform the Phase 1 architecture design over to further optimizing Azure spend by using the Azure PaaS (Platform as a Service) services that fit the solution. Identify the steps necessary and what needs to be demonstrated to stakeholders to convince them of the viability of the final solution architecture design.</p>
+<ul>
+<li><p>Cost optimization</p>
+<ul>
+<li><p>What services would you recommend to further optimize the solution for lower total cost?</p></li>
+<li><p>How do you determine the appropriate App Service Plan to use?</p></li>
+<li><p>What are the recommended App Service Plans to use for each application tier?</p></li>
+<li><p>What is the calculated cost and overall savings gained from this design?</p></li>
+<li><p>How do these optimizations reduce the total cost of server maintenance and operation?</p></li>
+</ul></li>
+<li><p>Scalability</p>
+<ul>
+<li>What service should be used to ensure expected application performance is maintained when onboarding Lucerne employees?</li>
+</ul></li>
+<li><p>Migration</p>
+<ul>
+<li>What order or steps would you recommend taking when changing the architecture?</li>
+</ul></li>
+<li><p>Diagram the solution</p></li>
+</ul>
+<p><strong>Prepare</strong></p>
+<p>Directions: With all participants at your table:</p>
+<ol type="1">
+<li><p>Identify any customer needs that are not addressed with the proposed solution.</p></li>
+<li><p>Identify the benefits of your solution.</p></li>
+<li><p>Determine how you will respond to the customer’s objections.</p></li>
+<li><p>Prepare a 15-minute chalk-talk style presentation to the customer.</p></li>
+</ol>
+<h2 id="step-3-present-the-solution">Step 3: Present the solution</h2>
+<p><strong>Outcome</strong></p>
+<p>Present a solution to the target customer audience in a 15-minute chalk-talk format.</p>
+<p><strong>Presentation</strong></p>
+<p>Time frame: 30 minutes</p>
+<p><strong>Directions</strong></p>
+<ol type="1">
+<li><p>Pair with another table.</p></li>
+<li><p>One table is the Microsoft team and the other table is the customer.</p></li>
+<li><p>The Microsoft team presents their proposed solution to the customer.</p></li>
+<li><p>The customer makes one of the objections from the list of objections.</p></li>
+<li><p>The Microsoft team responds to the objection.</p></li>
+<li><p>The customer team gives feedback to the Microsoft team.</p></li>
+<li><p>Tables switch roles and repeat Steps 2–6.</p></li>
+</ol>
+<h2 id="wrap-up">Wrap-up</h2>
+<p>Time frame: 15 minutes</p>
+<ul>
+<li>Tables reconvene with the larger group to hear a SME share the preferred solution for the case study.</li>
+</ul>
+<h2 id="additional-references">Additional references</h2>
+<p><a href="https://azure.microsoft.com/en-us/documentation/services/virtual-machines/windows/">Windows Virtual Machines documentation</a></p>
+<p><a href="https://azure.microsoft.com/en-us/pricing/reserved-vm-instances/">Azure Reserved VM instances</a></p>
+<p><a href="https://azure.microsoft.com/en-us/pricing/details/virtual-machines/#Windows">Virtual Machine pricing</a></p>
+<p><a href="https://azure.microsoft.com/en-us/pricing/details/virtual-machine-scale-sets/">Virtual Machine Scale Sets pricing</a></p>
+<p><a href="https://azure.microsoft.com/en-us/documentation/articles/virtual-networks-overview/">Virtual Network overview</a></p>
+<p><a href="https://azure.microsoft.com/en-us/documentation/articles/virtual-networks-nsg/">Network security group (NSG) overview</a></p>
+<p><a href="https://azure.microsoft.com/en-us/documentation/articles/load-balancer-overview/">Load Balancer overview</a></p>
+<p><a href="https://azure.microsoft.com/en-us/documentation/articles/traffic-manager-overview/">Traffic Manager overview</a></p>
+<p><a href="https://azure.microsoft.com/en-us/documentation/articles/app-service-web-overview/">Web apps overview</a></p>
+<p><a href="https://azure.microsoft.com/en-us/documentation/articles/app-service-webjobs-readme/">Web jobs overview</a></p>
+<p><a href="https://azure.microsoft.com/en-us/documentation/articles/web-sites-scale/">Scale a Web App</a></p>
+<p><a href="https://azure.microsoft.com/en-us/documentation/articles/sql-database-technical-overview/">Introduction to Azure SQL database</a></p>
+<p><a href="https://azure.microsoft.com/en-us/documentation/articles/sql-database-benchmark-overview/">Azure SQL Database benchmark overview</a></p>
+<p><a href="https://azure.microsoft.com/en-us/pricing/details/sql-database/">Azure SQL Database pricing</a></p>
+<p><a href="https://azure.microsoft.com/en-us/pricing/calculator/channel/">Azure Channel Pricing calculator</a></p>
+<p><a href="https://azure.microsoft.com/en-us/pricing/calculator">Azure Pricing Calculator</a></p>
+<p><a href="http://dtucalculator.azurewebsites.net/">Azure SQL database DTU calculator</a></p>
+<h1 id="optimized-architecture-whiteboard-design-session-trainer-guide">Optimized architecture whiteboard design session trainer guide</h1>
+<h2 id="step-1-review-the-customer-case-study-1">Step 1: Review the customer case study</h2>
+<ul>
+<li><p>Check in with your table participants to introduce yourself as the trainer.</p></li>
+<li><p>Ask, “What questions do you have about the customer case study?”</p></li>
+<li><p>Briefly review the steps and time frames of the whiteboard design session.</p></li>
+<li><p>Ready, set, go! Let the table participants begin.</p></li>
+</ul>
+<h2 id="step-2-design-a-proof-of-concept-solution-1">Step 2: Design a proof of concept solution</h2>
+<ul>
+<li><p>Check in with your tables to ensure they are transitioning from step to step on time.</p></li>
+<li><p>Provide some feedback on their responses to the business needs and design.</p>
+<ul>
+<li>Try asking questions first that will lead the participants to discover the answers on their own.</li>
+</ul></li>
+<li><p>Provide feedback for their responses to the customer’s objections.</p>
+<ul>
+<li>Try asking questions first that will lead the participants to discover the answers on their own.</li>
+</ul></li>
+</ul>
+<h2 id="step-3-present-the-solution-1">Step 3: Present the solution</h2>
+<ul>
+<li><p>Determine which table will be paired with your table before Step 3 begins.</p></li>
+<li><p>For the first round, assign one table as the Microsoft team and the other table as the customer.</p></li>
+<li><p>Have the Microsoft team present their solution to the customer team.</p>
+<ul>
+<li><p>Have the customer team provide one objection for the Microsoft team to respond to.</p></li>
+<li><p>The presentation and objections should be no longer than 10-minutes.</p></li>
+</ul></li>
+<li><p>Have participants on the customer team give feedback to the Microsoft team.</p>
+<ul>
+<li><p>The feedback should be no longer than 5 minutes.</p></li>
+<li><p>If needed, the trainer may also provide feedback.</p></li>
+</ul></li>
+</ul>
+<h2 id="wrap-up-1">Wrap-up</h2>
+<ul>
+<li>Have the table participants reconvene with the larger session group to hear a SME share the following preferred solution.</li>
+</ul>
+<h2 id="preferred-target-audience">Preferred target audience</h2>
+<ul>
+<li><p>Jay Calvin, Chief Executive Officer</p></li>
+<li><p>Percy Bowman, Director of IT Operations</p></li>
+</ul>
+<h2 id="preferred-solution">Preferred solution</h2>
+<p><strong>Phase 1 design</strong></p>
+<p>The Phase 1 design remains centered on the use of Azure Infrastructure (IaaS) services to optimize the spending of the existing architecture. The Phase 1 design solution involves the following technologies and modifications:</p>
+<ul>
+<li><p>Implementing VM Scale Sets for the Font-end Web App and Back-end Web API application tiers.</p></li>
+<li><p>Resizing the VM Sizes used for each of the application tiers should be done to eliminate any over provisioning. Over provisioning wastes money by paying for resources that are not necessary.</p>
+<ul>
+<li><p>Resize the Front-end Web App Tier VMs to the <em>Standard F4</em> VM size.</p></li>
+<li><p>Resize the Back-end Web API Tier VMs to the <em>Standard F4</em> VM size.</p></li>
+<li><p>Resize the Back-end Processing Tier VMs to the <em>Standard F2</em> VM size.</p></li>
+</ul></li>
+<li><p>Migrating the SQL Database server to the <em>North Central US</em> region (same region the rest of the application resides.)</p></li>
+<li><p>Migrating the SQL Database VM to Azure SQL Database using the <em>Premium P4</em> pricing tier.</p></li>
+<li><p>Configure SQL Database Active Geo-Replication for added resiliency</p></li>
+</ul>
+<figure>
+<img src="images/Whiteboarddesignsessiontrainerguide-Optimizedarchitectureimages/media/image6.png" title="Preferred solution Phase 1 diagram" alt="Diagram of the previously described Preferred solution Phase 1." /><figcaption>Diagram of the previously described Preferred solution Phase 1.</figcaption>
+</figure>
+<p><strong>Phase 2 design</strong></p>
+<p>The Phase 2 design switches focus to using Azure Platform (PaaS) services as much as possible to further reduce overall spending.</p>
+<ul>
+<li><p>Migrating the Front-end Web App tier to use Azure Web Apps with the <em>Standard S3</em> App Service Plan</p></li>
+<li><p>Migrating the Back-end Web API tier to use Azure Web Apps with the <em>Standard S3</em> App Service Plan</p></li>
+<li><p>Migrating the Back-end Processing tier to use Azure Web Jobs with the <em>Standard S3</em> App Service Plan</p></li>
+<li><p>Implementing Autoscale for all three application tiers (Front-end Web App, Back-end Web API, and Back-end Processing)</p></li>
+<li><p>Implementing Traffic Manager in Geographic mode instead of the External Load Balancer</p></li>
+</ul>
+<figure>
+<img src="images/Whiteboarddesignsessiontrainerguide-Optimizedarchitectureimages/media/image7.png" title="Phase 2 preferred solution diagram" alt="Diagram of the previously described Preferred solution Phase 2." /><figcaption>Diagram of the previously described Preferred solution Phase 2.</figcaption>
+</figure>
+<p><strong>Total cost savings</strong></p>
+<p>There are many services involved in this architecture that incur Azure costs. The following table outlines the estimated spending and total savings for the Phase 1 and Phase 2 designs in regard to only the VMs, App Service Plans, and SQL Database:</p>
+<table>
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: left;">Monthly Cost</th>
+<th style="text-align: left;">Total Monthly Savings</th>
+<th style="text-align: left;">Total Yearly Savings</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Existing Solution</td>
+<td style="text-align: left;">$6,902</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+</tr>
+<tr class="even">
+<td>Phase 1 Design</td>
+<td style="text-align: left;">$3,510</td>
+<td style="text-align: left;">$3,392</td>
+<td style="text-align: left;">$40,704</td>
+</tr>
+<tr class="odd">
+<td>Phase 1 Design w/ Reserved Instances</td>
+<td style="text-align: left;">$2,980</td>
+<td style="text-align: left;">$3,922</td>
+<td style="text-align: left;">$47,064</td>
+</tr>
+<tr class="even">
+<td>Phase 2 Design</td>
+<td style="text-align: left;">$3,582</td>
+<td style="text-align: left;">$3,320</td>
+<td style="text-align: left;">$39,840</td>
+</tr>
+</tbody>
+</table>
+<h4 id="phase-1">Phase 1</h4>
+<p><strong>Database server</strong></p>
+<p><strong>Task:</strong> Which Azure SQL Database hosting solution would you recommend?</p>
+<p><strong>Answer:</strong> Azure SQL Database: The existing architecture is relying on a single VM to host the SQL Server database server. Implementing Azure SQL Database with Active Geo-Replication will deliver predictable performance, scalability with no downtime, business continuity, and data protection—all with near-zero administration.</p>
+<p>Note: The <em>Standard GS4</em> VM size the existing architecture is using in the West US region is not available in the <em>North Central US</em> region.</p>
+<p><strong>Task:</strong> What is the recommended Azure Region to use for the SQL Database?</p>
+<p><strong>Answer:</strong> North Central US: Transferring data between non-paired Azure regions incurs Egress/Outbound data transfer charges. Placing the database in the same Azure region as the rest of the application will eliminate these charges.</p>
+<p><strong>Task:</strong> What is the recommended Azure SQL Database pricing tier?</p>
+<p><strong>Answer:</strong> Premium P4: According to the estimated DTU requirements of the SQL Server database server it is the appropriate pricing tier.</p>
+<p><strong>Cost Optimization</strong></p>
+<p><strong>Task:</strong> What VM scaling solution is recommended?</p>
+<p><strong>Answer:</strong> VM Scale Sets: Implementing VM Scale Sets allows for the VMs supporting the workloads to be scaled in/out automatically.</p>
+<p><strong>Task:</strong> How do you determine the appropriate VM size for each tier?</p>
+<p><strong>Answer:</strong> Compare the VM CPU/RAM utilization of the existing architecture VM sizes to the list of available VM sizes within the Azure North Central US region and determine which VM sizes better fit the VM CPU/RAM utilization.</p>
+<p><strong>Task:</strong> What are the recommended VM size and count to use for each application tier?</p>
+<p><strong>Answer:</strong><br />
+Front-end Web App VMs: Standard F4 – three instances<br />
+Back-end Web API VMs: Standard F4 – two instances<br />
+Back-end Processing VMs: Standard F2 – two instances<br />
+SQL Server VM: None – it is migrated to Azure SQL Database service</p>
+<p><strong>Task:</strong> What is the calculated cost and overall savings gained from this design?</p>
+<p><strong>Answer:</strong></p>
+<p>The total estimated cost of the VMs with Reserved Instances and Azure SQL pricing tier is $2,980 (as opposed to $3,510 without reserved instances). This number does not consider the implementation of VM Scale Sets, so it is possible the actual cost will be somewhat lower. The calculated annual savings moving from the Existing Architecture to the Phase 1 design is $47,064.</p>
+<figure>
+<img src="images/Whiteboarddesignsessiontrainerguide-Optimizedarchitectureimages/media/image8.png" title="Pricing by Application Tier" alt="Screenshot of the Application Tier pricing, with the total annual savings, as previously described." /><figcaption>Screenshot of the Application Tier pricing, with the total annual savings, as previously described.</figcaption>
+</figure>
+<p>Below are the prices for the different VM and SQL Database instance tiers:</p>
+<ul>
+<li><p>VM - Standard F4 = $192 /mo.</p></li>
+<li><p>VM - Standard F2 = $95 /mo.</p></li>
+<li><p>SQL Database - Premium P4 = $1,830 /mo.</p></li>
+</ul>
+<p><strong>Task:</strong> How do these optimizations reduce the total cost of server maintenance and operation?</p>
+<p><strong>Answer:</strong></p>
+<ol type="1">
+<li><p>Eliminate overprovisioning: It eliminates the cost of paying for extra resources that are not being used.</p></li>
+<li><p>Lower manual operations: Implementing VM Scale Sets eliminates the need to perform any manual operations to scale in/out the VMs to meet application load.</p></li>
+</ol>
+<p><strong>Migration</strong></p>
+<p><strong>Task:</strong> What order or steps would you recommend taking when changing the architecture?</p>
+<p><strong>Answer:</strong> It is recommended to modify the architecture for each of the Application Tiers individually to reduce the risk of application downtime during the migration process. Here is a sample outline of recommended steps:</p>
+<ol type="1">
+<li><p>Migrate SQL Server database from VM into Azure SQL Database within Azure North Central US region</p>
+<ol type="a">
+<li><p>Determine appropriate Azure SQL Database pricing tier</p></li>
+<li><p>Setup Azure SQL Database with cloned database</p></li>
+<li><p>Switch application over to use new database</p></li>
+<li><p>Remove old SQL Server VM</p></li>
+</ol></li>
+<li><p>Setup geo-replication of the Azure SQL database to another Azure region</p></li>
+<li><p>Migrate Web API tier to use VM Scale Set instead of individual VMs</p>
+<ol type="a">
+<li><p>Determine appropriate VM size</p></li>
+<li><p>Setup new VM Scale Set</p></li>
+<li><p>Switch over Load Balancer to new VMs</p></li>
+<li><p>Remove old VMs</p></li>
+</ol></li>
+<li><p>Migrate Web App tier to use VM Scale Set instead of individual VMs</p>
+<ol type="a">
+<li><p>Determine appropriate VM size</p></li>
+<li><p>Setup new VM Scale Set</p></li>
+<li><p>Switch over Load Balancer to new VMs</p></li>
+<li><p>Remove old VMs</p></li>
+</ol></li>
+</ol>
+<h4 id="phase-2">Phase 2</h4>
+<p><strong>Cost optimization</strong></p>
+<p><strong>Task:</strong> What services would you recommend to further optimize the solution for lower total cost?</p>
+<p><strong>Answer:</strong> Traffic Manager and App Service (Web Apps and Web Jobs)</p>
+<p><strong>Task:</strong> How do you determine the appropriate App Service Plan to use?</p>
+<p><strong>Answer:</strong> Compare the VM CPU/RAM utilization of the existing architecture VM sizes to the list of App Service Plan tiers within the Azure North Central US region and determine which App Service Plan better fits the specific Application Tier workload. It also needs to consider the Instance Count to factor in the setup of Multiple VMs appropriately.</p>
+<p><strong>Task:</strong> What are the recommended App Service Plans to use for each application tier?</p>
+<p><strong>Answer:<br />
+</strong>Front-end Web App Tier: Standard S3 w/ three instances<br />
+Back-end Web API Tier: Standard S3 w/ three instances<br />
+Back-end Processing Tier: Standard S3 w/ one instance<br />
+SQL Database: No change from Phase 1 using Azure SQL Database service</p>
+<p><strong>Task:</strong> What is the calculated cost and overall savings gained from this design?</p>
+<p><strong>Answer:</strong> The total estimated cost of the App Service Plans and Azure SQL pricing tier is $3,582. This number does not consider the implementation of Azure Autoscale, so it is possible the actual cost will be somewhat lower. The calculated annual savings moving from the existing architecture to the Phase 2 design is $39,840.</p>
+<figure>
+<img src="images/Whiteboarddesignsessiontrainerguide-Optimizedarchitectureimages/media/image9.png" title="Pricing by Application Tier" alt="Screenshot of the Application Tier pricing, with the total annual savings, as previously described." /><figcaption>Screenshot of the Application Tier pricing, with the total annual savings, as previously described.</figcaption>
+</figure>
+<p>Below are the prices for the different VM and SQL database instance tiers:</p>
+<ul>
+<li><p>App Service Plan - Standard S3 = $292 /mo.</p></li>
+<li><p>SQL Database - Premium P4 = $1,830 /mo.</p></li>
+</ul>
+<p><strong>Task:</strong> How do these optimizations reduce the total cost of server maintenance and operation?</p>
+<p><strong>Answer:</strong> These are the two factors with this design that reduce the total cost:</p>
+<ol type="1">
+<li><p>Lower Maintenance: With implementing Azure App Service PaaS service there is no operating system or virtual machines to manage. It reduces the cost and workload on IT Operations staff.</p></li>
+<li><p>PaaS: The PaaS services in Azure offer lower pricing for similar server resources.</p></li>
+</ol>
+<p><strong>Scalability</strong></p>
+<p><strong>Task:</strong> What service should be used to ensure expected application performance is maintained when onboarding Lucerne employees?</p>
+<p><strong>Answer:</strong> Traffic Manager in Geographic mode with additional Web App in a European Azure region: Traffic Manager will ensure that the application is served up from the Azure region closest to the user. The additional Web App in a European Azure region will also help isolate the US and European user workload to different servers.</p>
+<p><strong>Migration</strong></p>
+<p><strong>Task:</strong> What order or steps would you recommend taking when changing the architecture?</p>
+<p><strong>Answer:</strong> It is recommended to modify the architecture for each of the application tiers individually to reduce the risk of application downtime during the migration process. Here is a sample outline of recommended steps:</p>
+<ol type="1">
+<li><p>Migrate Front-end Web App tier over to Azure Web Apps with Azure Autoscale</p>
+<ol type="a">
+<li><p>Determine the appropriate App Service Plan</p></li>
+<li><p>Setup the Azure Web App</p></li>
+<li><p>Configure Autoscale</p></li>
+</ol></li>
+<li><p>Replace the Internet Load Balancer with Traffic Manager in Geographic mode pointed to the Web App</p>
+<ol type="a">
+<li><p>Create Traffic Manager</p></li>
+<li><p>Set it up with Web App</p></li>
+<li><p>Swap out Load Balancer endpoint to use Traffic Manager</p></li>
+<li><p>Remove old Internet Load Balancer</p></li>
+</ol></li>
+<li><p>Migrate Back-end Processing over to Azure Web Jobs with Azure Autoscale</p>
+<ol type="a">
+<li><p>Determine the appropriate App Service Plan</p></li>
+<li><p>Setup the Azure Web Jobs</p></li>
+<li><p>Configure Autoscale</p></li>
+<li><p>Remove old VM Scale Set</p></li>
+</ol></li>
+<li><p>Migrate Back-end Web API over to Azure Web Apps with Azure Autoscale</p>
+<ol type="a">
+<li><p>Determine the appropriate App Service Plan</p></li>
+<li><p>Setup the Azure Web App</p></li>
+<li><p>Configure Autoscale</p></li>
+<li><p>Point Front-end Web App and Back-end Processing application tiers to new Azure Web App</p></li>
+<li><p>Remove old VM Scale Set and Internal Load Balancer</p></li>
+</ol></li>
+<li><p>Setup Front-end Web App duplicate in Azure North Europe Region</p>
+<ol type="a">
+<li><p>Create App Service Plan in Azure North Europe Region</p></li>
+<li><p>Setup the Azure Web App</p></li>
+<li><p>Configure Autoscale</p></li>
+<li><p>Add new region to Traffic Manager</p></li>
+</ol></li>
+</ol>
+<h2 id="checklist-of-preferred-objection-handling">Checklist of preferred objection handling</h2>
+<ol type="1">
+<li><p>Reducing the overall spending on Azure is great, but how will we ensure costs remain optimized?</p>
+<p><strong>Potential answer<br />
+</strong>The use of automation through Azure services like Autoscale will allow the specific pricing tiers and instance counts to be controlled in a manner that is immune to the user errors of manual processes. Every time a VM instance is scaled out/in it will be done the exact same way every time. Once the optimized pricing tiers and scaling configurations are set, they will remain that way until deliberately changes.</p>
+<p>Additionally, third-party tools like Cloud Cruiser (<a href="http://cloudcruiser.com" class="uri">http://cloudcruiser.com</a>) and Hanu Insights (<a href="http://hanuinsights.com" class="uri">http://hanuinsights.com</a>) can be used to monitor and forecast Azure spending over time.</p></li>
+<li><p>If we drastically change the overall architecture, will we be able to migrate it without taking it down for a week?</p>
+<blockquote>
+<p><strong>Potential answer</strong><br />
+Overall downtime can be minimized drastically with careful planning and a step-by-step phased approach to the migration. The basic idea is to migrate a single component of the workload at a time to minimize the risk of bringing down other components.</p>
+</blockquote></li>
+<li><p>Our operations team is new to the cloud and Microsoft Azure. While we are comfortable using the IaaS services, we are concerned that PaaS services will be difficult to monitor and maintain when mixed with IaaS services in our overall environment.</p>
+<blockquote>
+<p><strong>Potential answer</strong><br />
+Certainly, there are things an operations team needs to learn when adopting a technology, they are not very familiar with. Fortunately, with the Azure PaaS services, such as Azure App Service, there will be decrease in the amount of time and work necessary to maintain the application workload running in Azure. It will give the operations team more time to spend on other tasks.</p>
+</blockquote></li>
+<li><p>We are concerned that the system performance for the European users will not be as good as it needs to be. In the past we have had employees work while traveling and the system was slow for them.</p>
+<blockquote>
+<p><strong>Potential answer</strong><br />
+Implementing Traffic Manager in Geographic mode with a separate Web App instance located in the North Europe Azure Region allocates dedicated resources to handle load from the European users. It also puts the application geographically closer to them, which reduces network latency across the internet and will speed up load times.</p>
+</blockquote></li>
+<li><p>The VM sizes currently used appear to be more than we need, but how can we determine what the appropriate sizes should be?</p>
+<blockquote>
+<p><strong>Potential answer</strong><br />
+Determining the appropriate VM sizes can be done by comparing the current utilization percentages of the VMs in the existing architecture to the different VM size pricing tiers. This metric can be used to determine VM sizes for the different application tiers that more closely align with real workload demand.</p>
+</blockquote></li>
+<li><p>We have already purchased SQL Server and other product licenses. I am worried the savings from optimizing spending using Azure PaaS services will not be significant to be worth it.</p>
+<blockquote>
+<p><strong>Potential answer</strong><br />
+The reduces monthly spending on Azure services as well as the reduced workload on IT Operations staff is not just a one-time savings. It is a monthly savings that will be realized over the coming months, and even years. In addition to these compounded savings, the use of Azure PaaS services also completely eliminates the need to purchase any future SQL Service upgrades.</p>
+</blockquote></li>
+</ol>
+<h2 id="customer-quote-to-be-read-back-to-the-attendees-at-the-end">Customer quote (to be read back to the attendees at the end)</h2>
+<p>“We have realized some savings when we initially adopted Microsoft Azure, but with these proposed changes we are not only staying innovative; we are setting ourselves up to remain competitive on a technology level for years to come.”</p>
+<p>— Jay Calvin, Chief Executive Officer, Contoso Financial Inc.</p>
+</body>
+</html>
