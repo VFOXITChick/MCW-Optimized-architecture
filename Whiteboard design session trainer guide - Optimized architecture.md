@@ -580,25 +580,36 @@ Time frame: 15 minutes
 
 ##  Additional references
 
-[Windows Virtual Machines documentation](https://azure.microsoft.com/en-us/documentation/services/virtual-machines/windows/)
 
-[Azure Reserved VM instances](https://azure.microsoft.com/en-us/pricing/reserved-vm-instances/)
+| Topic   |      Link      |
+|----------|:-------------:|
+| Windows Virtual Machines documentation | [https://azure.microsoft.com/en-us/documentation/services/virtual-machines/windows/](https://azure.microsoft.com/en-us/documentation/services/virtual-machines/windows/)|
+| Azure Reserved VM instances| [https://azure.microsoft.com/en-us/pricing/reserved-vm-instances/](https://azure.microsoft.com/en-us/pricing/reserved-vm-instances/)|
+| Virtual Machine Pricing | [https://azure.microsoft.com/en-us/pricing/details/virtual-machines/#Windows](https://azure.microsoft.com/en-us/pricing/details/virtual-machines/#Windows)|
+|Virtual Machine Scale Sets pricing | [https://azure.microsoft.com/en-us/pricing/details/virtual-machine-scale-sets/](https://azure.microsoft.com/en-us/pricing/details/virtual-machine-scale-sets/) |
+|Virtual Network overview | [https://azure.microsoft.com/en-us/documentation/articles/virtual-networks-overview/](https://azure.microsoft.com/en-us/documentation/articles/virtual-networks-overview/)|
+|Network security group (NSG) overview | [https://azure.microsoft.com/en-us/documentation/articles/virtual-networks-nsg/](https://azure.microsoft.com/en-us/documentation/articles/virtual-networks-nsg/)|
+|Load Balancer overview |[https://azure.microsoft.com/en-us/documentation/articles/load-balancer-overview/](https://azure.microsoft.com/en-us/documentation/articles/load-balancer-overview/) |
+| Traffic Manager overview|[https://azure.microsoft.com/en-us/documentation/articles/traffic-manager-overview/](https://azure.microsoft.com/en-us/documentation/articles/traffic-manager-overview/) |
+| Web apps overview | [https://azure.microsoft.com/en-us/documentation/articles/app-service-web-overview/](https://azure.microsoft.com/en-us/documentation/articles/app-service-web-overview/)|
+| Web jobs overview | [https://azure.microsoft.com/en-us/documentation/articles/app-service-webjobs-readme/](https://azure.microsoft.com/en-us/documentation/articles/app-service-webjobs-readme/)|
+| | |
+| | |
+| | |
+| | |
+| | |
+| | |
+| | |
+| | |
+| | |
+| | |
 
-[Virtual Machine pricing](https://azure.microsoft.com/en-us/pricing/details/virtual-machines/#Windows)
 
-[Virtual Machine Scale Sets pricing](https://azure.microsoft.com/en-us/pricing/details/virtual-machine-scale-sets/)
 
-[Virtual Network overview](https://azure.microsoft.com/en-us/documentation/articles/virtual-networks-overview/)
 
-[Network security group (NSG) overview](https://azure.microsoft.com/en-us/documentation/articles/virtual-networks-nsg/)
 
-[Load Balancer overview](https://azure.microsoft.com/en-us/documentation/articles/load-balancer-overview/)
 
-[Traffic Manager overview](https://azure.microsoft.com/en-us/documentation/articles/traffic-manager-overview/)
 
-[Web apps overview](https://azure.microsoft.com/en-us/documentation/articles/app-service-web-overview/)
-
-[Web jobs overview](https://azure.microsoft.com/en-us/documentation/articles/app-service-webjobs-readme/)
 
 [Scale a Web App](https://azure.microsoft.com/en-us/documentation/articles/web-sites-scale/ )
 
