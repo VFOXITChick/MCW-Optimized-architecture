@@ -2,7 +2,11 @@
 
 # Optimized architecture
 
-## March 2018 Hands-on lab unguided
+## Hands-on lab unguided
+
+## March 2018 
+
+
 
 Information in this document, including URL and other Internet Web site references, is subject to change without notice. Unless otherwise noted, the example companies, organizations, products, domain names, e-mail addresses, logos, people, places, and events depicted herein are fictitious, and no association with any real company, organization, product, domain name, e-mail address, logo, person, place or event is intended or should be inferred. Complying with all applicable copyright laws is the responsibility of the user. Without limiting the rights under copyright, no part of this document may be reproduced, stored in or introduced into a retrieval system, or transmitted in any form or by any means (electronic, mechanical, photocopying, recording, or otherwise), or for any purpose, without the express written permission of Microsoft Corporation.
 
@@ -319,11 +323,13 @@ and estimate the total cost savings on a monthly and annual basis.
 
 #### Help references
 
-[Azure Pricing Calculator](https://azure.microsoft.com/en-us/pricing/calculator)
+|         |            |
+| ------------- |:-------------:|
+| Azure Pricing Calculator    | <https://azure.microsoft.com/en-us/pricing/calculator> |
+| Virtual Machines Pricing    | <https://azure.microsoft.com/en-us/pricing/details/virtual-machines/>  |
+| App Service Pricing | <https://azure.microsoft.com/en-us/pricing/details/app-service> |
 
-[Virtual Machines Pricing](https://azure.microsoft.com/en-us/pricing/details/virtual-machines/)
 
-[App Service Pricing](https://azure.microsoft.com/en-us/pricing/details/app-service)
 
 #### Scenario
 
@@ -451,9 +457,10 @@ Europe.
 
 #### Help references
 
-[Azure Load Balancer](https://azure.microsoft.com/en-us/services/load-balancer/)
-
-[Azure Traffic Manager](https://azure.microsoft.com/en-us/services/virtual-network)
+|         |            |
+| ------------- |:-------------:|
+| Azure Load Balancer    | <https://azure.microsoft.com/en-us/services/load-balancer/> |
+| Azure Traffic Manager   | <https://azure.microsoft.com/en-us/services/virtual-network>  |
 
 
 #### Task 1: Create Traffic Manager
@@ -485,11 +492,13 @@ Europe.
 ## Exercise 3: Setup API Tier in Azure App Service
 
 #### Help references
-[API Apps overview](https://docs.microsoft.com/en-us/azure/app-service-api/app-service-api-apps-why-best-platform)
 
-[Deploy an ASP.NET web app to Azure App Service, using Visual Studio](https://azure.microsoft.com/en-us/documentation/articles/web-sites-dotnet-get-started/)
+|         |            |
+| ------------- |:-------------:|
+| API Apps overview    | <https://docs.microsoft.com/en-us/azure/app-service-api/app-service-api-apps-why-best-platform> |
+| Deploy an ASP.NET web app to Azure App Service, using Visual Studio  | <https://azure.microsoft.com/en-us/documentation/articles/web-sites-dotnet-get-started/>  |
+| Configure web apps in Azure App Service  | <https://azure.microsoft.com/en-us/documentation/articles/web-sites-configure/>  |
 
-[Configure web apps in Azure App Service](https://azure.microsoft.com/en-us/documentation/articles/web-sites-configure/)
 
 #### Task 1: Create App Service for Web API Tier
 
@@ -533,11 +542,12 @@ displays.](images/Hands-onlabunguided-Optimizedarchitectureimages/media/image20.
 
 #### Help references
 
-[Azure Web Apps overview](https://azure.microsoft.com/en-us/documentation/articles/app-service-web-overview/)
+|         |            |
+| ------------- |:-------------:|
+| Azure Web Apps overview  | <https://docs.microsoft.com/en-us/azure/app-service-api/app-service-api-apps-why-best-platform> |
+| Deploy an ASP.NET web app to Azure App Service, using Visual Studio  | <https://azure.microsoft.com/en-us/documentation/articles/web-sites-dotnet-get-started/>  |
+| Configure web apps in Azure App Service  | <https://azure.microsoft.com/en-us/documentation/articles/web-sites-configure/>  |
 
-[Deploy an ASP.NET web app to Azure App Service, using Visual Studio](https://azure.microsoft.com/en-us/documentation/articles/web-sites-dotnet-get-started/)
-
-[Configure web apps in Azure App Service](https://azure.microsoft.com/en-us/documentation/articles/web-sites-configure/)
 
 #### Task 1: Create App Service for Web App Tier
 
@@ -614,11 +624,12 @@ displays.](images/Hands-onlabunguided-Optimizedarchitectureimages/media/image21.
 
 #### Help references
 
-[Using WebJobs in Azure App Service](https://azure.microsoft.com/en-us/documentation/articles/app-service-webjobs-readme/>)
+|         |            |
+| ------------- |:-------------:|
+| Using WebJobs in Azure App Service  | <https://azure.microsoft.com/en-us/documentation/articles/app-service-webjobs-readme/> |
+| Run Background tasks with WebJobs  | <https://azure.microsoft.com/en-us/documentation/articles/web-sites-create-web-jobs/>  |
+| Configure web apps in Azure App Service  | <https://azure.microsoft.com/en-us/documentation/articles/web-sites-configure/>  |
 
-[Run Background tasks with WebJobs](https://azure.microsoft.com/en-us/documentation/articles/web-sites-create-web-jobs/)
-
-[Configure web apps in Azure App Service](https://azure.microsoft.com/en-us/documentation/articles/web-sites-configure/)
 
 #### Task 1: Create App Service for Background Tier
 
@@ -677,9 +688,10 @@ displays.](images/Hands-onlabunguided-Optimizedarchitectureimages/media/image21.
 
 #### Help references
 
-[Introduction to SQL Database](https://azure.microsoft.com/en-us/documentation/articles/sql-database-technical-overview/)
-
-[SQL Database Active Geo-Replication](https://azure.microsoft.com/en-us/documentation/articles/sql-database-geo-replication-overview/)
+|         |            |
+| ------------- |:-------------:|
+| Introduction to SQL Database  | <https://azure.microsoft.com/en-us/documentation/articles/sql-database-technical-overview/> |
+| SQL Database Active Geo-Replication  | <https://azure.microsoft.com/en-us/documentation/articles/sql-database-geo-replication-overview/>  |
 
 
 #### Task 1: Setup SQL Database Geo-Replication
@@ -710,6 +722,15 @@ displays.](images/Hands-onlabunguided-Optimizedarchitectureimages/media/image21.
 
 
 ## Exercise 8: Setup European Web App Tier Instance
+
+#### Help references
+
+|         |            |
+| ------------- |:-------------:|
+| Azure Web Apps overview | <https://azure.microsoft.com/en-us/documentation/articles/app-service-web-overview/> |
+| Deploy an ASP.NET web app to Azure App Service, using Visual Studio  | <https://azure.microsoft.com/en-us/documentation/articles/web-sites-dotnet-get-started/>  |
+| Configure web apps in Azure App Service  | <https://azure.microsoft.com/en-us/documentation/articles/web-sites-configure/>  |
+
 
 #### Task 1: Create European App Service
 

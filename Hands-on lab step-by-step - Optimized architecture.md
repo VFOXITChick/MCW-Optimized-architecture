@@ -330,11 +330,11 @@ and estimate the total cost savings on a monthly and annual basis.
 
 #### Help references
  
-[Azure Pricing Calculator](https://azure.microsoft.com/en-us/pricing/calculator)
-
-[Virtual Machines Pricing](https://azure.microsoft.com/en-us/pricing/details/virtual-machines/)
-
-[App Service Pricing](https://azure.microsoft.com/en-us/pricing/details/app-service)
+|         |            |
+| ------------- |:-------------:|
+| Azure Pricing Calculator    | <https://azure.microsoft.com/en-us/pricing/calculator> |
+| Virtual Machines Pricing    | <https://azure.microsoft.com/en-us/pricing/details/virtual-machines/>  |
+| App Service Pricing         | <https://azure.microsoft.com/en-us/pricing/details/app-service> |
 
 #### Scenario
 
@@ -805,9 +805,10 @@ Europe.
 
 #### Help references
 
-[Azure Load Balancer](https://azure.microsoft.com/en-us/services/load-balancer/)
-
-[Azure Traffic Manager](https://azure.microsoft.com/en-us/services/virtual-network)
+|         |            |
+| ------------- |:-------------:|
+| Azure Load Balancer    | <https://azure.microsoft.com/en-us/services/load-balancer/> |
+| Azure Traffic Manager   | <https://azure.microsoft.com/en-us/services/virtual-network>  |
 
 
 
@@ -925,11 +926,12 @@ without requiring any code changes to the application.
 
 #### Help references
 
-[API Apps overview](https://docs.microsoft.com/en-us/azure/app-service-api/app-service-api-apps-why-best-platform)
+|         |            |
+| ------------- |:-------------:|
+| API Apps overview    | <https://docs.microsoft.com/en-us/azure/app-service-api/app-service-api-apps-why-best-platform> |
+| Deploy an ASP.NET web app to Azure App Service, using Visual Studio  | <https://azure.microsoft.com/en-us/documentation/articles/web-sites-dotnet-get-started/>  |
+| Configure web apps in Azure App Service  | <https://azure.microsoft.com/en-us/documentation/articles/web-sites-configure/>  |
 
-[Deploy an ASP.NET web app to Azure App Service, using Visual Studio](https://azure.microsoft.com/en-us/documentation/articles/web-sites-dotnet-get-started/)
-
-[Configure web apps in Azure App Service](https://azure.microsoft.com/en-us/documentation/articles/web-sites-configure/)
 
 
 #### Step 1: Create App Service for Web API Tier
@@ -1092,11 +1094,11 @@ Service Web App without requiring any code changes to the application.
 
 #### Help references
 
-[Azure Web Apps overview](https://azure.microsoft.com/en-us/documentation/articles/app-service-web-overview/)
-
-[Deploy an ASP.NET web app to Azure App Service, using Visual Studio](https://azure.microsoft.com/en-us/documentation/articles/web-sites-dotnet-get-started/)
-
-[Configure web apps in Azure App Service](https://azure.microsoft.com/en-us/documentation/articles/web-sites-configure/)
+|         |            |
+| ------------- |:-------------:|
+| Azure Web Apps overview  | <https://docs.microsoft.com/en-us/azure/app-service-api/app-service-api-apps-why-best-platform> |
+| Deploy an ASP.NET web app to Azure App Service, using Visual Studio  | <https://azure.microsoft.com/en-us/documentation/articles/web-sites-dotnet-get-started/>  |
+| Configure web apps in Azure App Service  | <https://azure.microsoft.com/en-us/documentation/articles/web-sites-configure/>  |
 
 
 
@@ -1368,11 +1370,12 @@ to the application.
 
 #### Help references
 
-[Using WebJobs in Azure App Service](https://azure.microsoft.com/en-us/documentation/articles/app-service-webjobs-readme/>)
+|         |            |
+| ------------- |:-------------:|
+| Using WebJobs in Azure App Service  | <https://azure.microsoft.com/en-us/documentation/articles/app-service-webjobs-readme/> |
+| Run Background tasks with WebJobs  | <https://azure.microsoft.com/en-us/documentation/articles/web-sites-create-web-jobs/>  |
+| Configure web apps in Azure App Service  | <https://azure.microsoft.com/en-us/documentation/articles/web-sites-configure/>  |
 
-[Run Background tasks with WebJobs](https://azure.microsoft.com/en-us/documentation/articles/web-sites-create-web-jobs/)
-
-[Configure web apps in Azure App Service](https://azure.microsoft.com/en-us/documentation/articles/web-sites-configure/)
 
 
 #### Step 1: Create App Service for Background Tier
@@ -1668,9 +1671,10 @@ failure.
 
 #### Help references
 
-[Introduction to SQL Database](https://azure.microsoft.com/en-us/documentation/articles/sql-database-technical-overview/)
-
-[SQL Database Active Geo-Replication](https://azure.microsoft.com/en-us/documentation/articles/sql-database-geo-replication-overview/)
+|         |            |
+| ------------- |:-------------:|
+| Introduction to SQL Database  | <https://azure.microsoft.com/en-us/documentation/articles/sql-database-technical-overview/> |
+| SQL Database Active Geo-Replication  | <https://azure.microsoft.com/en-us/documentation/articles/sql-database-geo-replication-overview/>  |
 
 
 #### Step 1: Setup SQL Database Geo-Replication
@@ -1828,14 +1832,11 @@ Europe region.
 
 #### Help references
 
-[Azure Web Apps overview](https://azure.microsoft.com/en-us/documentation/articles/app-service-web-overview/)
-
-
-[Deploy an ASP.NET web app to Azure App Service, using Visual Studio](https://azure.microsoft.com/en-us/documentation/articles/web-sites-dotnet-get-started/)
-
-
-[Configure web apps in Azure App Service](https://azure.microsoft.com/en-us/documentation/articles/web-sites-configure/)
-
+|         |            |
+| ------------- |:-------------:|
+| Azure Web Apps overview | <https://azure.microsoft.com/en-us/documentation/articles/app-service-web-overview/> |
+| Deploy an ASP.NET web app to Azure App Service, using Visual Studio  | <https://azure.microsoft.com/en-us/documentation/articles/web-sites-dotnet-get-started/>  |
+| Configure web apps in Azure App Service  | <https://azure.microsoft.com/en-us/documentation/articles/web-sites-configure/>  |
 
 
 #### Step 1: Create European App Service

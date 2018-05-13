@@ -446,37 +446,23 @@ Time frame: 15 minutes
 
 ##  Additional references
 
-[Windows Virtual Machines documentation](https://azure.microsoft.com/en-us/documentation/services/virtual-machines/windows/)
-
-[Azure Reserved VM instances](https://azure.microsoft.com/en-us/pricing/reserved-vm-instances/)
-
-[Virtual Machine pricing](https://azure.microsoft.com/en-us/pricing/details/virtual-machines/#Windows)
-
-[Virtual Machine Scale Sets pricing](https://azure.microsoft.com/en-us/pricing/details/virtual-machine-scale-sets/)
-
-[Virtual Network overview](https://azure.microsoft.com/en-us/documentation/articles/virtual-networks-overview/)
-
-[Network security group (NSG) overview](https://azure.microsoft.com/en-us/documentation/articles/virtual-networks-nsg/)
-
-[Load Balancer overview](https://azure.microsoft.com/en-us/documentation/articles/load-balancer-overview/)
-
-[Traffic Manager overview](https://azure.microsoft.com/en-us/documentation/articles/traffic-manager-overview/)
-
-[Web apps overview](https://azure.microsoft.com/en-us/documentation/articles/app-service-web-overview/)
-
-[Web jobs overview](https://azure.microsoft.com/en-us/documentation/articles/app-service-webjobs-readme/)
-
-[Scale a Web App](https://azure.microsoft.com/en-us/documentation/articles/web-sites-scale/ )
-
-[Introduction to Azure SQL database](https://azure.microsoft.com/en-us/documentation/articles/sql-database-technical-overview/)
-
-[Azure SQL Database benchmark overview](https://azure.microsoft.com/en-us/documentation/articles/sql-database-benchmark-overview/)
-
-[Azure SQL Database pricing](https://azure.microsoft.com/en-us/pricing/details/sql-database/)
-
-[Azure Channel Pricing calculator](https://azure.microsoft.com/en-us/pricing/calculator/channel/)
-
-[Azure Pricing Calculator](https://azure.microsoft.com/en-us/pricing/calculator)
-	  
-[Azure SQL database DTU calculator](http://dtucalculator.azurewebsites.net/ )		
+|    |            |
+|----------|:-------------:|
+| Windows Virtual Machines documentation | <https://azure.microsoft.com/en-us/documentation/services/virtual-machines/windows/> |
+| Azure Reserved VM instances| <https://azure.microsoft.com/en-us/pricing/reserved-vm-instances/> |
+| Virtual Machine Pricing | <https://azure.microsoft.com/en-us/pricing/details/virtual-machines/#Windows> |
+| Virtual Machine Scale Sets pricing | <https://azure.microsoft.com/en-us/pricing/details/virtual-machine-scale-sets/> |
+| Virtual Network overview | <https://azure.microsoft.com/en-us/documentation/articles/virtual-networks-overview/>|
+| Network security group (NSG) overview | <https://azure.microsoft.com/en-us/documentation/articles/virtual-networks-nsg>|
+| Load Balancer overview | <https://azure.microsoft.com/en-us/documentation/articles/load-balancer-overview/>|
+| Traffic Manager overview| <https://azure.microsoft.com/en-us/documentation/articles/traffic-manager-overview/>|
+| Web apps overview | <https://azure.microsoft.com/en-us/documentation/articles/app-service-web-overview/>|
+| Web jobs overview | <https://azure.microsoft.com/en-us/documentation/articles/app-service-webjobs-readme/>|
+| Scale a Web App | <https://azure.microsoft.com/en-us/documentation/articles/web-sites-scale/> |
+| Introduction to Azure SQL database | <https://azure.microsoft.com/en-us/documentation/articles/sql-database-technical-overview/> |
+| Azure SQL Database benchmark overview | <https://azure.microsoft.com/en-us/documentation/articles/sql-database-benchmark-overview/> |
+| Azure SQL Database pricing | <https://azure.microsoft.com/en-us/pricing/details/sql-database/> |
+| Azure Channel Pricing calculator | <https://azure.microsoft.com/en-us/pricing/calculator/channel/> |
+| Azure Pricing Calculator | <https://azure.microsoft.com/en-us/pricing/calculator>|
+| Azure SQL database DTU calculator| <http://dtucalculator.azurewebsites.net/> |
 	
