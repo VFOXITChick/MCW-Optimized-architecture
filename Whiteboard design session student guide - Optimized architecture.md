@@ -1,5 +1,5 @@
 
-![Microsoft Cloud Workshops Header](images/HeaderPic.png "Microsoft Cloud Workshops")
+![](images/HeaderPic.png "Microsoft Cloud Workshops")
 
 # Optimized architecture
 
@@ -19,7 +19,7 @@ Microsoft and the trademarks listed at https://www.microsoft.com/en-us/legal/int
 
 ## Contents
 
--   [Optimized architecture whiteboard design session student guide](#optimized-architecture-whiteboard-design-session-student-guide)
+-   **[Optimized architecture whiteboard design session student guide](#optimized-architecture-whiteboard-design-session-student-guide)**
     -   [Abstract and learning objectives](#abstract-and-learning-objectives)
     -   [Step 1: Review the customer case study](#step-1-review-the-customer-case-study)
         -   [Facilitator/subject matter expert (SME) presentation of customer case study](#facilitatorsubject-matter-expert-sme-presentation-of-customer-case-study)
@@ -53,25 +53,23 @@ Attendees will learn how to:
 
 -   Configure multi-region deployment
 
+
 ## Step 1: Review the customer case study 
 
 **Outcome**
 
-Analyze your customer's needs.
+Analyze your customer’s needs.
 
-#### Facilitator/subject matter expert (SME) presentation of customer case study 
+Timeframe: 15 minutes 
 
-Time frame: 15 minutes
-
-Directions: With all participants in the session, the facilitator/SME
-presents an overview of the customer case study along with technical
-tips.
+Directions: With all participants in the session, the facilitator/SME presents an overview of the customer case study along with technical tips. 
 
 1.  Meet your table participants and trainer.
 
-2.  Read all the directions for Steps 1--3 in the Student guide.
+2.  Read all the directions for Steps 1--3 in the student guide.
 
 3.  As a table team, review the following customer case study.
+
 
 
 
@@ -320,12 +318,11 @@ questions, and list the answers on a flip chart.
 
 **Design**
 
-Directions: With all participants at your table, respond to the
-following questions on a flip chart.
+Directions: With all participants at your table, respond to the following questions on a flip chart.
 
 **Two-phase solution**
 
-**Phase 1**
+_Phase 1_
 
 Design the changes to the existing solution architecture using IaaS
 (Infrastructure as a Service) services to reduce and optimize the cost
@@ -364,7 +361,7 @@ architecture and what needs to be demonstrated to stakeholders.
 
 -   Diagram the solution
 
-**Phase 2**
+_Phase 2_
 
 Outline the changes necessary to transform the Phase 1 architecture
 design over to further optimizing Azure spend by using the Azure PaaS
@@ -405,8 +402,7 @@ design.
 
 Directions: With all participants at your table:
 
-1.  Identify any customer needs that are not addressed with the proposed
-    > solution.
+1.  Identify any customer needs that are not addressed with the proposed solution.
 
 2.  Identify the benefits of your solution.
 
@@ -418,12 +414,11 @@ Prepare a 15-minute chalk-talk style presentation to the customer.
 
 **Outcome**
 
-Present a solution to the target customer audience in a 15-minute
-chalk-talk format.
+Present a solution to the target customer audience in a 15-minute chalk-talk format.
 
 **Presentation**
 
-Timeframe: 30 minutes
+Time frame: 30 minutes
 
 **Directions**
 
