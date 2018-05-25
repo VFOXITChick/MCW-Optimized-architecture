@@ -19,19 +19,26 @@ Microsoft and the trademarks listed at https://www.microsoft.com/en-us/legal/int
 
 ## Contents
 
--   **[Optimized architecture whiteboard design session student guide](#optimized-architecture-whiteboard-design-session-student-guide)**
-    -   [Abstract and learning objectives](#abstract-and-learning-objectives)
-    -   [Step 1: Review the customer case study](#step-1-review-the-customer-case-study)
-        -   [Facilitator/subject matter expert (SME) presentation of customer case study](#facilitatorsubject-matter-expert-sme-presentation-of-customer-case-study)
-        -   [Customer situation](#customer-situation)
-        -   [Customer needs ](#customer-needs)
-        -   [Customer objections ](#customer-objections)
-        -   [Infographic for common scenarios](#infographic-for-common-scenarios)
-    -   [Step 2: Design a proof of concept solution](#step-2-design-a-proof-of-concept-solution)
-    -   [Step 3: Present the solution](#step-3-present-the-solution)
-    -   [Wrap-up](#wrap-up)
-    -   [Additional references](#additional-references)
+<!-- TOC -->
 
+- [Optimized architecture](#optimized-architecture)
+    - [Whiteboard design session student guide](#whiteboard-design-session-student-guide)
+    - [March 2018](#march-2018)
+    - [Contents](#contents)
+    - [Abstract and learning objectives](#abstract-and-learning-objectives)
+    - [Step 1: Review the customer case study](#step-1--review-the-customer-case-study)
+            - [Customer situation](#customer-situation)
+            - [Customer needs](#customer-needs)
+            - [Customer objections](#customer-objections)
+            - [Infographic for common scenarios](#infographic-for-common-scenarios)
+                    - [Azure virtual network with VMs and load balancers](#azure-virtual-network-with-vms-and-load-balancers)
+                    - [3-tier Azure Web App architecture with message queue](#3-tier-azure-web-app-architecture-with-message-queue)
+    - [Step 2: Design a proof of concept solution](#step-2--design-a-proof-of-concept-solution)
+    - [Step 3: Present the solution](#step-3--present-the-solution)
+    - [Wrap-up](#wrap-up)
+    - [Additional references](#additional-references)
+
+<!-- /TOC -->
 
 ## Abstract and learning objectives 
 
