@@ -1,11 +1,17 @@
 
 ![](images/HeaderPic.png "Microsoft Cloud Workshops")
 
-# Optimized architecture
+<div class="MCWHeader1">
+Optimized architecture
+</div>
 
-## Whiteboard design session student guide
+<div class="MCWHeader2">
+Whiteboard design session student guide
+</div>
 
-## March 2018
+<div class="MCWHeader3">
+March 2018 
+</div>
 
 Information in this document, including URL and other Internet Web site references, is subject to change without notice. Unless otherwise noted, the example companies, organizations, products, domain names, e-mail addresses, logos, people, places, and events depicted herein are fictitious, and no association with any real company, organization, product, domain name, e-mail address, logo, person, place or event is intended or should be inferred. Complying with all applicable copyright laws is the responsibility of the user. Without limiting the rights under copyright, no part of this document may be reproduced, stored in or introduced into a retrieval system, or transmitted in any form or by any means (electronic, mechanical, photocopying, recording, or otherwise), or for any purpose, without the express written permission of Microsoft Corporation.
 
@@ -17,26 +23,20 @@ The names of manufacturers, products, or URLs are provided for informational pur
 Microsoft and the trademarks listed at https://www.microsoft.com/en-us/legal/intellectualproperty/Trademarks/Usage/General.aspx are trademarks of the Microsoft group of companies. All other trademarks are property of their respective owners.
 
 
-## Contents
+**Contents**
 
 <!-- TOC -->
 
-- [Optimized architecture](#optimized-architecture)
-    - [Whiteboard design session student guide](#whiteboard-design-session-student-guide)
-    - [March 2018](#march-2018)
-    - [Contents](#contents)
-    - [Abstract and learning objectives](#abstract-and-learning-objectives)
-    - [Step 1: Review the customer case study](#step-1--review-the-customer-case-study)
-            - [Customer situation](#customer-situation)
-            - [Customer needs](#customer-needs)
-            - [Customer objections](#customer-objections)
-            - [Infographic for common scenarios](#infographic-for-common-scenarios)
-                    - [Azure virtual network with VMs and load balancers](#azure-virtual-network-with-vms-and-load-balancers)
-                    - [3-tier Azure Web App architecture with message queue](#3-tier-azure-web-app-architecture-with-message-queue)
-    - [Step 2: Design a proof of concept solution](#step-2--design-a-proof-of-concept-solution)
-    - [Step 3: Present the solution](#step-3--present-the-solution)
-    - [Wrap-up](#wrap-up)
-    - [Additional references](#additional-references)
+- [Abstract and learning objectives](#abstract-and-learning-objectives)
+- [Step 1: Review the customer case study](#step-1-review-the-customer-case-study)
+    - [Customer situation](#customer-situation)
+    - [Customer needs](#customer-needs)
+    - [Customer objections](#customer-objections)
+    - [Infographic for common scenarios](#infographic-for-common-scenarios)
+- [Step 2: Design a proof of concept solution](#step-2-design-a-proof-of-concept-solution)
+- [Step 3: Present the solution](#step-3-present-the-solution)
+- [Wrap-up](#wrap-up)
+- [Additional references](#additional-references)
 
 <!-- /TOC -->
 
@@ -80,7 +80,7 @@ Directions: With all participants in the session, the facilitator/SME presents a
 
 
 
-#### Customer situation
+### Customer situation
 
 Contoso Financial Inc. is one of the fastest
 growing financial organizations in the United States. With its corporate
@@ -228,7 +228,7 @@ database requires about 400 DTUs. I am really not sure what a DTU is,
 but I know Azure SQL Databases use that for billing."
 
 
-#### Customer needs 
+### Customer needs 
 
 1.  Design a two-phase approach to the process of migrating Azure
     resources towards the goal of optimized spending.
@@ -259,7 +259,7 @@ but I know Azure SQL Databases use that for billing."
 
  
 
-#### Customer objections 
+### Customer objections 
 
 1.  Reducing the overall spending on Azure is great, but how will we
     ensure costs remain optimized?
@@ -283,14 +283,14 @@ but I know Azure SQL Databases use that for billing."
     am worried the savings from optimizing spending using Azure PaaS
     services will not be significant to be worth it.
 
-#### Infographic for common scenarios
+### Infographic for common scenarios
 
-###### Azure virtual network with VMs and load balancers
+Azure virtual network with VMs and load balancers
 
 ![Azure infrastructure showing front end subnet and back end
 subnet.](images/Whiteboarddesignsessionstudentguide-Optimizedarchitectureimages/media/image4.png "Azure infrastructure")
 
-###### 3-tier Azure Web App architecture with message queue
+3-tier Azure Web App architecture with message queue
 
 ![The 3-tier Azure Web App architecture with message queue is split into
 two sections: Internet (with three user icons), and Azure, with
@@ -455,6 +455,7 @@ Time frame: 15 minutes
 
 |    |            |
 |----------|:-------------:|
+| **Description** | **Links** |
 | Windows Virtual Machines documentation | <https://azure.microsoft.com/en-us/documentation/services/virtual-machines/windows/> |
 | Azure Reserved VM instances| <https://azure.microsoft.com/en-us/pricing/reserved-vm-instances/> |
 | Virtual Machine Pricing | <https://azure.microsoft.com/en-us/pricing/details/virtual-machines/#Windows> |

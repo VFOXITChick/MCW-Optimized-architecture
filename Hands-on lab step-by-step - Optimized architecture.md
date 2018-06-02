@@ -1,10 +1,17 @@
 ![](images/HeaderPic.png "Microsoft Cloud Workshops")
 
-# Optimized architecture
+<div class="MCWHeader1">
+Optimized architecture
+</div>
 
-## Hands-on lab step-by-step
+<div class="MCWHeader2">
+Hands-on lab step-by-step
+</div>
 
-## March 2018
+<div class="MCWHeader3">
+March 2018 
+</div>
+
 
 Information in this document, including URL and other Internet Web site references, is subject to change without notice. Unless otherwise noted, the example companies, organizations, products, domain names, e-mail addresses, logos, people, places, and events depicted herein are fictitious, and no association with any real company, organization, product, domain name, e-mail address, logo, person, place or event is intended or should be inferred. Complying with all applicable copyright laws is the responsibility of the user. Without limiting the rights under copyright, no part of this document may be reproduced, stored in or introduced into a retrieval system, or transmitted in any form or by any means (electronic, mechanical, photocopying, recording, or otherwise), or for any purpose, without the express written permission of Microsoft Corporation.
 
@@ -16,72 +23,62 @@ The names of manufacturers, products, or URLs are provided for informational pur
 Microsoft and the trademarks listed at https://www.microsoft.com/en-us/legal/intellectualproperty/Trademarks/Usage/General.aspx are trademarks of the Microsoft group of companies. All other trademarks are property of their respective owners.
 
 
-## Contents 
+**Contents**
 
 <!-- TOC -->
 
-- [Optimized architecture](#optimized-architecture)
-    - [Hands-on lab step-by-step](#hands-on-lab-step-by-step)
-    - [March 2018](#march-2018)
-    - [Contents](#contents)
-    - [Abstract and learning objectives](#abstract-and-learning-objectives)
-    - [Overview](#overview)
-    - [Solution architecture](#solution-architecture)
-    - [Requirements](#requirements)
-    - [Before the hands-on lab](#before-the-hands-on-lab)
-            - [Task 1: Create a virtual machine for your lab environment](#task-1--create-a-virtual-machine-for-your-lab-environment)
-            - [Task 2: Disable IE Enhanced Security](#task-2--disable-ie-enhanced-security)
-            - [Task 3: Download the Sample App Files](#task-3--download-the-sample-app-files)
-            - [Task 4: Deploy Sample App and "Existing" environment](#task-4--deploy-sample-app-and-existing-environment)
-    - [Exercise 1: Determine Appropriate App Service Tiers and Estimate Cost Savings](#exercise-1--determine-appropriate-app-service-tiers-and-estimate-cost-savings)
-            - [Help references](#help-references)
-            - [Scenario](#scenario)
-            - [Task 1: Calculate Estimated Hosting Cost of Existing Solution](#task-1--calculate-estimated-hosting-cost-of-existing-solution)
-            - [Task 2: Calculate Estimated Hosting Cost of VMs with Reserved instances](#task-2--calculate-estimated-hosting-cost-of-vms-with-reserved-instances)
-            - [Task 3: Estimate Necessary App Service Tiers](#task-3--estimate-necessary-app-service-tiers)
-                - [Subtask 1: Find Existing VM Instance Size Specifications (CPU Cores and RAM)](#subtask-1--find-existing-vm-instance-size-specifications-cpu-cores-and-ram)
-                - [Subtask 2: Calculate Web App Tier VM Utilization](#subtask-2--calculate-web-app-tier-vm-utilization)
-                - [Subtask 3: Calculate API Tier VM Utilization](#subtask-3--calculate-api-tier-vm-utilization)
-                - [Subtask 4: Calculate Background Tier VM Utilization](#subtask-4--calculate-background-tier-vm-utilization)
-                - [Subtask 5: Identify Appropriate App Service Tier](#subtask-5--identify-appropriate-app-service-tier)
-            - [Task 4: Calculate Estimated Hosting Cost of Azure App Service](#task-4--calculate-estimated-hosting-cost-of-azure-app-service)
-            - [Task 5: Calculate Estimated Cost Savings](#task-5--calculate-estimated-cost-savings)
-    - [Exercise 2: Integrate Traffic Manager](#exercise-2--integrate-traffic-manager)
-            - [Help references](#help-references)
-            - [Task 1: Create Traffic Manager](#task-1--create-traffic-manager)
-            - [Task 2: Point Traffic Manager to External / Internet Load Balancer](#task-2--point-traffic-manager-to-external---internet-load-balancer)
-    - [Exercise 3: Setup API Tier in Azure App Service](#exercise-3--setup-api-tier-in-azure-app-service)
-            - [Help references](#help-references)
-            - [Step 1: Create App Service for Web API Tier](#step-1--create-app-service-for-web-api-tier)
-            - [Step 2: Setup App Settings](#step-2--setup-app-settings)
-            - [Step 3: Deploy API to App Service](#step-3--deploy-api-to-app-service)
-    - [Exercise 4: Migrate Web App Tier to App Service](#exercise-4--migrate-web-app-tier-to-app-service)
-            - [Help references](#help-references)
-            - [Step 1: Create App Service for Web App Tier](#step-1--create-app-service-for-web-app-tier)
-            - [Step 2: Setup App Settings](#step-2--setup-app-settings)
-            - [Step 3: Deploy App to Web App](#step-3--deploy-app-to-web-app)
-            - [Step 4: Add Web App to Traffic Manager](#step-4--add-web-app-to-traffic-manager)
-            - [Step 5: Take down Web App and API VMs](#step-5--take-down-web-app-and-api-vms)
-    - [Exercise 5: Migrate Background Tier to App Service](#exercise-5--migrate-background-tier-to-app-service)
-            - [Help references](#help-references)
-            - [Step 1: Create App Service for Background Tier](#step-1--create-app-service-for-background-tier)
-            - [Step 2: Setup App Settings](#step-2--setup-app-settings)
-            - [Step 3: Deploy App to App Service](#step-3--deploy-app-to-app-service)
-            - [Step 4: Take down Background Tier VM](#step-4--take-down-background-tier-vm)
-    - [Exercise 6: Setup SQL Database Geo-Replication](#exercise-6--setup-sql-database-geo-replication)
-            - [Help references](#help-references)
-            - [Step 1: Setup SQL Database Geo-Replication](#step-1--setup-sql-database-geo-replication)
-    - [Exercise 7: Take down old architecture / resources](#exercise-7--take-down-old-architecture---resources)
-            - [Step 1: Remove Old VM-based tiers](#step-1--remove-old-vm-based-tiers)
-    - [Exercise 8: Setup European Web App Tier Instance](#exercise-8--setup-european-web-app-tier-instance)
-            - [Help references](#help-references)
-            - [Step 1: Create European App Service](#step-1--create-european-app-service)
-            - [Step 2: Set App Settings](#step-2--set-app-settings)
-            - [Step 3: Deploy Web App to European Region](#step-3--deploy-web-app-to-european-region)
-            - [Step 4: Add European Region to Traffic Manager](#step-4--add-european-region-to-traffic-manager)
-            - [](#)
-    - [After the hands-on lab](#after-the-hands-on-lab)
-            - [Task 1: Delete Resources](#task-1--delete-resources)
+- [Abstract and learning objectives](#abstract-and-learning-objectives)
+- [Overview](#overview)
+- [Solution architecture](#solution-architecture)
+- [Requirements](#requirements)
+- [Exercise 1: Determine Appropriate App Service Tiers and Estimate Cost Savings](#exercise-1-determine-appropriate-app-service-tiers-and-estimate-cost-savings)
+    - [Help references](#help-references)
+    - [Scenario](#scenario)
+    - [Task 1: Calculate Estimated Hosting Cost of Existing Solution](#task-1-calculate-estimated-hosting-cost-of-existing-solution)
+    - [Task 2: Calculate Estimated Hosting Cost of VMs with Reserved instances](#task-2-calculate-estimated-hosting-cost-of-vms-with-reserved-instances)
+    - [Task 3: Estimate Necessary App Service Tiers](#task-3-estimate-necessary-app-service-tiers)
+    - [Subtask 1: Find Existing VM Instance Size Specifications (CPU Cores and RAM)](#subtask-1-find-existing-vm-instance-size-specifications-cpu-cores-and-ram)
+    - [Subtask 2: Calculate Web App Tier VM Utilization](#subtask-2-calculate-web-app-tier-vm-utilization)
+    - [Subtask 3: Calculate API Tier VM Utilization](#subtask-3-calculate-api-tier-vm-utilization)
+    - [Subtask 4: Calculate Background Tier VM Utilization](#subtask-4-calculate-background-tier-vm-utilization)
+    - [Subtask 5: Identify Appropriate App Service Tier](#subtask-5-identify-appropriate-app-service-tier)
+    - [Task 4: Calculate Estimated Hosting Cost of Azure App Service](#task-4-calculate-estimated-hosting-cost-of-azure-app-service)
+    - [Task 5: Calculate Estimated Cost Savings](#task-5-calculate-estimated-cost-savings)
+- [Exercise 2: Integrate Traffic Manager](#exercise-2-integrate-traffic-manager)
+    - [Help references](#help-references-1)
+    - [Task 1: Create Traffic Manager](#task-1-create-traffic-manager)
+    - [Task 2: Point Traffic Manager to External / Internet Load Balancer](#task-2-point-traffic-manager-to-external--internet-load-balancer)
+- [Exercise 3: Setup API Tier in Azure App Service](#exercise-3-setup-api-tier-in-azure-app-service)
+    - [Help references](#help-references-2)
+    - [Step 1: Create App Service for Web API Tier](#step-1-create-app-service-for-web-api-tier)
+    - [Step 2: Setup App Settings](#step-2-setup-app-settings)
+    - [Step 3: Deploy API to App Service](#step-3-deploy-api-to-app-service)
+- [Exercise 4: Migrate Web App Tier to App Service](#exercise-4-migrate-web-app-tier-to-app-service)
+    - [Help references](#help-references-3)
+    - [Step 1: Create App Service for Web App Tier](#step-1-create-app-service-for-web-app-tier)
+    - [Step 2: Setup App Settings](#step-2-setup-app-settings-1)
+    - [Step 3: Deploy App to Web App](#step-3-deploy-app-to-web-app)
+    - [Step 4: Add Web App to Traffic Manager](#step-4-add-web-app-to-traffic-manager)
+    - [Step 5: Take down Web App and API VMs](#step-5-take-down-web-app-and-api-vms)
+- [Exercise 5: Migrate Background Tier to App Service](#exercise-5-migrate-background-tier-to-app-service)
+    - [Help references](#help-references-4)
+    - [Step 1: Create App Service for Background Tier](#step-1-create-app-service-for-background-tier)
+    - [Step 2: Setup App Settings](#step-2-setup-app-settings-2)
+    - [Step 3: Deploy App to App Service](#step-3-deploy-app-to-app-service)
+    - [Step 4: Take down Background Tier VM](#step-4-take-down-background-tier-vm)
+- [Exercise 6: Setup SQL Database Geo-Replication](#exercise-6-setup-sql-database-geo-replication)
+    - [Help references](#help-references-5)
+    - [Step 1: Setup SQL Database Geo-Replication](#step-1-setup-sql-database-geo-replication)
+- [Exercise 7: Take down old architecture / resources](#exercise-7-take-down-old-architecture--resources)
+    - [Step 1: Remove Old VM-based tiers](#step-1-remove-old-vm-based-tiers)
+- [Exercise 8: Setup European Web App Tier Instance](#exercise-8-setup-european-web-app-tier-instance)
+    - [Help references](#help-references-6)
+    - [Step 1: Create European App Service](#step-1-create-european-app-service)
+    - [Step 2: Set App Settings](#step-2-set-app-settings)
+    - [Step 3: Deploy Web App to European Region](#step-3-deploy-web-app-to-european-region)
+    - [Step 4: Add European Region to Traffic Manager](#step-4-add-european-region-to-traffic-manager)
+- [After the hands-on lab](#after-the-hands-on-lab)
+    - [Task 1: Delete Resources](#task-1-delete-resources)
 
 <!-- /TOC -->
 
@@ -128,8 +125,7 @@ overall solutions.
 
 ## Solution architecture
 
-![Using traffic
-manager](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image2.png "Solution architecture")
+![Using traffic manager](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image2.png "Solution architecture")
 
 
 ## Requirements
@@ -140,198 +136,6 @@ manager](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image2
     2017 Community Edition or better
 
 
-## Before the hands-on lab
-
-Duration: 20 minutes
-
-In this exercise, you will set up an environment to use for the rest of
-the exercises.
-
-#### Task 1: Create a virtual machine for your lab environment 
-
-1.  Launch a browser using incognite or in-private mode, and navigate to
-    <https://portal.azure.com>. Once prompted, login with your Microsoft
-    Azure credentials. If prompted, choose whether your account is an
-    organization account or just a Microsoft Account.
-
-2.  Click on +NEW, and in the search box, type in Visual Studio
-    Community 2017 on Windows Server 2016 (x64), and press enter. Click
-    the Visual Studio Community 2017 image running on Windows Server
-    2016 and with the latest update.
-
-3.  In the returned search results, click the image name.
-
-    ![In the Everything blade, Visual Studio Community 2017 is typed in
-    the Search field. Under Name, Visual Studio Community on Windows
-    Server 2016 is
-    circled.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image3.png "Everything blade")
-
-4.  In the Marketplace solution blade, click **Create**.
-
-5.  Set the following configuration on the Basics tab, and click **OK**.
-
-    -   Name: **LABVM**
-
-    -   VM disk type: **SSD**
-
-    -   User name: **demouser**
-
-    -   Password: **demo@pass123**
-
-    -   Subscription: **If you have multiple subscriptions choose the
-        subscription to execute your labs in.**
-
-    -   Resource Group: **OPSLABRG**
-
-    -   Location: **Choose the closest Azure region to you.**
-
-6.  Choose the **DS1\_V2 Standard** instance size on the Size blade.
-
-7.  Accept the remaining default values on the Settings blade, and click
-    **OK**. On the Summary page, click **OK**. The deployment should
-    begin provisioning. It may take more than 10 minutes for the virtual
-    machine to complete provisioning.
-
-    ![Screenshot of the Deploying Visual Studio Community 2017
-    icon.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image4.png "Deploying Visual Studio Community 2017 icon")
-
-#### Task 2: Disable IE Enhanced Security
-
-Note: Sometimes this image has IE ESC disabled. Sometimes it does not.
-
-1.  On the new VM, you just created, click the **Server Manager** icon.
-
-    ![Screenshot of the Server Manager
-    icon.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image5.png "Server Manager icon")
-
-2.  Click **Local Server**.
-
-    ![Local Server is selected from the Server Manager icon drop-down
-    menu.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image6.png "Server Manager icon drop-down menu")
-
-3.  On the right side of the pane, click **On** by IE Enhanced Security
-    Configuration.
-
-    ![IE Enhanced Security Configuration is set to
-    On.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image7.png "IE Enhanced Security Configuration")
-
-4.  Change to **Off** for Administrators, and click **OK**.
-
-    ![In the Internet Explorer Enhanced Security Configuration Dialog
-    box, Administrators is set to
-    Off.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image8.png "Internet Explorer Enhanced Security Configuration Dialog box")
-
-#### Task 3: Download the Sample App Files 
-
-1.  Create a new folder on your C: drive named **HOL**.
-
-2.  Download the sample application and ARM template
-    (optimized-architecture-student.zip) from here:
-    <https://cloudworkshop.blob.core.windows.net/optimized-architecture/OptimizedArchitecture-StudentFiles-6-2017.zip>.
-
-3.  Right click on the downloaded .zip file, and click **Properties**.
-    On the properties pane, check **Unblock** to ensure the files are
-    marked safe.
-
-4.  Extract the zip file contents to the **HOL** folder.
-
-5.  From the **ARMTemplate** folder under **HOL**, open the Visual
-    Studio Solution file: **Contoso.Financial.ARMTemplate.sln**.
-
-#### Task 4: Deploy Sample App and "Existing" environment
-
-1.  From the *C:\\HOL\\ARMTemplate* folder, open the Visual Studio
-    Solution: **Contoso.Financial.ARMTemplate.sln**
-
-2.  In the **Solution Explorer** window, right-click on the
-    **Contoso.Financial.ARMTemplate** project, click **Deploy**, and
-    then click **New...\
-    **\
-    ![In Solution Explorer, Contoso.Financial.ARMTemplate is selected.
-    From its right-click menu, Deploy / New is
-    selected.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image9.png "Solution Explorer")
-
-3.  If your Microsoft or Organization account for your Azure
-    Subscription has not been added to Visual Studio yet, click on **Add
-    an account**, then **Add an account...**, and follow the prompts to
-    login.
-    
-    ![Add an account is selected in the Deploy to Resource Group
-    dialog
-    box.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image10.png "Deploy to Resource Group dialog box")
-
-4.  Click on the **Resource group** dropdown, followed by selecting
-    **\<Create New...\>**.
-
-    ![In the Deploy to Resource Group dialog box, Create New is selected
-    from the Resource group drop-down
-    menu.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image11.png "Deploy to Resource Group dialog box")
-
-5.  On the **Create Resource Group** dialog, enter the following values:
-
-    -   Resource group name: **ContosoExistingRG**
-
-    -   Resource group location: **North Central US (note if your
-        subscription allows this otherwise pick up subscription where
-        you are allowed to deploy to)**
-
-        ![Fields in the Create Resource Group dialog box are set to the
-        previously defined
-        settings.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image12.png "Create Resource Group dialog box")
-
-6.  Click the **Create** button.
-
-7.  In the **Deploy to Resource Group** dialog, click the **Deploy**
-    button to deploy the ARM Template to the newly created Resource
-    Group.
-
-    ![In the Deploy to Resource Group dialog box, the Deploy button is
-    selected.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image13.png "Deploy to Resource Group dialog box")
-
-8.  Deployment status of the ARM Template will be displayed in the
-    **Output** window within Visual Studio.
-
-    ![Deployment status displays in the Visual Studio Output
-    Window.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image14.png "Visual Studio Output Window")
-
-9.  Once the deployment has completed successfully, the **IP Address**
-    and **FQDN** of the External / Internet Load Balancer for the Web
-    App tier will be displayed in the output window.
-
-    ![The IP Address for the External / Internal Load Balancer are
-    circled in the Output
-    Window.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image15.png "Output Window")
-
-> The **Username** and **Password** for the VMs and SQL Database created
-by the ARM Template are:
-> - Username: **demouser**
-> - Password: demo@pass123
-
-10.  Open a new **Web Browser** window, and navigate to the Web App tier
-    using the **Internet Load Balancer IP Address**.\
-    \
-    ![The Contoso Financial Login webpage
-    displays.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image16.png "Contoso Financial Login webpage")
-
-11.  To login to the Web App Tier of the Contoso Financial sample
-    application, simply enter **any email address and password**
-    followed by clicking on **Sign in**. If you can't immediately sign
-    in, give the site a few minutes to run the background process and
-    then attempt to sign in again.
-
-12.  Once logged in, the sample application will display a simple
-    **Account Transaction** ledger.\
-    \
-    ![The Contoso Financial Account Overview webpage displays with
-    Transaction details in an account transaction
-    ledger.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image17.png "Contoso Financial Account Overview webpage")
-
-> Leaving the browser open to the Account Overview page will automatically
-load new transactions as they are generated by the background process,
-since the web page has a JavaScript timer that checks for new
-transactions periodically. 
-You should follow all steps provided **before** attending the
-HOL.
 
 ## Exercise 1: Determine Appropriate App Service Tiers and Estimate Cost Savings
 
@@ -340,7 +144,7 @@ migrating their existing Azure IaaS based architecture over to Azure
 PaaS services. You will need to determine the appropriate hosting tiers
 and estimate the total cost savings on a monthly and annual basis.
 
-#### Help references
+### Help references
  
 |         |            |
 | ------------- |:-------------:|
@@ -348,7 +152,7 @@ and estimate the total cost savings on a monthly and annual basis.
 | Virtual Machines Pricing    | <https://azure.microsoft.com/en-us/pricing/details/virtual-machines/>  |
 | App Service Pricing         | <https://azure.microsoft.com/en-us/pricing/details/app-service> |
 
-#### Scenario
+### Scenario
 
 Contoso Financial recently performed a lift-and-shift to move their
 application into Microsoft Azure using the North Central US region. As a
@@ -392,7 +196,7 @@ scenario. The reason for this was to make the ARM Template deployment
 quicker and cheaper while still deploying enough to allow you to perform
 the exercises in this lab.
 
-#### Task 1: Calculate Estimated Hosting Cost of Existing Solution
+### Task 1: Calculate Estimated Hosting Cost of Existing Solution
 
 1.  From a new browser tab or instance, navigate to the **Azure Pricing
     Calculator** <https://azure.microsoft.com/en-us/pricing/calculator>.
@@ -466,7 +270,7 @@ the exercises in this lab.
     circle pointing in toward each
     other).](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image28.png "Your Estimate page")
 
-#### Task 2: Calculate Estimated Hosting Cost of VMs with Reserved instances
+### Task 2: Calculate Estimated Hosting Cost of VMs with Reserved instances
 
 1.  From a new browser tab or instance, navigate to the **Azure Pricing Calculator** <https://azure.microsoft.com/en-us/pricing/calculator>.
 
@@ -536,9 +340,9 @@ the exercises in this lab.
     Machines are \$1,054.83, and the estimated monthly cost is
     \$2,884.83.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image30.png "Your Estimate page")
 
-#### Task 3: Estimate Necessary App Service Tiers
+### Task 3: Estimate Necessary App Service Tiers
 
-##### Subtask 1: Find Existing VM Instance Size Specifications (CPU Cores and RAM)
+### Subtask 1: Find Existing VM Instance Size Specifications (CPU Cores and RAM)
 
 1.  From a new browser tab or instance, navigate to the **Windows**
     **Virtual Machines Pricing** page.\
@@ -578,7 +382,7 @@ the exercises in this lab.
     following values: vCPU, 4; RAM, 14.00GiB; Temporary Storage,
     200GiB.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image35.png "D1-4 - v1 section")
 
-##### Subtask 2: Calculate Web App Tier VM Utilization
+### Subtask 2: Calculate Web App Tier VM Utilization
 
 1.  Calculate the **Average CPU Utilization** between the 2 Web App Tier
     VMs with individual CPU utilization of **36%** and **38%**.
@@ -608,7 +412,7 @@ the exercises in this lab.
 
     -   **14 GB** (RAM) **\* 0.45** (45%) **= 6.3 GB RAM**
 
-##### Subtask 3: Calculate API Tier VM Utilization
+### Subtask 3: Calculate API Tier VM Utilization
 
 1.  Calculate the **Average CPU Utilization** between the 2 API Tier VMs
     with individual CPU utilization of **58%** and **56%**.
@@ -637,7 +441,7 @@ the exercises in this lab.
 
     -   **14 GB** (RAM) **\* 0.325** (32.5%) **= 4.55 GB RAM**
 
-##### Subtask 4: Calculate Background Tier VM Utilization
+### Subtask 4: Calculate Background Tier VM Utilization
 
 1.  The **Average CPU Utilization** of the single Background Tier VM is
     **49%**.
@@ -658,7 +462,7 @@ the exercises in this lab.
 
     a.  **14 GB** (RAM) **\* 0.25** (25%) **= 3.5 GB RAM**
 
-##### Subtask 5: Identify Appropriate App Service Tier
+### Subtask 5: Identify Appropriate App Service Tier
 
 1.  From a new browser tab or instance, navigate to the **App Service     Pricing** page
     <https://azure.microsoft.com/en-us/pricing/details/app-service>
@@ -702,7 +506,7 @@ the exercises in this lab.
     appropriate **App Service Plan** pricing tier to use for the Web
     App, API, and Background tiers.
 
-#### Task 4: Calculate Estimated Hosting Cost of Azure App Service
+### Task 4: Calculate Estimated Hosting Cost of Azure App Service
 
 1.  From a new browser tab or instance, navigate to the **Azure Pricing
     Calculator** <https://azure.microsoft.com/en-us/pricing/calculator>
@@ -761,7 +565,7 @@ the exercises in this lab.
     is \$3,294.00.
     ](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image46.png "Your Estimate page")
 
-#### Task 5: Calculate Estimated Cost Savings
+### Task 5: Calculate Estimated Cost Savings
 
 1.  Copy the **Estimated Cost** of the **Existing Architecture** (VMs
     and SQL Database).
@@ -815,7 +619,7 @@ but that does not accommodate the growth of Contoso Financial
 appropriately where they will need to add additional hosting regions in
 Europe.
 
-#### Help references
+### Help references
 
 |         |            |
 | ------------- |:-------------:|
@@ -824,7 +628,7 @@ Europe.
 
 
 
-#### Task 1: Create Traffic Manager
+### Task 1: Create Traffic Manager
 
 1.  From the Azure Management portal <http://portal.azure.com>, using a
     new tab or instance, click on **+New**, type **Traffic Manager**
@@ -861,7 +665,7 @@ Europe.
 
 5.  Click **Create**.
 
-#### Task 2: Point Traffic Manager to External / Internet Load Balancer
+### Task 2: Point Traffic Manager to External / Internet Load Balancer
 
 1.  Click on **Resource groups**, select the **OptimizedTFRG** resource
     group, and click on the **Traffic Manager** that was just created.
@@ -936,7 +740,7 @@ In the migration of IaaS to PaaS, the API Tier of Contoso Financials
 application needs to be migrated to run in an Azure App Service Web App
 without requiring any code changes to the application.
 
-#### Help references
+### Help references
 
 |         |            |
 | ------------- |:-------------:|
@@ -946,7 +750,7 @@ without requiring any code changes to the application.
 
 
 
-#### Step 1: Create App Service for Web API Tier
+### Step 1: Create App Service for Web API Tier
 
 1.  From the Azure Management portal <http://portal.azure.com>, using a
     new tab or instance, click on **+New**, and type **API App** into
@@ -991,7 +795,7 @@ without requiring any code changes to the application.
 
 6.  Click **Create**.
 
-#### Step 2: Setup App Settings
+### Step 2: Setup App Settings
 
 1.  Click on **Resource groups**, select the **ContosoExistingRG**
     resource group, and click on the **contosofinancialdb** SQL
@@ -1055,7 +859,7 @@ without requiring any code changes to the application.
 
 9.  Click **Save**.
 
-#### Step 3: Deploy API to App Service
+### Step 3: Deploy API to App Service
 
 1.  From the *C:\\HOL\\Contoso.Financial* folder, open the Visual Studio
     Solution: **Contoso.Financial.sln**.
@@ -1104,7 +908,7 @@ In the migration of IaaS to PaaS, the Front-end Web App Tier of Contoso
 Financials application needs to be migrated to run in an Azure App
 Service Web App without requiring any code changes to the application.
 
-#### Help references
+### Help references
 
 |         |            |
 | ------------- |:-------------:|
@@ -1114,7 +918,7 @@ Service Web App without requiring any code changes to the application.
 
 
 
-#### Step 1: Create App Service for Web App Tier
+### Step 1: Create App Service for Web App Tier
 
 1.  From the Azure Management portal <http://portal.azure.com>, using a
     new tab or instance, click on **+New**, then **Web + Mobile**, and
@@ -1157,7 +961,7 @@ Service Web App without requiring any code changes to the application.
 
 5.  Click **Create**.
 
-#### Step 2: Setup App Settings
+### Step 2: Setup App Settings
 
 1.  Click on **Resource groups**, click on the **OptimizedWebAppRG**
     resource group, then click on the **Web App**.
@@ -1188,7 +992,7 @@ Service Web App without requiring any code changes to the application.
 
 5.  Click **Save**.
 
-#### Step 3: Deploy App to Web App
+### Step 3: Deploy App to Web App
 
 1.  From the *C:\\HOL\\Contoso.Financial* folder, open the Visual Studio
     Solution: **Contoso.Financial.sln**.
@@ -1225,7 +1029,7 @@ Service Web App without requiring any code changes to the application.
 6.  Once the deployment has completed, Visual Studio will automatically
     open a new browser window navigating to the **Web App**.
 
-#### Step 4: Add Web App to Traffic Manager
+### Step 4: Add Web App to Traffic Manager
 
 1.  From the Azure Management portal <http://portal.azure.com>, using a
     new tab or instance, click on **Resource groups** followed by the
@@ -1336,7 +1140,7 @@ Service Web App without requiring any code changes to the application.
     > Following this step, the Web App Tier's Load Balancer and VMs will no
     longer receive requests through the Traffic Manager.
 
-#### Step 5: Take down Web App and API VMs
+### Step 5: Take down Web App and API VMs
 
 1.  Click on **Resource groups**, and then click on the
     **ContosoExistingRG** resource group.
@@ -1380,7 +1184,7 @@ console app) of Contoso Financials application needs to be migrated to
 run in an Azure App Service Web Job without requiring any code changes
 to the application.
 
-#### Help references
+### Help references
 
 |         |            |
 | ------------- |:-------------:|
@@ -1390,7 +1194,7 @@ to the application.
 
 
 
-#### Step 1: Create App Service for Background Tier
+### Step 1: Create App Service for Background Tier
 
 1.  From the Azure Management portal <http://portal.azure.com>, using a
     new tab or instance, click on **+New** followed by **Web + Mobile**,
@@ -1430,7 +1234,7 @@ to the application.
 
 5.  Click **Create**.
 
-#### Step 2: Setup App Settings
+### Step 2: Setup App Settings
 
 1.  Click on **Resource groups**, select the **OptimizedBackgroundRG**
     resource group, and select the **App Service**.
@@ -1469,7 +1273,7 @@ to the application.
 
 6.  Click **Save**.
 
-#### Step 3: Deploy App to App Service
+### Step 3: Deploy App to App Service
 
 1.  From the *C:\\HOL\\Contoso.Financial* folder, open the Visual Studio
     Solution: **Contoso.Financial.sln**
@@ -1645,7 +1449,7 @@ to the application.
     and a list of account
     transactions.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image125.png "Account Overview webpage")
 
-#### Step 4: Take down Background Tier VM
+### Step 4: Take down Background Tier VM
 
 1.  From the Azure Management Portal (<http://portal.azure.com>), click
     on **Resource groups**, and then, click on the **ContosoExistingRG**
@@ -1681,7 +1485,7 @@ help eliminate data loss in case of a data center failure as well as
 greatly reduce the potential system downtime in the event of such a
 failure.
 
-#### Help references
+### Help references
 
 |         |            |
 | ------------- |:-------------:|
@@ -1689,7 +1493,7 @@ failure.
 | SQL Database Active Geo-Replication  | <https://azure.microsoft.com/en-us/documentation/articles/sql-database-geo-replication-overview/>  |
 
 
-#### Step 1: Setup SQL Database Geo-Replication
+### Step 1: Setup SQL Database Geo-Replication
 
 1.  Click on **Resource groups**, click on the **ContosoExistingRG**
     resource group followed by clicking on the **contosofinancialdb**
@@ -1750,7 +1554,7 @@ architecture no longer being used needs to be removed. Since the
 application has been validated to work as expected, you have been asked
 to delete the Azure IaaS components hosting the VM infrastructure.
 
-#### Step 1: Remove Old VM-based tiers
+### Step 1: Remove Old VM-based tiers
 
 1.  Click on **Resource groups**, and then click on the
     **ContosoExistingRG** resource group.
@@ -1842,7 +1646,7 @@ that will need to be refactored, as you have been asked to setup a
 secondary region for the Front-end Web App Tier in the Azure North
 Europe region.
 
-#### Help references
+### Help references
 
 |         |            |
 | ------------- |:-------------:|
@@ -1851,7 +1655,7 @@ Europe region.
 | Configure web apps in Azure App Service  | <https://azure.microsoft.com/en-us/documentation/articles/web-sites-configure/>  |
 
 
-#### Step 1: Create European App Service
+### Step 1: Create European App Service
 
 1.  From the Azure Management portal: <http://portal.azure.com>, using a
     new tab or instance, click on **+New**, then **Web + Mobile**, and
@@ -1892,7 +1696,7 @@ Europe region.
 
 5.  Click **Create**.
 
-#### Step 2: Set App Settings
+### Step 2: Set App Settings
 
 1.  Click on **Resource groups**, and select the
     **OptimizedWebAppEuropeRG** resource group. Then, click on the **Web    App**.
@@ -1925,7 +1729,7 @@ Europe region.
 
 4.  Click **Save**.
 
-#### Step 3: Deploy Web App to European Region
+### Step 3: Deploy Web App to European Region
 
 1.  From the *C:\\HOL\\Contoso.Financial* folder, open the Visual Studio
     Solution: **Contoso.Financial.sln**.
@@ -1972,7 +1776,7 @@ Europe region.
     ![The Contoso Financial login page
     displays.](images/Hands-onlabstep-by-step-Optimizedarchitectureimages/media/image148.png "Contoso Financial login page")
 
-#### Step 4: Add European Region to Traffic Manager
+### Step 4: Add European Region to Traffic Manager
 
 1.  From the Azure Management Portal <http://portal.azure.com>, using a
     new tab or instance, click on **Resource groups**, click on the
@@ -2045,11 +1849,10 @@ Europe region.
 
 12.  After validating the app, close the browser window.
 
-####  
 
 ## After the hands-on lab 
 
-#### Task 1: Delete Resources
+### Task 1: Delete Resources
 
 1.  Now that the HOL is complete, go ahead and delete all of the
     Resource Groups created for this HOL. You will no longer need those

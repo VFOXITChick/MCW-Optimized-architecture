@@ -1,4 +1,41 @@
-Review this
+# Abstract
+
+## Workshop
+
+In this workshop, students will learn how to optimize a lift and shift
+style IaaS architecture in Azure to improve cost savings. You will also
+compare IaaS and PaaS hosting options to save cost even further using
+Azure App Service. Additionally, students will learn to improve
+resiliency and high availability through multi-region deployment.
+
+Attendees will learn how to:
+
+-   Optimize Azure IaaS for cost savings
+
+-   Migrate an Azure IaaS optimized
+
+-   Compare cost between Azure IaaS versus Azure PaaS
+
+-   Setup SQL Database geo-replication
+
+-   Configure multi-region deployment
+
+## Whiteboard Design Session
+TBD
+
+## Hand-on Lab
+TBD
+
+
+## Azure services and related products
+- App Service
+- Web Apps
+- API Apps
+- Traffic Manager
+- Load Balancer 
+- SQL Database
+
+
 
 # Contributing
 

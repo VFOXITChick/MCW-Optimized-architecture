@@ -1,10 +1,17 @@
 ![](images/HeaderPic.png "Microsoft Cloud Workshops")
 
-# Optimized architecture
+<div class="MCWHeader1">
+Optimized architecture
+</div>
 
-## Whiteboard design session trainer guide
+<div class="MCWHeader2">
+Whiteboard design session trainer guide
+</div>
 
-## March 2018
+<div class="MCWHeader3">
+March 2018 
+</div>
+
 
 Information in this document, including URL and other Internet Web site references, is subject to change without notice. Unless otherwise noted, the example companies, organizations, products, domain names, e-mail addresses, logos, people, places, and events depicted herein are fictitious, and no association with any real company, organization, product, domain name, e-mail address, logo, person, place or event is intended or should be inferred. Complying with all applicable copyright laws is the responsibility of the user. Without limiting the rights under copyright, no part of this document may be reproduced, stored in or introduced into a retrieval system, or transmitted in any form or by any means (electronic, mechanical, photocopying, recording, or otherwise), or for any purpose, without the express written permission of Microsoft Corporation.
 
@@ -16,36 +23,32 @@ The names of manufacturers, products, or URLs are provided for informational pur
 Microsoft and the trademarks listed at https://www.microsoft.com/en-us/legal/intellectualproperty/Trademarks/Usage/General.aspx are trademarks of the Microsoft group of companies. All other trademarks are property of their respective owners.
 
 
-## Contents
+**Contents**
 
 <!-- TOC -->
 
-- [Optimized architecture](#optimized-architecture)
-    - [Whiteboard design session trainer guide](#whiteboard-design-session-trainer-guide)
-    - [March 2018](#march-2018)
-    - [Contents](#contents)
-    - [Trainer information](#trainer-information)
+- [Trainer information](#trainer-information)
     - [Role of the trainer](#role-of-the-trainer)
-        - [Whiteboard design session flow](#whiteboard-design-session-flow)
-    - [Step 1: Review the customer case study](#step-1--review-the-customer-case-study)
-        - [Before the whiteboard design session: How to prepare](#before-the-whiteboard-design-session--how-to-prepare)
-        - [During the whiteboard design session: Tips for an effective whiteboard design session](#during-the-whiteboard-design-session--tips-for-an-effective-whiteboard-design-session)
+    - [Whiteboard design session flow](#whiteboard-design-session-flow)
+    - [Step 1: Review the customer case study](#step-1-review-the-customer-case-study)
+    - [Before the whiteboard design session: How to prepare](#before-the-whiteboard-design-session-how-to-prepare)
+    - [During the whiteboard design session: Tips for an effective whiteboard design session](#during-the-whiteboard-design-session-tips-for-an-effective-whiteboard-design-session)
 - [Optimized architecture whiteboard design session student guide](#optimized-architecture-whiteboard-design-session-student-guide)
     - [Abstract and learning objectives](#abstract-and-learning-objectives)
-    - [Step 1: Review the customer case study](#step-1--review-the-customer-case-study)
+    - [Step 1: Review the customer case study](#step-1-review-the-customer-case-study-1)
         - [Customer situation](#customer-situation)
         - [Customer needs](#customer-needs)
         - [Customer objections](#customer-objections)
         - [Infographic for common scenarios](#infographic-for-common-scenarios)
-    - [Step 2: Design a proof of concept solution](#step-2--design-a-proof-of-concept-solution)
-    - [Step 3: Present the solution](#step-3--present-the-solution)
+    - [Step 2: Design a proof of concept solution](#step-2-design-a-proof-of-concept-solution)
+    - [Step 3: Present the solution](#step-3-present-the-solution)
     - [Wrap-up](#wrap-up)
     - [Additional references](#additional-references)
 - [Optimized architecture whiteboard design session trainer guide](#optimized-architecture-whiteboard-design-session-trainer-guide)
-    - [Step 1: Review the customer case study](#step-1--review-the-customer-case-study)
-    - [Step 2: Design a proof of concept solution](#step-2--design-a-proof-of-concept-solution)
-    - [Step 3: Present the solution](#step-3--present-the-solution)
-    - [Wrap-up](#wrap-up)
+    - [Step 1: Review the customer case study](#step-1-review-the-customer-case-study-2)
+    - [Step 2: Design a proof of concept solution](#step-2-design-a-proof-of-concept-solution-1)
+    - [Step 3: Present the solution](#step-3-present-the-solution-1)
+    - [Wrap-up](#wrap-up-1)
     - [Preferred target audience](#preferred-target-audience)
     - [Preferred solution](#preferred-solution)
         - [Phase 1](#phase-1)
@@ -55,7 +58,7 @@ Microsoft and the trademarks listed at https://www.microsoft.com/en-us/legal/int
 
 <!-- /TOC -->
         
-## Trainer information
+# Trainer information
 
 Thank you for taking time to support the whiteboard design sessions as a
 trainer!
@@ -85,7 +88,7 @@ An amazing trainer:
 
 -   Effectively leads the feedback process.
 
-### Whiteboard design session flow 
+## Whiteboard design session flow 
 
 Each whiteboard design session uses the following flow:
 
@@ -133,7 +136,7 @@ Outcome: Present solution to your customer
 
 -   Review preferred solution
 
-### Before the whiteboard design session: How to prepare
+## Before the whiteboard design session: How to prepare
 
 Before conducting your first whiteboard design session:
 
@@ -149,7 +152,7 @@ Before conducting your first whiteboard design session:
 
 -   Make notes for later.
 
-### During the whiteboard design session: Tips for an effective whiteboard design session
+## During the whiteboard design session: Tips for an effective whiteboard design session
 
 **Refer to the Trainer guide** to stay on track and observe the timings.
 
@@ -216,20 +219,14 @@ Attendees will learn how to:
 
 ## Step 1: Review the customer case study 
 
-**Outcome**
+**Outcome** 
 
 Analyze your customer’s needs.
-
-Timeframe: 15 minutes 
-
+Time frame: 15 minutes 
 Directions: With all participants in the session, the facilitator/SME presents an overview of the customer case study along with technical tips. 
-
-1.  Meet your table participants and trainer.
-
-2.  Read all the directions for Steps 1--3 in the student guide.
-
-3.  As a table team, review the following customer case study.
-
+1.  Meet your table participants and trainer 
+2.  Read all of the directions for steps 1–3 in the student guide 
+3.  As a table team, review the following customer case study
 
 ### Customer situation
 
@@ -456,28 +453,19 @@ Instances.](images/Whiteboarddesignsessiontrainerguide-Optimizedarchitectureimag
 
 ## Step 2: Design a proof of concept solution
 
-**Outcome**
-
-Design a solution and prepare to present the solution to the target
-customer audience in a 15-minute chalk-talk format.
+**Outcome** 
+Design a solution and prepare to present the solution to the target customer audience in a 15-minute chalk-talk format. 
 
 Time frame: 60 minutes
 
 **Business needs**
 
-Directions: With all participants at your table, answer the following
-questions, and list the answers on a flip chart.
+Directions: With all participants at your table, answer the following questions and list the answers on a flip chart. 
+1.  Who should you present this solution to? Who is your target customer audience? Who are the decision makers? 
+2.  What customer business needs do you need to address with your solution?
 
-1.  Who should you present this solution to? Who is your target customer
-    audience? Who are the decision makers?
-
-2.  What customer business needs do you need to address with your
-    solution?
-
-**Design **
-
-Directions: With all participants at your table, respond to the
-following questions on a flip chart.
+**Design** 
+Directions: With all participants at your table, respond to the following questions on a flip chart.
 
 **Two-phase solution**
 
@@ -557,45 +545,36 @@ design.
 
 -   Diagram the solution
 
+
 **Prepare**
 
-Directions: With all participants at your table:
+Directions: With all participants at your table: 
 
-1.  Identify any customer needs that are not addressed with the proposed solution.
+1.  Identify any customer needs that are not addressed with the proposed solution. 
+2.  Identify the benefits of your solution. 
+3.  Determine how you will respond to the customer’s objections. 
 
-2.  Identify the benefits of your solution.
-
-3.  Determine how you will respond to the customer's objections.
-
-4. Prepare a 15-minute chalk-talk style presentation to the customer.
+Prepare a 15-minute chalk-talk style presentation to the customer. 
 
 ## Step 3: Present the solution
 
 **Outcome**
-
-Present a solution to the target customer audience in a 15-minute
-chalk-talk format.
-
-**Presentation**
+ 
+Present a solution to the target customer audience in a 15-minute chalk-talk format.
 
 Time frame: 30 minutes
 
-**Directions**
+**Presentation** 
 
+Directions:
 1.  Pair with another table.
-
 2.  One table is the Microsoft team and the other table is the customer.
-
 3.  The Microsoft team presents their proposed solution to the customer.
-
-4.  The customer makes one of the objections from the list of
-    objections.
-
+4.  The customer makes one of the objections from the list of objections.
 5.  The Microsoft team responds to the objection.
+6.  The customer team gives feedback to the Microsoft team. 
+7.  Tables switch roles and repeat Steps 2–6.
 
-6.  The customer team gives feedback to the Microsoft team.
-
-7.  Tables switch roles and repeat Steps 2--6.
 
 ##  Wrap-up 
 
@@ -608,6 +587,7 @@ Time frame: 15 minutes
 
 |    |            |
 |----------|:-------------:|
+| **Description** | **Links** |
 | Windows Virtual Machines documentation | <https://azure.microsoft.com/en-us/documentation/services/virtual-machines/windows/> |
 | Azure Reserved VM instances| <https://azure.microsoft.com/en-us/pricing/reserved-vm-instances/> |
 | Virtual Machine Pricing | <https://azure.microsoft.com/en-us/pricing/details/virtual-machines/#Windows> |
@@ -756,12 +736,12 @@ costs. The following table outlines the estimated spending and total
 savings for the Phase 1 and Phase 2 designs in regard to only the VMs,
 App Service Plans, and SQL Database:
 
-                                         Monthly Cost   Total Monthly Savings   Total Yearly Savings
-  -------------------------------------- -------------- ----------------------- ----------------------
-  Existing Solution                      \$6,902        \-                      \-
-  Phase 1 Design                         \$3,510        \$3,392                 \$40,704
-  Phase 1 Design w/ Reserved Instances   \$2,980        \$3,922                 \$47,064
-  Phase 2 Design                         \$3,582        \$3,320                 \$39,840
+  Phase                                  | Monthly Cost |  Total Monthly Savings |  Total Yearly Savings
+  -------------------------------------- | --------------| ----------------------- |----------------------
+  Existing Solution                      |\$6,902        |\-                      |\-
+  Phase 1 Design                         |\$3,510        |\$3,392                 |\$40,704
+  Phase 1 Design w/ Reserved Instances   |\$2,980        |\$3,922                 |\$47,064
+  Phase 2 Design                         |\$3,582        |\$3,320                 |\$39,840
 
 ### Phase 1
 
@@ -1053,57 +1033,57 @@ recommended steps:
 2.  If we drastically change the overall architecture, will we be able
     to migrate it without taking it down for a week?
 
-    > **Potential answer**\
-    > Overall downtime can be minimized drastically with careful planning
-    > and a step-by-step phased approach to the migration. The basic idea is
-    > to migrate a single component of the workload at a time to minimize
-    > the risk of bringing down other components.
+     **Potential answer**\
+     Overall downtime can be minimized drastically with careful planning
+     and a step-by-step phased approach to the migration. The basic idea is
+     to migrate a single component of the workload at a time to minimize
+     the risk of bringing down other components.
 
 3.  Our operations team is new to the cloud and Microsoft Azure. While
     we are comfortable using the IaaS services, we are concerned that
     PaaS services will be difficult to monitor and maintain when mixed
     with IaaS services in our overall environment.
 
-    > **Potential answer**\
-    > Certainly, there are things an operations team needs to learn when
-    > adopting a technology, they are not very familiar with. Fortunately,
-    > with the Azure PaaS services, such as Azure App Service, there will be
-    > decrease in the amount of time and work necessary to maintain the
-    > application workload running in Azure. It will give the operations
-    > team more time to spend on other tasks.
+     **Potential answer**\
+     Certainly, there are things an operations team needs to learn when
+     adopting a technology, they are not very familiar with. Fortunately,
+     with the Azure PaaS services, such as Azure App Service, there will be
+     decrease in the amount of time and work necessary to maintain the
+     application workload running in Azure. It will give the operations
+     team more time to spend on other tasks.
 
 4.  We are concerned that the system performance for the European users
     will not be as good as it needs to be. In the past we have had
     employees work while traveling and the system was slow for them.
 
-    > **Potential answer**\
-    > Implementing Traffic Manager in Geographic mode with a separate Web
-    > App instance located in the North Europe Azure Region allocates
-    > dedicated resources to handle load from the European users. It also
-    > puts the application geographically closer to them, which reduces
-    > network latency across the internet and will speed up load times.
+     **Potential answer**\
+     Implementing Traffic Manager in Geographic mode with a separate Web
+     App instance located in the North Europe Azure Region allocates
+     dedicated resources to handle load from the European users. It also
+     puts the application geographically closer to them, which reduces
+     network latency across the internet and will speed up load times.
 
 5.  The VM sizes currently used appear to be more than we need, but how
     can we determine what the appropriate sizes should be?
 
-    > **Potential answer**\
-    > Determining the appropriate VM sizes can be done by comparing the
-    > current utilization percentages of the VMs in the existing
-    > architecture to the different VM size pricing tiers. This metric can
-    > be used to determine VM sizes for the different application tiers
-    > that more closely align with real workload demand.
+     **Potential answer**\
+     Determining the appropriate VM sizes can be done by comparing the
+     current utilization percentages of the VMs in the existing
+     architecture to the different VM size pricing tiers. This metric can
+     be used to determine VM sizes for the different application tiers
+     that more closely align with real workload demand.
 
 6.  We have already purchased SQL Server and other product licenses. I
     am worried the savings from optimizing spending using Azure PaaS
     services will not be significant to be worth it.
 
-    > **Potential answer**\
-    > The reduces monthly spending on Azure services as well as the
-    > reduced workload on IT Operations staff is not just a one-time
-    > savings. It is a monthly savings that will be realized over the
-    > coming months, and even years. In addition to these compounded
-    > savings, the use of Azure PaaS services also completely eliminates
-    > the need to purchase any future SQL Service upgrades.
+     **Potential answer**\
+     The reduces monthly spending on Azure services as well as the
+     reduced workload on IT Operations staff is not just a one-time
+     savings. It is a monthly savings that will be realized over the
+     coming months, and even years. In addition to these compounded
+     savings, the use of Azure PaaS services also completely eliminates
+     the need to purchase any future SQL Service upgrades.
 
 ## Customer quote (to be read back to the attendees at the end)
 
