@@ -1,3 +1,5 @@
+# Optimized Architecture
+
 # Abstract
 
 ## Workshop
@@ -21,10 +23,17 @@ Attendees will learn how to:
 -   Configure multi-region deployment
 
 ## Whiteboard Design Session
-TBD
+
+
 
 ## Hand-on Lab
-TBD
+
+In this hands-on lab, students will learn how to optimize a lift and shift
+style IaaS architecture in Azure to improve cost savings. You will also
+compare IaaS and PaaS hosting options to save cost even further using
+Azure App Service. Additionally, students will learn to improve
+resiliency and high availability through multi-region deployment.
+
 
 
 ## Azure services and related products

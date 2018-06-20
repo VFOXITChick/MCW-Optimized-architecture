@@ -22,7 +22,7 @@ the exercises.
     Azure credentials. If prompted, choose whether your account is an
     organization account or just a Microsoft Account.
 
-2.  Click on +NEW, and in the search box, type in Visual Studio
+2.  Click **+ Create a resource**, and in the search box, type in Visual Studio
     Community 2017 on Windows Server 2016 (x64), and press enter. Click
     the Visual Studio Community 2017 image running on Windows Server
     2016 and with the latest update.
@@ -65,7 +65,7 @@ the exercises.
 
 #### Task 2: Disable IE Enhanced Security
 
-Note: Sometimes this image has IE ESC disabled. Sometimes it does not.
+> **NOTE:** Sometimes this image has IE ESC disabled. Sometimes it does not.
 
 1.  On the new VM, you just created, click the **Server Manager** icon.
 
