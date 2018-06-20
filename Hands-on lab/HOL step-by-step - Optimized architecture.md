@@ -78,7 +78,7 @@ Microsoft and the trademarks listed at https://www.microsoft.com/en-us/legal/int
     - [Step 3: Deploy Web App to European Region](#step-3-deploy-web-app-to-european-region)
     - [Step 4: Add European Region to Traffic Manager](#step-4-add-european-region-to-traffic-manager)
 - [After the hands-on lab](#after-the-hands-on-lab)
-    - [Task 1: Delete Resources](#task-1-delete-resources)
+    - [Task 1: Delete All Resources](#task-1-delete-resources)
 
 <!-- /TOC -->
 
