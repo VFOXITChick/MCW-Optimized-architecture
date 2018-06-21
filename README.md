@@ -24,9 +24,7 @@ Attendees will learn how to:
 
 ## Whiteboard Design Session
 
-In this whiteboard design session, students will review the case study, analyze customer needs,
-design a proof-of-concept solution and finally present that solution.
-
+In this whiteboard design session, students will review how to size and optimize a migrated workload to Azure infrastructure as a service. From there they will consider the cost and benefit of optimizing the solution using Azure Platform as a Service (PaaS) services and then design and price the optimized solution
 
 ## Hand-on Lab
 
